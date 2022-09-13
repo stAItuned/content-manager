@@ -1,11 +1,12 @@
+---
+title: 3 Time series forecasting with Fractional Differentiation
+author: Jessica Fletcher 3
+date: 2022-03-03
+tags: [test3, test4]
+---
+
 # Time series forecasting with fraction differentiation
 
-Meta: The Fractional Differentiation is the data transformation for financial time series data that permit more powerful forecasting of your model
-Publish Date: 2022/07/30
-ReadingTime: 0
-Slug: time-series-forecasting-with-fraction-differentiation
-Target: Expert
-Topic: Finance
 
 # T**ime series forecasting with Fractional Differentiation**
 

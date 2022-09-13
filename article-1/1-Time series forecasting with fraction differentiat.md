@@ -1,8 +1,8 @@
 ---
 title: Time series forecasting with Fractional Differentiation
 author: Jessica Fletcher
-Slug: time-series-forecasting-with-fraction-differentiation
-tags: [test1', 'test2']
+date: 2022-01-01
+tags: [test1, test2]
 ---
 
 # **Time series forecasting with Fractional Differentiation**
@@ -27,7 +27,7 @@ $$\hat{X} = \sum_{k=0}w_k * X_{t-k}$$
 
 where $w_k$ represents the weight for the lagged series by $k$ lags.
 
-![Image from [https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)](Time%20series%20forecasting%20with%20fraction%20differentiat%20b9a668f43d0d4b37948c085c4fffde77/Untitled.png)
+![Image from [https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)](https://miro.medium.com/max/493/1*FN45XcQ-BKzvGlBduV6bVg.png)
 
 Image from [https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)
 
