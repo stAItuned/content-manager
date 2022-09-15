@@ -1,14 +1,14 @@
 ---
-title: 3 Time series forecasting with Fractional Differentiation
-author: Jessica Fletcher 3
-date: 2022-03-03
-tags: [test3, test4]
+title: Time series forecasting with Fractional Differentiation
+author: Daniele Moltisanti
+date: 2022-01-01
+topics: [Finance]
+meta: The Fractional Differentiation is the data transformation for financial time series data that permit more powerful forecasting of your model
+target: expert
+cover: https://i.imgur.com/TQasoCN.jpeg
 ---
 
-# Time series forecasting with fraction differentiation
-
-
-# T**ime series forecasting with Fractional Differentiation**
+# **Time series forecasting with Fractional Differentiation**
 
 **Time-series forecasting** solutions aims to find the next N values that in the future will follow the starting series. For doing so, there exist different approaches, some of these are statistical, like the ARIMA family algorithms, others are based on AI algorithm. The **stationarity** of time-series is the principal feature that you often need in order to develop a **powerful** forecasting model, because a stationary series maintains mean, variance and covariance over time. 
 
