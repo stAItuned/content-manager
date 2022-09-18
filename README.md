@@ -28,7 +28,12 @@ title: title <br />
 author: author <br />
 \---
 
+## Markdown
+If you're new to github, please refer to GitHub's [markdown documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax). 
+
 ## To do:
 - [ ] Specify an ideal dimension for the cover, in order to fit the cards and the home preview <br />
-- [ ] Add template commit
+- [ ] Add template commit 
+- [ ] Add document structure? 
+- [ ] Add article example? 
 
