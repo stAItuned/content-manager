@@ -1,4 +1,4 @@
-# Article repository 
+# Content manager
 ---
 
 ## 📩 How to submit
