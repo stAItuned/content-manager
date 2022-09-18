@@ -5,7 +5,7 @@ slug: machine-learning-intro
 target: Midway
 topics: [Machine Learning]
 title: What is Machine Learning
-author: Francesco di Salvo
+author: Francesco Di Salvo
 cover: What%20is%20Machine%20Learning%20586bca40e45f452ca08ae1936f3c04f5/ai_ml_dl.png
 ---
 # What is Machine Learning?
