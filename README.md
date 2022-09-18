@@ -2,6 +2,12 @@
 
 ---
 
+## How to submit
+1. Fork this repository
+2. Upload your blog post and images through the github markdown format
+3. Pull request of the desired changes
+4. One of our team members will review the article and he/she may accept your post or eventually propose you some little adjustments. 
+
 ## Proposed repository structure
 - [Article-Folder] (without spaces, used as slug)
   - .md file containing the article
