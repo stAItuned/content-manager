@@ -27,6 +27,7 @@ target: Newbie | Midway | Expert
 topics: e.g. Deep Learning 
 cover: image path of the cover image 
 title:  
+language: English | Italian
 author:  
 ---
 ```

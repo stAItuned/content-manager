@@ -6,6 +6,7 @@ target: Newbie
 topics: [Deep Learning]
 cover: Reti%20Generative%20Avversarie%20(GAN)%20d6cac329c844445e9bebbf721ab61c73/Reti_neurali.jpg
 title: Reti Generative Avversarie
+language: Italian
 author: Roberta Ghidini
 ---
 # Reti Generative Avversarie
