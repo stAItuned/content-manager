@@ -38,7 +38,7 @@ Natural Language Processing covers a variety of subfields, many of them with a s
 - **Topic modeling :** derive the most salient topics across a single document or a whole document collection.
 - **Sentiment analysis :** extract writer’s emotions through the analysis of raw text. It can be employed for analyzing a large collection of reviews.
 
-![Schermata 2022-06-17 alle 05.52.40.png](Natural%20Language%20Processing/image09.png)
+![Schermata 2022-06-17 alle 05.52.40.png](Natural%20Language%20Processing%20course/image09.png)
 
 # Text representations
 
@@ -58,7 +58,7 @@ Unfortunately, our machines are not able to understand like humans, but we need 
 
 **One Hot Encoding (OHE)** builds a matrix whose rows $(i)$ and columns $(j)$  will be the words and the documents. The element $(i,j)$ of the matrix will be either 0 or 1 if the $j$th document contains the $i$-th word. Obviously there will be way more words rather than documents and therefore, as you may imagine, the matrix will be highly sparse (i.e. there will be a lot of null values) and as a consequence the curse of dimensionality [3] will prevail.
 
-![Schermata 2022-06-17 alle 06.11.27.png](Natural%20Language%20Processing/image10.png)
+![Schermata 2022-06-17 alle 06.11.27.png](Natural%20Language%20Processing%20course/image10.png)
 
 ### **Term Frequency - Inverse Document Frequency**
 
@@ -70,7 +70,7 @@ $$
 
 where $n_{ij}$ is the number of occurrences of word $i$ in document $j$, $|d_j|$ is the number of tokens in document $j$ and  $|D|$ is the total number of the documents and ${|\{d: i \in D\}|}$ represents the number of documents having word $i$. Considering the sentences defined before, we expect to have an higher weight on those tokens that are “frequent” in the current document and not so frequent across all the documents (pizza,pasta).
 
-![Schermata 2022-06-17 alle 06.34.01.png](Natural%20Language%20Processing/image11.png)
+![Schermata 2022-06-17 alle 06.34.01.png](Natural%20Language%20Processing%20course/image11.png)
 
 > Notice that thanks to sklearn’s hyperparameters for TfIdfVectorizer, we cut the tokens that are present across all documents (that are likely to be not informative) and to apply case normalization (lowercase in this case). Finally, TfIdfVectorizer also scales the final values between 0 and 1
 > 
@@ -85,7 +85,7 @@ $$
 
 Hence, now we expect to have higher weights to more frequent tokens like “love”. 
 
-![Untitled](Natural%20Language%20Processing/image18.png)
+![Untitled](Natural%20Language%20Processing%20course/image18.png)
 
 > Note that TF-DF has not been implemented by sklearn with its own optimization techniques and adjustements. For the sake of completeness I used a simple handcrafted script for the calculation of the coefficient.
 > 
@@ -100,7 +100,7 @@ Nowadays, distributed vectors are mostly known for its fancier name “**word em
 
 👉🏻 Link to word embeddings
 
-![Untitled](Natural%20Language%20Processing/Untitled%201.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%201.png)
 
 > source : [https://www.tensorflow.org/tutorials/text/word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
 > 
@@ -135,7 +135,7 @@ A graphical representation of the captured semantic similarity can be seen in th
 
   
 
-![Untitled](Natural%20Language%20Processing/Untitled%202.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%202.png)
 
 > src: [https://www.tensorflow.org/tutorials/text/word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
 > 
@@ -149,7 +149,7 @@ In order to capture the semantic similarities, word embedding methods rely on th
 - **Skip-gram**: predict the context words given the target word.
 - **Continuous Bag of Words (CBOW):** predict the target word given the context.
 
-![Schermata 2022-06-06 alle 20.19.41.png](Natural%20Language%20Processing/image02.png)
+![Schermata 2022-06-06 alle 20.19.41.png](Natural%20Language%20Processing%20course/image02.png)
 
 > source : [5]
 > 
@@ -339,7 +339,7 @@ As you may notice, another difference with Word2Vec is the presence of **the par
 
 For a computational point of view, this paragraph vector can be simply treated as a word token, therefore it will be averaged/concatenated together with the other word vectors. 
 
-![Schermata 2022-06-07 alle 11.08.38.png](Natural%20Language%20Processing/image03.png)
+![Schermata 2022-06-07 alle 11.08.38.png](Natural%20Language%20Processing%20course/image03.png)
 
 > source: [10]
 > 
@@ -356,7 +356,7 @@ Its simplicity works also in terms of memory because we’ll store only the soft
 
 Once we complete our training procedure, ****all paragraph IDs are mapped to a new space where the probabilities for **randomly selected words** in each document are maximized starting from that vector space representation to softmax output.
 
-![Schermata 2022-06-07 alle 11.29.35.png](Natural%20Language%20Processing/image04.png)
+![Schermata 2022-06-07 alle 11.29.35.png](Natural%20Language%20Processing%20course/image04.png)
 
 > source: [10]
 > 
@@ -389,7 +389,7 @@ Another proposed trick is the usage of a **dynamic context window,** where for e
 
 **ELMo** [12] states for Embeddings from Language Models. So first, what is a language model? ****A **language model** (LM) is a probabilistic statistical model that estimates the probability of linguistic units (words, sequences). Very briefly, in Natural Language Processing we use it for **predicting the next word.** 
 
-![2022-06-07 14.23.28.jpg](Natural%20Language%20Processing/image01.jpg)
+![2022-06-07 14.23.28.jpg](Natural%20Language%20Processing%20course/image01.jpg)
 
 There are three kind (two + one bonus) of language models:
 
@@ -430,7 +430,7 @@ Long Short Term Memory (LSTM) already allowed to deal with sequences, but we had
 
 With that to be said, sequence to sequence models solve this problem with an encoder-decoder ****architecture. The **encoder** captures the context of the input sequence in the form of a. hidden state and it will send its output to the **decoder** that will learn how to decode it, and it will produce the requested output.
 
-![Schermata 2022-06-17 alle 07.48.08.png](Natural%20Language%20Processing/image12.png)
+![Schermata 2022-06-17 alle 07.48.08.png](Natural%20Language%20Processing%20course/image12.png)
 
 Inside the encoder (or decoder) block we can have either RNNs, LSTMs and GRUs. Each single element will receive as input the output of the previous one and will give its output to the next one. Obviously, each one needs to learn, therefore we’ll have **hidden states** between each single component. Then, only the last hidden vector of the encoder will be fed to the first decoder, and same as before.
 
@@ -479,7 +479,7 @@ models can be trained. It employs an encoder decoder architecture like recurrent
 neural nets, but the novelty here is that we can pass the input sequence in **parallel**. We have no more the concept of "timestamp" like in RNNs, so we pass them all **simultaneously** and
 as a consequence we gather the word embeddings simultaneously. The basic **structure** of a transformer is a stack of encoder and/or decoders. 
 
-![Schermata 2022-06-17 alle 11.41.52.png](Natural%20Language%20Processing/image14.png)
+![Schermata 2022-06-17 alle 11.41.52.png](Natural%20Language%20Processing%20course/image14.png)
 
 When the attention is performed on queries, keys and values generated from the same embedding, it is called **self attention**. Vice versa, when it is performed on queries generated from one embedding and the keys/values are generated from another embedding it becomes **cross attention.** 
 
@@ -505,7 +505,7 @@ So, instead of using a binary notations (that would have wasted a lot of resourc
 
 If we want go deep on the architecture, let us start from the following detailed schema proposed by the Vaswani et al [23]
 
-![Schermata 2022-06-17 alle 11.43.51.png](Natural%20Language%20Processing/image15.png)
+![Schermata 2022-06-17 alle 11.43.51.png](Natural%20Language%20Processing%20course/image15.png)
 
 ### Encoder
 
@@ -548,7 +548,7 @@ For **fine tuning** we have two (three) main tasks:
 
 In all these three cases, ideally we need ∼ 2.5 billions sentences to train the model and around ∼1 thousand sentences for fine tuning it, this is why the pre train and fine tuning approach is so convenient.
 
-![Schermata 2022-06-10 alle 07.58.38.png](Natural%20Language%20Processing/image05.png)
+![Schermata 2022-06-10 alle 07.58.38.png](Natural%20Language%20Processing%20course/image05.png)
 
 ## GPT
 
@@ -565,13 +565,13 @@ A recommender systems identifies the preferences of the users and recommends the
 
 Nowadays all the online services used recommender systems in order to maximize your engagement or your spending on their platforms. 
 
-![Untitled](Natural%20Language%20Processing/Untitled%203.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%203.png)
 
-![Untitled](Natural%20Language%20Processing/Untitled%204.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%204.png)
 
-![Untitled](Natural%20Language%20Processing/Untitled%205.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%205.png)
 
-![Untitled](Natural%20Language%20Processing/Untitled%206.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%206.png)
 
 ### Framework
 
@@ -584,7 +584,7 @@ Moreover, it could be possible to deal with **hybrid approaches**, so that the r
 
 The foundation of a recommender system is the **utility matrix**, where we can find the users in the columns and items in the rows (or vice versa). The values are the ratings given by the users to the relative contents, from 1 to 5. Assuming only a manual annotation performed by the user, it would be something like the following one:
 
-![Schermata 2022-06-10 alle 16.51.17.png](Natural%20Language%20Processing/image06.png)
+![Schermata 2022-06-10 alle 16.51.17.png](Natural%20Language%20Processing%20course/image06.png)
 
 Of course there is a big problem. Could we ask to the users to **annotate** their “column” for each item on the database? Of course not. So, the only thing that we could do is to **infer** the missing values through Machine Learning or Deep Learning algorithms based on user data. 
 
@@ -592,7 +592,7 @@ If a user will spontaneously annotate an item we talk about **an explicit feedba
 
 So, after these premises, from now on we can assume that we’re dealing with a complete utility matrix.
 
-![Untitled](Natural%20Language%20Processing/Untitled%207.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%207.png)
 
 ## Content based
 
@@ -613,7 +613,7 @@ To do so, the focus will be on the relationships between each user and their rat
 - **User Based** (UB): the target item will be rated with a rate similar to those assigned by similar user.
 - **Content Based** (CB): the target item will be rated with a rate similar to the ones assigned to similar items.
 
-![Schermata 2022-06-17 alle 18.23.43.png](Natural%20Language%20Processing/image17.png)
+![Schermata 2022-06-17 alle 18.23.43.png](Natural%20Language%20Processing%20course/image17.png)
 
 The content based collaborative filtering was invented by Amazon because due to the scale of their customers, they claimed that the number and the preferences of the user are more dynamic than number and the number and relations between the items. Therefore, the item-based collaborative filtering can be computed just once in a while, whereas the user-based collaborative filtering should be updated more frequently [15].
 
@@ -670,7 +670,7 @@ Anyway, since the goal is to obtain a sequence of tokens in the target language 
 
 In other words, we are dealing with an **encoder-decoder** architecture. The encoder will convert the input variable sequence length into a fixed size sequence and the decoder will produce the output variable sequence. 
 
-![Schermata 2022-06-17 alle 08.01.57.png](Natural%20Language%20Processing/image13.png)
+![Schermata 2022-06-17 alle 08.01.57.png](Natural%20Language%20Processing%20course/image13.png)
 
 The output sequence will be produced step by step, **maximizing the likelihood** for the next possible translation. As before we have **three possibilities**: exhaustive encoding, greedy encoding and heuristics. 
 
@@ -750,7 +750,7 @@ Since clustering algorithms rely on distance metrics, it would be ideal to lever
 
 Overall, clustering based approaches are **incremental** (thinking about hierarchical clustering), **robust** to noise and outliers and most importantly, they are **language agnostic**, therefore the same algorithm could be used for any language. However, their **effectiveness** **decreases** as the number of documents increases. 
 
-![Schermata 2022-06-17 alle 12.17.12.png](Natural%20Language%20Processing/image16.png)
+![Schermata 2022-06-17 alle 12.17.12.png](Natural%20Language%20Processing%20course/image16.png)
 
 ## Neural summarization
 
@@ -767,7 +767,7 @@ The **training** pipeline is quite straightforward:
 1. Corrupt the text through an arbitrary noising function
 2. Learn a model for reconstructing the initial text
     
-    ![Schermata 2022-06-11 alle 08.47.01.png](Natural%20Language%20Processing/image07.png)
+    ![Schermata 2022-06-11 alle 08.47.01.png](Natural%20Language%20Processing%20course/image07.png)
     
 
 > src: [23]
@@ -860,7 +860,7 @@ $$
 
 where $T$ is the number of latent topics.  **Graphically**, the LDA generative model is the following one:
 
-![Schermata 2022-06-11 alle 18.35.48.png](Natural%20Language%20Processing/image08.png)
+![Schermata 2022-06-11 alle 18.35.48.png](Natural%20Language%20Processing%20course/image08.png)
 
 where $\theta$ is the joint multivariate distribution of the topic mixture, $z$ is the set of $N$ topics and $w$ is the set of terms in the input dictionary. Finally, the **joint multivariate distribution** of the topic mixture is defined as:
 
@@ -876,7 +876,7 @@ that formalizes the probability of having a particular distribution given a setu
 
 Once we define our set of pre defined named entities we can leverage many **different techniques** for the classification, each one with its own pros and cons. 
 
-![Untitled](Natural%20Language%20Processing/Untitled%208.png)
+![Untitled](Natural%20Language%20Processing%20course/Untitled%208.png)
 
 > You can try a live demo from [here](https://explosion.ai/demos/displacy-ent?)!
 > 
