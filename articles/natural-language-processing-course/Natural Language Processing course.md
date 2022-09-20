@@ -100,7 +100,7 @@ Nowadays, distributed vectors are mostly known for its fancier name “**word em
 
 👉🏻 Link to word embeddings
 
-![Untitled](Natural%20Language%20Processing%20course/Untitled%201.png)
+![Untitled](Natural%20Language%20Processing%20course/image20.png)
 
 > source : [https://www.tensorflow.org/tutorials/text/word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
 > 
@@ -135,7 +135,7 @@ A graphical representation of the captured semantic similarity can be seen in th
 
   
 
-![Untitled](Natural%20Language%20Processing%20course/Untitled%202.png)
+![Untitled](Natural%20Language%20Processing%20course/image20.png)
 
 > src: [https://www.tensorflow.org/tutorials/text/word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
 > 
@@ -565,13 +565,7 @@ A recommender systems identifies the preferences of the users and recommends the
 
 Nowadays all the online services used recommender systems in order to maximize your engagement or your spending on their platforms. 
 
-![Untitled](Natural%20Language%20Processing%20course/Untitled%203.png)
-
-![Untitled](Natural%20Language%20Processing%20course/Untitled%204.png)
-
-![Untitled](Natural%20Language%20Processing%20course/Untitled%205.png)
-
-![Untitled](Natural%20Language%20Processing%20course/Untitled%206.png)
+![Untitled](Natural%20Language%20Processing%20course/image21.png) 
 
 ### Framework
 
@@ -592,7 +586,7 @@ If a user will spontaneously annotate an item we talk about **an explicit feedba
 
 So, after these premises, from now on we can assume that we’re dealing with a complete utility matrix.
 
-![Untitled](Natural%20Language%20Processing%20course/Untitled%207.png)
+![Untitled](Natural%20Language%20Processing%20course/image24.png)
 
 ## Content based
 
@@ -876,7 +870,7 @@ that formalizes the probability of having a particular distribution given a setu
 
 Once we define our set of pre defined named entities we can leverage many **different techniques** for the classification, each one with its own pros and cons. 
 
-![Untitled](Natural%20Language%20Processing%20course/Untitled%208.png)
+![Untitled](Natural%20Language%20Processing%20course/image25.png)
 
 > You can try a live demo from [here](https://explosion.ai/demos/displacy-ent?)!
 > 
