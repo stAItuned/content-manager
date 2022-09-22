@@ -6,7 +6,7 @@ topics: [Natural Language Processing, Deep Learning]
 meta: Comprehensive guide to Natural Language Processing, from the basic topics to some of the most difficult and interesting ones. 
 target: midway
 language: English
-cover: 
+cover: Natural%20Language%20Processing%20course/bg.png
 
 ---
 
