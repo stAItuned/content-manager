@@ -38,7 +38,7 @@ author:
 ```YAML
 ---
 name: name and surname
-team: [...] # this is an array -> the options are [Content writer, Tech, Marketing]
+team: [...] # this is an array -> the options are [Writers, Tech, Marketing]
 title: job title  
 linkedin: 
 email: 
@@ -59,3 +59,4 @@ Raise an [issue](https://github.com/stAItuned/articles/issues) or contact us thr
 - [ ] Add template commit? 
 - [ ] Add document structure? 
 - [ ] Briefly explain the "goal" of this repo and add the link of our website and social account (when they'll be ready)
+- [ ] Specify who belong to "Tech", "Marketing" and "Writers" team

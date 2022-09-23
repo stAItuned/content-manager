@@ -1,6 +1,6 @@
 ---
 name: Francesco Di Salvo
-team: [Tech, Content writers]
+team: [Tech, Writers]
 title: Machine Learning Engineer
 linkedin: https://www.linkedin.com/in/francescodisalvo-pa/
 email: francesco.disalvo99@gmail.com

@@ -1,6 +1,6 @@
 ---
 name: Francesco Di Gangi
-team: [Content writers]
+team: [Writers]
 title: Artificial Intelligence and Data Analytics student
 linkedin: https://www.linkedin.com/in/digangifrancesco/
 email: francesco.digangi2801@gmail.com
