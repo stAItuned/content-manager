@@ -1,6 +1,6 @@
 ---
-name: Daniele Moltisanri
-team: [Tech, Content Writer]
+name: Daniele Moltisanti
+team: [Tech, Content Writers]
 title: Founder & Director
 linkedin: https://www.linkedin.com/in/daniele-moltisanti/
 email: daniele.moltisanti@gmail.com
