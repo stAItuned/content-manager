@@ -14,8 +14,10 @@
   - any other assets references by the article must be referenced relatively to [Article-Folder]
 
 - team/[Name-Surname] (without spaces, used as slug)
-  - propic.jpg (or any other image format)
+  - propic.jpg
   - meta.md
+
+> The profile picture needs to have squared dimensions (e.g. 1024x1024).
 
 ### ⌨️ Article meta
 ```YAML
@@ -38,7 +40,7 @@ author:
 ```YAML
 ---
 name: name and surname
-team: [...] # this is an array -> the options are [Content writer, Tech, Marketing]
+team: [...] # this is an array -> the options are [Writers, Tech, Marketing]
 title: job title  
 linkedin: 
 email: 
@@ -49,13 +51,17 @@ description: brief description about yourself
 > This piece of code has to be placed at the beginning of the page.
 > See an example [here](https://github.com/stAItuned/articles/blob/main/team/Francesco-Di-Salvo/meta.md).
 
+> You can be part of the `Writers` team only if you already published an article. `Tech` team members actively work on the IT infrastructure and maintainance of this platform whereas `Marketing` members actively work on the graphics and marketing strategies of our social media accounts.
+
 ### 🤔 Any question? 
-Raise an [issue](https://github.com/stAItuned/articles/issues) or contact us through our platforms! 
+Raise an [issue](https://github.com/stAItuned/content-manager/issues) or contact us through our platforms! 
 
 
 ## To do:
 - [ ] Specify an ideal dimension for the cover, in order to fit the cards and the home preview 
-- [ ] Update repo name? (and issue's link)
+- [x] Update repo name? (and issue's link)
 - [ ] Add template commit? 
 - [ ] Add document structure? 
 - [ ] Briefly explain the "goal" of this repo and add the link of our website and social account (when they'll be ready)
+- [x] Specify who belong to "Tech", "Marketing" and "Writers" team
+

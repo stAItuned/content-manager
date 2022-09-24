@@ -6,13 +6,34 @@ topics: [Natural Language Processing, Deep Learning]
 meta: Comprehensive guide to Natural Language Processing, from the basic topics to some of the most difficult and interesting ones. 
 target: midway
 language: English
-cover: 
+cover: Natural%20Language%20Processing%20course/bg.png
 
 ---
 
 # Natural Language Processing
 
-> To do: Add menu
+### Contents
+- [Introduction](#introduction)
+- [Text representation](#textrepresentation)
+- [Feature selection](#featureselection)
+- [Word embeddings](#wordembeddings)
+- [Sentence embeddings](#sentenceembeddings)
+- [ELMo](#elmo)
+- [Sequence to Sequence models](#seq2seq)
+- [Attention](#attention)
+- [Transformers](#transformers)
+- [Recommender Systems](#recsys)
+- [Machine Translation](#mt)
+- [Text Summarization](#ts)
+- [Topic modeling](#tm)
+- [Named Entity Recognition](#ner)
+- [Graph Ranking Algorithms](#gra)
+- [References](references)
+
+---
+
+
+<a name="introduction"/>
 
 # Introduction to Natural Language Processing
 
@@ -40,9 +61,14 @@ Natural Language Processing covers a variety of subfields, many of them with a s
 
 ![Schermata 2022-06-17 alle 05.52.40.png](Natural%20Language%20Processing%20course/image09.png)
 
+
+<a name="textrepresentation" />
+
 # Text representations
 
 Unfortunately, our machines are not able to understand like humans, but we need to rearrange and encode the text in a digestible format for them.  There are two main families, occurrence based and distributed based representations. 
+
+<a name="occurrencebased" />
 
 ## Occurrence based representations
 
@@ -90,20 +116,20 @@ Hence, now we expect to have higher weights to more frequent tokens like “love
 > Note that TF-DF has not been implemented by sklearn with its own optimization techniques and adjustements. For the sake of completeness I used a simple handcrafted script for the calculation of the coefficient.
 > 
 
-The code of these examples can be seen 👉🏻 here.
-
 ## Distributed vector representations
 
 On the other hand, **distributed vectors** are high dimensional text representation (typically ~200/300 features), therefore they are not represented anymore by a singular feature but they are spread across multiple ones. These features represent the **coordinates of the latent space** in which they are projected. Hence, since each word will be mapped in a given location of the latent space, we will be able to capture the semantic relationships with other words through distance and similarity metrics. If we want to find an “issue” on distributed vector representations is the **lack of interpretability**, because the vector itself (without the latent space) will not be informative.
 
 Nowadays, distributed vectors are mostly known for its fancier name “**word embeddings”.** Click here if you want to know more on this topic!
 
-👉🏻 Link to word embeddings
+👉🏻 [Word embeddings](#wordembeddings)
 
 ![Untitled](Natural%20Language%20Processing%20course/image20.png)
 
 > source : [https://www.tensorflow.org/tutorials/text/word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
 > 
+
+<a name="featureselection" />
 
 # Feature selection
 
@@ -121,9 +147,11 @@ Supervised means that we have to our disposal the **target variable**, therefore
 - **Filter :** iteratively select subset of features and measure the relevance with the target, then pick the most relevant one.
 - **Intrinsic :** some Machine Learning algorithms already presents some intrinsic methods for evaluating the importance of the features like Ridge and Lasso [4].
 
+<a name="wordembeddings" />
+
 # Word embeddings
 
-Due to the limitations highlighted for 👉🏻 occurrence-based representations (TL;DR do not capture semantic relationships, sparsity and big dimensions), we slightly shifted towards **word embeddings**, a distributed representation of the text across typically ~200/300 dimensions, remarkably lower than one hot encoding, tf-idf and so on. 
+Due to the limitations highlighted for [occurrence-based](#occurrencebased) representations (TL;DR do not capture semantic relationships, sparsity and big dimensions), we slightly shifted towards **word embeddings**, a distributed representation of the text across typically ~200/300 dimensions, remarkably lower than one hot encoding, tf-idf and so on. 
 
 Other than the “lower” dimension, another great advantage is the ability to **capture semantic relationships.** In particular, the features will represent the coordinate of the given word in a latent space, therefore similar words will be represented closer in that space. In fact, while dealing with word embeddings it is extremely important the concept of **similarity,** typically expressed by means of the cosine similarity, defined as cosine angle between a pair of vectors:
 
@@ -232,9 +260,11 @@ Once we iteratively update all the parameters starting from any target word in t
 
 ### Drawbacks
 
-Despite the huge novelty and the important contribution given by these two papers, there are some pitfalls that will be solved in the features by novel approaches. First, if you have noticed it, we are only dealing with tokens extracted from the vocabulary. Therefore, what will it happen if we encounter a new word?  Well, we will have the so called **out of vocabulary error** (OOV). We can discard the token and go on. It will be then solved by 👉🏻 FastText.
+Despite the huge novelty and the important contribution given by these two papers, there are some pitfalls that will be solved in the features by novel approaches. First, if you have noticed it, we are only dealing with tokens extracted from the vocabulary. Therefore, what will it happen if we encounter a new word?  Well, we will have the so called **out of vocabulary error** (OOV). We can discard the token and go on. It will be then solved by [FastText](#fasttext).
 
-Moreover, Word2Vec does not take into account the **co-occurrencies** between the words, ignoring such an important global statistic about the text. It has been proposed later on by 👉🏻 GloVE.
+Moreover, Word2Vec does not take into account the **co-occurrencies** between the words, ignoring such an important global statistic about the text. It has been proposed later on by [GloVE](#glove).
+
+<a name="fasttext" />
 
 ## Fast Text
 
@@ -276,6 +306,8 @@ $$
 
 Since this would be quite expansive for “long” words, in order to bound a bit the memory requirements, the authors also proposed to employ an hashing function for mapping these n-grams to integers from 1 to $K$ (experimentally set to $2.10^6$). 
 
+<a name="glove" />  
+  
 ## GloVE
 
 **Global Vectors** (GloVE) [9] has been proposed by Stanford with the goal of leveraging statistics of word occurrences in a corpus for learning word representations. In fact, another pitfall of Word2Vec all the the other previous word embedding models was that they did not take into account the global co-occurrence of the text. 
@@ -300,6 +332,8 @@ $$
 
 where $b_i, b_j$ are bias terms, $X_{ij}$ is the frequency of occurrence and $f(\cdot)$ is a weighting function that assigns lower weights to the rare and frequent co-occurrence. 
 
+<a name="sentenceembeddings" />  
+  
 # Sentence Embedding
 
 The goal of **sentence embedding** is to encode sentence level information using neural network training. As we have seen before with **word embeddings**, we aim to find the same exact representation for sentences other than single tokens. 
@@ -385,6 +419,8 @@ where the columns of $U$ are the target words, the columns of $V$ denotes the vo
 
 Another proposed trick is the usage of a **dynamic context window,** where for each subsampled word $w$, the size of its associated context window is sampled uniformly between $1$ and $w_s$. So, it is a way of weighing by the distance from the current word divided by the window size. 
 
+<a name="elmo" />
+  
 # ELMo
 
 **ELMo** [12] states for Embeddings from Language Models. So first, what is a language model? ****A **language model** (LM) is a probabilistic statistical model that estimates the probability of linguistic units (words, sequences). Very briefly, in Natural Language Processing we use it for **predicting the next word.** 
@@ -422,6 +458,8 @@ $$
 
 This final $\gamma$ parameter is a learnable parameter used for scaling the whole final ELMo vector. It was important from an optimization point of view, due to the different distributions between the bilateral internal representations and the task specific ones. 
 
+<a name="seq2seq" />  
+  
 # Sequence to sequence models
 
 A **sequence to sequence model** (seq2seq) aims to convert a sequence of tokens from a source domain to a target domain. The term **domain** is quite broad tough, for example we can deal with machine translation, text summarization, question answering and so on. 
@@ -436,6 +474,8 @@ Inside the encoder (or decoder) block we can have either RNNs, LSTMs and GRUs. E
 
 Based on the proposed representation, the network will learn in just one direction, taking into account the current context information. However, since we are dealing with RNNs/LSTMs/GRUs, we still have to process the data **one by one** and it will be quite slow. Then, as anticipated before, we are assuming that the current word is **only dependent from the previous words**, not considering the following ones. 
 
+<a name="attention" />  
+  
 # Attention
 
 In order to **overcome the issues of Sq2Seq models** the attention mechanism focuses on the most relevant parts of the text for the associated task. To formalize this concept, we It is related to databases (information retrieval). Whenever you have a database, the contents can be represented in different values where the most common one is through a key-value pair. Formarly, the goal will be to mimic the retrieval of a value $v_i$ for a query $q$ based on a key $k_i$ in a database:
@@ -472,6 +512,8 @@ Therefore, by doing so, we’ll compute the attention for each token with respec
 
 If you wanna read something more with amazing graphics I would suggest you the following this [reading](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853). 
 
+<a name="transformers" />  
+  
 # Transformers
 
 The **Transformer architecture** leverages attention to boost the speed with which these
@@ -559,6 +601,8 @@ Another key difference is on its self attention layer that now it becomes a **ma
 Finally, it seems legit to ask: how do we go **up within the stack** of decoders? Well, the first block can now process the token by first passing it through the self-attention process, then passing it through its neural network layer. Once the first transformer block processes the
 token, it sends its resulting vector up the stack to be processed by the next block. The process is identical in each block, but each block has its own weights in both self-attention and the neural network sublayers.
 
+<a name="recsys" />  
+  
 # Recommender Systems
 
 A recommender systems identifies the preferences of the users and recommends the most suitable items according to their profile. So, the core of a recommender system is to **predict user preferences**, and based on the predicted ones, it will be able to recommend the adequate items.
@@ -614,10 +658,12 @@ The content based collaborative filtering was invented by Amazon because due to 
 Beside the previous operative approaches, we have four main approaches for collaborative filtering recommendations [16]: 
 
 - **Memory based**: exploit user ratings data to compute the similarity between users or items. It will be quite easy to implement but most importantly it will be highly explainable because it will simply rely on similarity measures. On the other hand, the sparsity of the data may affect the performances as the number of users or items grows.
-- **Model based**: infer the missing ratings through machine learning models. For example through **dimensionality reduction** techniques we may reduce the utility matrix keeping the most relevant latent aspects  [17]. For example SVD for dimensionality reduction can be applied for revealing the users with similar tests and therefore to obtain neighbors for both items and users. Moreover, via **probabilistic approaches** we may pick the items having maximum likelihood about the user preferences: $\argmax_{i \in I} P(F(i)=HR|u)$, where $HR$ is the highest rating. Then, many other examples could be highlighted for this approach.
+- **Model based**: infer the missing ratings through machine learning models. For example through **dimensionality reduction** techniques we may reduce the utility matrix keeping the most relevant latent aspects  [17]. For example SVD for dimensionality reduction can be applied for revealing the users with similar tests and therefore to obtain neighbors for both items and users. Moreover, via **probabilistic approaches** we may pick the items having maximum likelihood about the user preferences: $argmax_{i \in I} P(F(i)=HR|u)$, where $HR$ is the highest rating. Then, many other examples could be highlighted for this approach.
 - **Hybrid approaches**: combine both memory based and model based approaches, overcoming their limitation and trying to improve the overall performances.
 - **Deep Learning approaches**: with the advent of Deep Learning we have seen an increasing interest on the topic with many outstanding papers out there. Since we’re dealing with Natural Language Processing, here are two fine tuned BERT: RecoBERT [18] and BERTbase [19]
 
+<a name="mt" />  
+  
 # Machine Translation
 
 The goal of **machine translation** is to generate an automatic translation of a sentence from a source language to a target language. Many approaches can be leveraged, like rule-or dictionary-based, statistical and neural. We’ll see them in more detail.
@@ -643,7 +689,7 @@ The meaning doesn’t change, but now we can introduce two main components of th
 The best translation will be simply given by the sentence that will lead to the highest probability:
 
 $$
-\argmax_{y \in Y} P(x|y)P(y)
+argmax_{y \in Y} P(x|y)P(y)
 $$
 
 Obviously if we want the highest performance it would be necessary to perform an **exhaustive encoding** among all the possible translation in $Y$, but of course it is practically infeasible. Therefore, it is typically preferred to leverage **heuristics** and/or **approximate solutions**.
@@ -670,6 +716,8 @@ The output sequence will be produced step by step, **maximizing the likelihood**
 
 Obviously a greedy encoding will lead to fast but approximate results, an exhaustive encoding will lead to accurate but very slow performances and heuristics may be suitable for balancing speed and accuracy. 
 
+<a name="ts" />  
+  
 # Text summarization
 
 **Text summarization** aims to reduce the number of sentences/words in a given document or document collection, without changing its meaning. In other words, we want to capture the most salient informations out of it. 
@@ -686,7 +734,7 @@ Now let’s dive into some of the most common approaches for text summarization!
 
 Once the graph is built, the most relevant words or sentences will be ranked through **ranking algorithms** like PageRank or HITS. So, a key message here is that the relevance of a textual unit will not rely on its specific information, but it will be influenced by the global information computed across all the nodes and edges in the graph. Based on what we learned before, since we pick the most important sentences from the text itself, we are dealing with an **extractive summarization method**. 
 
-Two of the most important approaches are **TextRank** [21] ****and **LexRank** [22]. 
+Two of the most important approaches are **TextRank** [21] and **LexRank** [22]. 
 
 Overall graph based approaches are are highly **effective** and **reliable**, especially with large collection of documents. However, since we we analyze at each step every document, they involve an **high computational complexity** and most importantly, they are **not incremental**, therefore once you have new documents, you need to retrain the algorithm on the whole dataset. 
 
@@ -775,6 +823,8 @@ A part from training, it can be fine tuned for many tasks, achieving promising r
 
 In order to fine tune it for text summarization, it will be treated like any sequence generation task. Hence, the input will be manipulated from the encoder and finally the decoder will generate the summaries autoregressively. 
 
+<a name="tm" />  
+  
 # Topic Modeling
 
 **Topic Modeling** is a natural language processing tasks employed for retrieving salient topics that best describe a collection of documents. So the final representation will be topic-aware with the supporting evidences.
@@ -864,6 +914,8 @@ $$
 
 that formalizes the probability of having a particular distribution given a setup for the Dirichlet priors.
 
+<a name="ner" />                                                                                                              
+                                                                                                              
 # Named Entity Recognition
 
 **Named Entity Recognition locates** at classifies the named entities in a given document or a collection of documents in a pre defined set of categories like person, object, location and so on.  Starting from the definition, an **entity** is an identifiable concept, and **a named entity** is an entity whose is referring to a real word object (location, name and so on).
@@ -913,6 +965,8 @@ It is trained via a **Masked Language Model** and an interesting novelty regards
 The final **loss function** is the sum of MLM loss and cross-entropy loss on predicting
 the masked entities, where the latter is computed identically to the entities.
 
+<a name="gra" />  
+  
 # Graph Ranking algorithms
 
 **Graph Ranking algorithms** are used for ranking the nodes in a given graph, measuring the importance of the nodes based on the collective knowledge of the graph. They are used in many applications, especially in **information retrieval**, where the goal is to extract the most relevant documents from a big collection of unstructured data, given a specific query.
@@ -940,7 +994,7 @@ Another important concept is related to the **sinks**, in fact since with Page R
 
 ## HITS
 
-**HITS** [27] ****is another ranking algorithm that relies on the idea that a website can be either informative by means of its information delivered, as well as the resource (links) provided. Therefore it formalizes two scores:
+**HITS** [27] is another ranking algorithm that relies on the idea that a website can be either informative by means of its information delivered, as well as the resource (links) provided. Therefore it formalizes two scores:
 
 - **HUB score**: value of the links
 - **Authority score**: value of the page itself
@@ -954,6 +1008,8 @@ After that, we initialize each node to $1$ and then we iteratively update the hu
 
 Finally, after each update, each score will be normalized such that the overall sum will be equal to $1$.
 
+<a name="references" />  
+  
 # References
 
 1. [https://cs.stanford.edu/people/eroberts/courses/soco/projects/2004-05/nlp/overview_history.html#:~:text=The field of natural language,this sort of translation automatically](https://cs.stanford.edu/people/eroberts/courses/soco/projects/2004-05/nlp/overview_history.html#:~:text=The%20field%20of%20natural%20language,this%20sort%20of%20translation%20automatically).
