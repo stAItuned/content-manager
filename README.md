@@ -11,7 +11,7 @@
 ## 🛠 Proposed repository structure
 - articles/[Article-Folder] (without spaces, used as slug)
   - .md file containing the article
-  - any other assets references by the article must be referenced relatively to [Article-Folder]
+  - any other assets referenced by the article must be located directly into the [Article-Folder], next to the markdown file
 
 - team/[Name-Surname] (without spaces, used as slug)
   - propic.jpg
@@ -24,13 +24,12 @@
 ---
 meta: brief description of the blogpost 
 date: current date 
-slug: id of the website (staituned/articles/[slug] )
 target: Newbie | Midway | Expert 
-topics: e.g. Deep Learning 
-cover: image path of the cover image 
+topics: [Deep Learning, List separated by commas] 
+cover: filename of the cover image, located next to the markdown file 
 title:  
 language: English | Italian
-author:  
+author: Name must exist
 ---
 ```
 > This piece of code has to be placed at the beginning of the page.

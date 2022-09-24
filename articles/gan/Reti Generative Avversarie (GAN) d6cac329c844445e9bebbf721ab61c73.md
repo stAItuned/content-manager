@@ -4,12 +4,12 @@ date: 2022/08/22
 slug: gan
 target: Newbie
 topics: [Deep Learning]
-cover: Reti%20Generative%20Avversarie%20(GAN)%20d6cac329c844445e9bebbf721ab61c73/Reti_neurali.jpg
+cover: Reti_neurali.jpg
 title: Reti Generative Avversarie
 language: Italian
 author: Roberta Ghidini
 ---
-# Reti Generative Avversarie
+# {title}
 
 Una delle principali applicazioni del **Deep Learning** che sta prendendo piede negli ultimi anni è quella delle **Reti Generative Avversarie (GAN)**, reti neurali artificiali impiegate per generare dei nuovi contenuti a partire da quelli esistenti, operazione di imitazione che solitamente è affidata ad una persona.
 
@@ -25,9 +25,7 @@ Il punto di forza di questo sistema è il fatto di essere composto da due reti n
 
 Il compito di queste reti è quello di creare un’imitazione, per questo, vengono fornite loro una serie di **elementi esempio (training set)** da cui estrapolare le caratteristiche principali. Successivamente, sulla base di queste ultime, il *generatore* crea un **elemento nuovo** (sintetico) con le caratteristiche ricorrenti di quelle apprese durante l'addestramento. A questo punto il *discriminatore* valuta se l’operato della rete avversaria rispetta le caratteristiche degli elementi esempio iniziali. Questo duplice lavoro garantisce il raggiungimento di un prodotto finale simile agli elementi di partenza.
 
-![Rete Generativa Avversaria](Reti%20Generative%20Avversarie%20(GAN)%20d6cac329c844445e9bebbf721ab61c73/Untitled.png)
-
-Rete Generativa Avversaria
+![Rete Generativa Avversaria](./Untitled.png)
 
 ## Quali sono le applicazioni delle GAN?
 
