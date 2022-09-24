@@ -1,5 +1,5 @@
 ---
-name: Daniele Moltisanri
+name: Daniele Moltisanti
 team: [Tech, Writers]
 title: Founder & Director
 linkedin: https://www.linkedin.com/in/daniele-moltisanti/
