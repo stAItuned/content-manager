@@ -67,7 +67,7 @@ The classical example is through K-Nearest Neighbors. With a small value of k we
 
 This is typically described from the picture below:
 
-![Bias-Variance trade off](image07.png)
+![Bias-Variance trade off](./image07.png)
 
 > src: [https://fderyckel.github.io/machinelearningwithr/model-evaluation.html](https://fderyckel.github.io/machinelearningwithr/model-evaluation.html)
 > 
@@ -80,7 +80,7 @@ Models are not always behaving as we expect. Ideally they should be able to lear
 
 On the other hand, **overfitting** is referred to the poor ability to generalize on unseen data. Contrary to before, this is learning really well from the training data, but it is not able to detect the right patterns for well generalizing. This is why it is associated with a model having an high variance, in fact if we slightly change some data points, the results would be really far from the expected. In order to reduce the overfitting there are way more alternatives rather than its counterpart. First, we may start by reducing the dimensions through feature selection. Then, we could leverage regularization techniques like Ridge and Lasso. Moreover, during training we could use some policies for early stopping, in order to avoid training longer unnecessary. These are just a few options that you have but there are surely more!
 
-![Underfitting vs Overfitting](image02.png)
+![Underfitting vs Overfitting](./image02.png)
 
 > src: [https://medium.com/swlh/machine-learning-how-to-prevent-overfitting-fdf759cc00a9](https://medium.com/swlh/machine-learning-how-to-prevent-overfitting-fdf759cc00a9)
 > 
@@ -110,7 +110,7 @@ $\beta_0$ is called **intercept**, whereas $\beta_1$ is called **slope**. In mat
 
 So, assuming that our base salary is $€ 500$ and we earn $€ 50$ per hour, the linear fit will be as follows: $Y = 500 + 50h$. Graphically:
 
-![Linear Regression](image09.png)
+![Linear Regression](./image09.png)
 
 And so, what is our goal then? Through linear regression we aim to learn the mapping function $f:X\mapsto Y$, in order to predict how much I will earn without knowing a priori my base salary and my hourly rate. So, it seems obvious that we need some **training data** from which we will learn these parameters. 
 
@@ -124,7 +124,7 @@ where $\hat y$ denotes a prediction and ($\hat \beta_0, \hat \beta_1$) denotes t
 
 The previous example is quite “naive”, but what we may have in reality is something like:
 
-![Linear Regression](image11.png)
+![Linear Regression](./image11.png)
 
 It is quite unlikely to deal with perfect linear relationships, but we’ll always have some noise. In our example it may be because we did some extra hours (with different hourly rates) or other random reasons. 
 
@@ -244,7 +244,7 @@ $$
 \sigma(x) = \frac 1 {1+e^{-x}}   
 $$
 
-![Logistic Regression](image04.png)
+![Logistic Regression](./image04.png)
 
 This equation models the **probability** of an instance for a given class, and in order to make a proper classification, we need a **threshold** (typically $0.5$). Therefore, up to this value, the data point will be classified for the given class and vice versa.
 
@@ -267,7 +267,7 @@ Cost(\sigma(x),y) =     -\log (p(x)) \quad \quad \quad y = 1 \\
 Cost(\sigma(x),y) =     -\log (1-p(x)) \quad \quad \quad y = 0
 $$
 
-![Cost function for the Logistic Regression](image05.png)
+![Cost function for the Logistic Regression](./image05.png)
 
 Considering that  can assume only values $0$ or $1$, in a simplified way can rewrite it as:
 
@@ -295,7 +295,7 @@ Followup from CTMLI:
 
 Since considering every possible partition is computationally infeasible (NP-hard problem), the tree is constructed through a greedy top down approach, known as **recursive binary splitting**. It is **top-down** because it begins at the top of the tree and then successively splits the predictor space; each split is indicated via two new branches further down on the tree. Then, it is **greedy** because at each step of the tree-building process, the best split is made at that particular step, rather than looking ahead and picking a split that will lead to a better tree in some future step.
 
-![Decision Trees](image12.png)
+![Decision Trees](./image12.png)
 
 > src: [https://en.wikipedia.org/wiki/Decision_tree_learning](https://en.wikipedia.org/wiki/Decision_tree_learning)
 > 
@@ -311,7 +311,7 @@ However, even though a decision tree is fairly **interpretable**, it is typicall
 
 The idea of bagging is to make predictions on B bootstrapped copies of the training set (i.e. sampled with replacement). In order to “decorellate” the trees, feature bagging is the best option. In particular, each time a split in a tree is considered, a fixed number of features (typically $\sqrt p$) is randomly chosen. The final prediction will be given by a majority voting scheme of all the estimators (or the average, in regression tasks). This is why this algorithm is fairly robust to noise and outliers and will have much less variance rather than a single decision tree. In fact, if we consider $n$ observations with variance $\sigma^2$, the variance of the sample mean will be exactly $\frac {\sigma^2} n$.
 
-![Random Forest](image13.png)
+![Random Forest](./image13.png)
 
 > src: [https://www.tibco.com/reference-center/what-is-a-random-forest](https://www.tibco.com/reference-center/what-is-a-random-forest)
 > 
@@ -330,7 +330,7 @@ Finally, it classifies the test observation $x_0$ with the **class having the hi
 
 In order to choose the value of $k$ it is a common practice to derive a plot between error rate and $k$ denoting values in a defined range. Then, choose $k$ having a minimum error rate, or with a good trade off between the computational complexity and the error rate. 
 
-![KNN](image14.png)
+![KNN](./image14.png)
 
 > src: [https://it.wikipedia.org/wiki/K-nearest_neighbors](https://it.wikipedia.org/wiki/K-nearest_neighbors)
 > 
@@ -358,7 +358,7 @@ References:
 
 Assuming that the data is linearly separable, the goal is to find the **best separating hyperplane**. Since we may find an infinite number on separating hyperplanes, intuitively, the best one will be the one with the maximize the margins, that actually means to maximize the minimum distance between point and plane.
 
-![Hard SVM](image15.png)
+![Hard SVM](./image15.png)
 
 > src: [Marek Pecha](https://www.researchgate.net/profile/Marek-Pecha)
 
@@ -394,7 +394,7 @@ $$
 
 $\xi_i$ is called slack variable and it measures by how much the linearly separability constraint has been violated. Therefore, we want to minimize the norm of $w$ (i.e. the margin) and the average of the violations $(\frac 1 m \sum_{i=1}^m \xi_i)$. Finally, the parameter $\lambda$ is used for balancing the tradeoff among the two previous terms.
 
-![Soft SVM](image16.png)
+![Soft SVM](./image16.png)
 
 > src: [Marek Pecha](https://www.researchgate.net/profile/Marek-Pecha) 
 
@@ -402,7 +402,7 @@ $\xi_i$ is called slack variable and it measures by how much the linearly separa
 
 **Soft SVM** is able to handle **noise and outliers** in almost linearly separable conditions. But most of the time, the **data** we are dealing with, is **not linearly separable**, therefore, even softening the margin may fail. In these cases it is possible to map the data into an higher dimensional space such that it will be linearly separable. However, if the data is mapped in a very high dimensional space, it will be very costly from a computational point of view.
 
-![Soft SVM](image17.png)
+![Soft SVM](./image17.png)
 
 > src: [https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d](https://medium.com/@zxr.nju/what-is-the-kernel-trick-why-is-it-important-98a98db0961d)
 
@@ -486,7 +486,7 @@ The distinction between hierarchical and partitional set of clusters. In short, 
 
 The main difference is that partitional clusters require an initial hyperparameter $k$ that defines the desired number of clusters, whereas in hierarchical clustering at the first iteration every element is a single cluster and the closest clusters will be then merged after every iteration.
 
-![Hierarchical vs Partitional clustering](image18.png)
+![Hierarchical vs Partitional clustering](./image18.png)
 
 > src: [https://quantdare.com/hierarchical-clustering/hierarpartclustering/](https://quantdare.com/hierarchical-clustering/hierarpartclustering/)
 > 
@@ -499,7 +499,7 @@ The only pitfall is that it requires the input number of clusters $k$, even thou
 
 Anyway, once we define the number of clusters, the algorithms will first randomly initialize $k$ points as centroids. Then, it forms k clusters by assigning all the points to the closest centroids and recompute the centroid as the average of the cluster. Repeat this update until the centroids don’t change. 
 
-![K-Means](image19.png)
+![K-Means](./image19.png)
 
 > src: [https://aws.amazon.com/it/blogs/machine-learning/k-means-clustering-with-amazon-sagemaker/](https://aws.amazon.com/it/blogs/machine-learning/k-means-clustering-with-amazon-sagemaker/)
 > 
@@ -532,11 +532,11 @@ A consequence of the sparsity of the dataset is that our machine learning algori
 
 Let’s try to **visualize it from a geometric perspective** [1]**.** Let us consider a 2D feature space, represented by a **unit square**, and consider also a **circle inscribed on this square**. As you may see, most of the data points lie within the circle whereas the sparse data are on the corners.
 
-![Circle inscribed on a unit square](image01.jpeg)
+![Circle inscribed on a unit square](./image01.jpeg)
 
 If we increase the dimension of the feature space by 1, we obtain a **unit cube**  and again a **sphere inscribed.** Intuitively, more points than before are sparse (i.e. are on the corners).
 
-![Sphere inscribed on a unit cube](image08.jpeg)
+![Sphere inscribed on a unit cube](./image08.jpeg)
 
 > *Please, close one eye and imagine that this cube has all the sides of the same length!*
 > 
@@ -557,7 +557,7 @@ X_2 = s \times s \times s = s^3 = 1 \\
 Y_2 = \frac 4 3 \pi r^2 = \frac 4 3 \pi (\frac 1 2 )^2 = 1.33 \times 3.14 \times 0.25 = 0.52
 $$
 
-![Volume comparison between 2D vs 3D](image10.jpeg)
+![Volume comparison between 2D vs 3D](./image10.jpeg)
 
 Finally, with **n dimensions** [2], we have:
 
@@ -596,7 +596,7 @@ where $A = \sum_{i=1}^m x_ix_i^T$ is the so called **Scatter Matrix**. Thanks to
 
 We can assume that $D_{1,1} \geq ... \geq D_{d,d} \geq 0$ (D is positive semidefinite). Hence, the solution of this optimization problem is to assign to the matrix $U$ the columns $(u_1,...,u_n)$, that are the $n$ largest eigenvectors of the scatter matrix $A$ and $W=U^T$.
 
-![PCA](image20.png)
+![PCA](./image20.png)
 
 > src: [https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d](https://towardsdatascience.com/principal-component-analysis-pca-explained-visually-with-zero-math-1cbf392b9e7d)
 > 
@@ -623,7 +623,7 @@ Once the first principal component $Z_1$ has been determined, we start looking f
 
 In order to determine the **proper number of principal components** it is necessary to look for a trade off between the proportion of variance explained and the number of principal components. Of course, the higher will be the number of dimensions, the higher will be the explained variance, but recall that we are still trying to reduce the dimensions. Therefore, a rule of thumb is to choose as many components until you reach a satisfactory variance percentage ($80\%-90 \%$). As it is possible to observe from the screeplot in the figure below, it reached $85\%$ of the explained variance with $11$ principal components. Hence, it could be a plausible number of components to choose. 
 
-![Screeplot](image03.png)
+![Screeplot](./image03.png)
 
 References
 
@@ -674,7 +674,7 @@ $$
 FPR = \frac {FP} {FP + TN} \quad TPR = \frac {TP} {TP + FN} 
 $$
 
-![AUC](image06.png)
+![AUC](./image06.png)
 
 Since we’re evaluating the model at different thresholds, a way for “summarizing” these values is to take the **area under the curve**. Therefore while comparing different models, the AUC may be more representative. 
 
