@@ -9,7 +9,7 @@ language: English
 cover: https://i.imgur.com/TQasoCN.jpeg
 ---
 
-# **Time series forecasting with Fractional Differentiation**
+# **{title}**
 
 **Time-series forecasting** solutions aims to find the next N values that in the future will follow the starting series. For doing so, there exist different approaches, some of these are statistical, like the ARIMA family algorithms, others are based on AI algorithm. The **stationarity** of time-series is the principal feature that you often need in order to develop a **powerful** forecasting model, because a stationary series maintains mean, variance and covariance over time. 
 
@@ -27,13 +27,11 @@ Let’s take into account the integer and **fractional differentiation** and let
 
 Consider the time-series as follows:
 
-$$\hat{X} = \sum_{k=0}w_k * X_{t-k}$$
+$$\hat{X} = \limits\sum_{k=0}w_k * X_{t-k}$$
 
 where $w_k$ represents the weight for the lagged series by $k$ lags.
 
-![Image from [https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)](Time%20series%20forecasting%20with%20fraction%20differentiat%20b9a668f43d0d4b37948c085c4fffde77/Untitled.png)
-
-Image from [https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)
+![Image from [https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)](./Untitled.png)
 
 Here is visible the application of different order of differentiation, in order to highlight the $w$ coefficients and their weights over lags. 
 
@@ -41,9 +39,7 @@ As you can see the 1.0 represents the integer differentiation and it is possible
 
 The order of differentiation less than 1.0 represents the application of **fractional differentiation** to the series and this plot shows how the **memory** is minimal, **but never lost**, after also 6 lags.
 
-![Fractional Differentiation analysis on ADA-EUR](Time%20series%20forecasting%20with%20fraction%20differentiat%20b9a668f43d0d4b37948c085c4fffde77/Untitled%201.png)
-
-Fractional Differentiation analysis on ADA-EUR
+![Fractional Differentiation analysis on ADA-EUR](./Untitled%201.png)
 
 This plot, instead, shows the fractional differentiated series related to the correlation. On the right axis there is the result of the ADFtest for the stationarity of the differentiated series and the dashed line represents the 95% of confidence that the differentiated series is stationary.
 
