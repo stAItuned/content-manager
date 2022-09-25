@@ -1,5 +1,5 @@
 ---
-title: Time series forecasting with Fractional Differentiation
+title: Fractional Differentiation in time series
 author: Daniele Moltisanti
 date: 2022-01-01
 topics: [Finance]
