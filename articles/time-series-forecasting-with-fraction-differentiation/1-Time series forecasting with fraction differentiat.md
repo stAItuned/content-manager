@@ -9,7 +9,7 @@ language: English
 cover: https://i.imgur.com/TQasoCN.jpeg
 ---
 
-# **{title}**
+# **Fractional Differentiation in time series**
 
 **Time-series forecasting** solutions aims to find the next N values that in the future will follow the starting series. For doing so, there exist different approaches, some of these are statistical, like the ARIMA family algorithms, others are based on AI algorithm. The **stationarity** of time-series is the principal feature that you often need in order to develop a **powerful** forecasting model, because a stationary series maintains mean, variance and covariance over time.
 

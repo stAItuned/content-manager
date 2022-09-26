@@ -11,27 +11,6 @@ cover: bg.png
 
 # Natural Language Processing
 
-### Contents
-- [Introduction](#introduction)
-- [Text representation](#textrepresentation)
-- [Feature selection](#featureselection)
-- [Word embeddings](#wordembeddings)
-- [Sentence embeddings](#sentenceembeddings)
-- [ELMo](#elmo)
-- [Sequence to Sequence models](#seq2seq)
-- [Attention](#attention)
-- [Transformers](#transformers)
-- [Recommender Systems](#recsys)
-- [Machine Translation](#mt)
-- [Text Summarization](#ts)
-- [Topic modeling](#tm)
-- [Named Entity Recognition](#ner)
-- [Graph Ranking Algorithms](#gra)
-- [References](references)
-
----
-
-
 <a name="introduction"/>
 
 # Introduction to Natural Language Processing
