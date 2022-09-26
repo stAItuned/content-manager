@@ -23,11 +23,11 @@
 ```YAML
 ---
 meta: brief description of the blogpost 
-date: current date 
+date: current date (yyyy/mm/dd)
 target: Newbie | Midway | Expert 
 topics: [Deep Learning, List separated by commas] 
 cover: filename of the cover image, located next to the markdown file 
-title:  
+title:  title
 language: English | Italian
 author: Name must exist
 ---
