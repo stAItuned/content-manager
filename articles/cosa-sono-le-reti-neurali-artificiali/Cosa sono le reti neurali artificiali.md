@@ -35,15 +35,15 @@ Esistono diversi tipi di reti neurali:
 
 - **Reti Feed Forward**: sono reti costituite da strati di **neuroni** (layer) fino ad arrivare allo strato di **output**, il quale darà l’esito dell’elaborazione di tutti i neuroni. Queste reti sono molto standard infatti permettono di fare **analisi predittive**, **classificare immagini**, **generare immagini o dati sintetici**.
 
-![Rete feed forward](./Untitled%201.png)
+![Rete feed forward](./Untitled1.png)
 
 - **Reti Neurali Ricorrenti**: sono anche queste reti neurali strutturate su più **strati di neuroni**, dove pero, arrivata l’informazione allo strato di output, viene nuovamente rediretta verso gli strati di input. Quindi, in sostanza, **rielabora** informazioni già elaborate dalla rete stessa, per questo motivo si chiamano ricorrrenti. Queste reti godono di moltissime interconnessioni e di riuscire a creare una **memoria**. Vengono utilizzate molto nel **processamento di linguaggio naturale (NLP)** o di **serie temporali**, in cui, l’apprendimento ricorrente parola per parola o istante di tempo per istante di tempo, permette di creare modelli intelligenti su sequenze di dati.
 
-![Rete neurale ricorrente](./Untitled%202.png)
+![Rete neurale ricorrente](./Untitled2.png)
 
 - **[Reti Neurali Convoluzionali](./../cosa-sono-le-reti-neurali-convoluzionali/Cosa%20sono%20le%20Reti%20Neurali%20Convoluzionali.md)**: sono un sottoinsieme delle **reti feed forward**, che però sono caratterizzate da **strati di neuroni** definiti convoluzionali proprio per il fatto che i neuroni di questi strati eseguono l’operazione di **convoluzione**. Questa particolare operazione permette a questa rete neurale di identificare caratteristiche nelle immagini e quindi riuscire a **classificare immagini** o anche a **riconoscere oggetti** all’interno delle immagini stesse. Queste reti pertanto si usano principalmente per risolvere problemi su immagini, come classificazione o segmentazione.
 
-![Rete neurale convoluzionale](./Untitled%203.png)
+![Rete neurale convoluzionale](./Untitled3.png)
 
 *Grazie a queste nozioni teoriche è piu semplice capire cosa sia l’intelligenza artificiale e come operi nel mondo reale.* 
 
