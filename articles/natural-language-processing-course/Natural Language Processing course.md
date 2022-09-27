@@ -11,7 +11,7 @@ cover: bg.png
 
 # Natural Language Processing
 
-<a name="introduction"/>
+
 
 # Introduction to Natural Language Processing
 

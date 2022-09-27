@@ -32,7 +32,7 @@ Il compito di queste reti è quello di creare un’imitazione, per questo, vengo
 
 ## Quali sono le applicazioni delle GAN?
 
-Le **GAN** hanno iniziato ad essere utilizzate maggiormente e con più attenzione in seguito alla creazione della famosa opera d’arte del 2018 [**Edmond de Belamy](https://www.notion.so/Arte-generata-dall-Intelligenza-Artificiale-stAI-tuned-5846348a7dde4efd94e9e81944d636eb),** in seguito alla quale hanno ottenuto più attenzione da parte di studiosi e ricercatori.
+Le **GAN** hanno iniziato ad essere utilizzate maggiormente e con più attenzione in seguito alla creazione della famosa opera d’arte del 2018 [**Edmond de Belamy](...),** in seguito alla quale hanno ottenuto più attenzione da parte di studiosi e ricercatori.
 
 Negli anni successivi questa tecnologia è stata applicata a molti ambiti a cui non avresti mai pensato, come quello della [musica](...),** dell’**[arte](...),** del **miglioramento di immagini, generazione di testo, previsioni meteo, etc**
 
