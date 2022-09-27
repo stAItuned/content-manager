@@ -11,8 +11,6 @@ cover: bg.png
 
 # Natural Language Processing
 
-# Introduction to Natural Language Processing
-
 **Natural Language Processing** (NLP) is the branch of Artificial Intelligence focused on the interaction between machines and natural text. To be more precise, the overall goal is to let computers analyze and **understand** informations from text or audio. 
 
 The interest in Natural Language Processing started in the 1940s, when after Word War II the military needed a machine for translating pieces of audio or text [1]. Obviously at that time it was pure magic, in fact we can see one of the first NLP “systems” from the 1990s, with the advent of the first probabilistic models. 
@@ -773,7 +771,7 @@ The **training** pipeline is quite straightforward:
 1. Corrupt the text through an arbitrary noising function
 2. Learn a model for reconstructing the initial text
     
-    ![Schermata 2022-06-11 alle 08.47.01.png](./image07.png)
+![Schermata 2022-06-11 alle 08.47.01.png](./image07.png)
 
 So, BART is trained by corrupting documents and then **optimizing the reconstruction loss** (i.e. CE) between the decoder’s output and the original document. 
 

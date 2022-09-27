@@ -32,7 +32,7 @@ Da questo momento in avanti, le sperimentazioni proseguono e la curiosità di ri
 
 Nel **1956**, data ufficiale della nascita dell’Intelligenza Artificiale, viene quindi organizzato il primo grande seminario estivo svoltosi presso il **Dartmouth College** di Hanover nel New Hampshire, dove sono state poste le basi di questa nuova disciplina e organizzate iniziative di creazione di macchine in grado di simulare l’*apprendimento* e l’*intelligenza umana*.
 
-![Storia dell’Intelligenza Artificiale](Storia_dellIntelligenza_Artificiale.jpg)
+![Storia dell’Intelligenza Artificiale](./Storia_dellIntelligenza_Artificiale.jpg)
 
 
 
@@ -44,13 +44,13 @@ Si tratta di un algoritmo che simula il comportamento di un **neurone biologico*
 
 Artificialmente il **percettrone** è un **[algoritmo](./../cos-%C3%A8-un-algoritmo-e-per-cosa-si-utilizza/Cos%E2%80%99%C3%A8%20un%20algoritmo%20e%20per%20cosa%20si%20utilizza.md)** che simula il neurone biologico. Nel momento in cui arriva un impulso (in questo caso **dati**) al neurone, quest’ultimo applica loro una funzione, detta **funzione di attivazione.** Quest’ultima, come la soglia nel neurone biologico, stabilisce se l’impulso debba essere propagato o meno.
 
-![Le origini dell’Intelligenza Artificiale: il percettrone](Storia_dellIntelligenza_Artificiale_percettrone.png)
+![Le origini dell’Intelligenza Artificiale: il percettrone](./Storia_dellIntelligenza_Artificiale_percettrone.png)
 
 L’applicazione del percettrone è stata quella di essere utilizzato come algortimo di **classificazione binaria**, ovvero se l’input appartenesse alla classe 0 o classe 1. 
 
 Questo concetto è stato alla base della successiva elaborazione delle **reti neurali** ossia un modello di calcolo composto da neuroni artificiali, realizzati ad immagine e somiglianza della rete neurale biologica.
 
-![Storia dell’Intelligenza Artificiale, reti neurali](Storia_dellIntelligenza_Artificiale_reti_neurali.webp)
+![Storia dell’Intelligenza Artificiale, reti neurali](./Storia_dellIntelligenza_Artificiale_reti_neurali.webp)
 
 Gli anni successivi non sono altro che un **fermento intellettuale** continuo, le più grandi università e aziende informatiche del tempo hanno iniziato a puntare sulla ricerca e sviluppo di nuovi programmi software in grado di riprodurre l’intelligenza umana.
 

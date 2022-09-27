@@ -6,7 +6,7 @@ topics: [Deep Learning]
 meta: e reti neurali ricorrenti sono una tipologia di reti neurali collegate in un ciclo che permette un'interconnessione tra i differenti livelli.
 target: Newbie
 language: Italian
-cover: cover.jpeg
+cover: cover.png
 ---
 
 # Reti neurali ricorrenti e le loro applicazioni
