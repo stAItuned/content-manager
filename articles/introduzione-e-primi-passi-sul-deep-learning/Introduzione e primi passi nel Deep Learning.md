@@ -1,5 +1,5 @@
 ---
-title: Introduzione e primi passi nel Deep Learning
+title: Deep Learning
 author: Roberta Ghidini
 date: 2022-09-26
 topics: [Deep Learning]
@@ -9,9 +9,7 @@ language: Italian
 cover: deep-learning.jpg
 ---
 
-# Introduzione e primi passi nel Deep Learning
-
-## Deep Learning
+# Deep Learning
 
 Il **Deep Learning** (o apprendimento approfondito) è il ramo più profondo dell'**Intelligenza Artificiale** e la sottocategoria del **Machine Learning**.
 Consiste in un insieme di tecniche che utilizzano **reti neurali artificiali** per simulare il cervello umano e la sua possibilità di inviare impulsi elettrici, generando "decisioni".

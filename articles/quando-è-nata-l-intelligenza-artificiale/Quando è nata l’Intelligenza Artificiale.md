@@ -1,5 +1,5 @@
 ---
-title: Quando è nata l’Intelligenza Artificiale?
+title: Storia dell’Intelligenza Artificiale
 author: Roberta Ghidini
 date: 2022-09-26
 topics: [Machine Learning]
@@ -9,9 +9,7 @@ language: Italian
 cover: Storia_dellIntelligenza_Artificiale.jpg
 ---
 
-# Quando è nata l’Intelligenza Artificiale?
-
-## Storia dell’Intelligenza Artificiale
+# Storia dell’Intelligenza Artificiale
 
 Il **1956** è l’anno ufficiale in cui nasce l’**[Intelligenza Artificiale](https://www.notion.so/Cos-l-Intelligenza-Artificiale-stAI-tuned-b80b54571aae4eb98d71b5a9ebadf0b5),** ma dobbiamo tenere in considerazione quale sia stato il percorso che ci ha portato a quella data, quali sono state le scoperte pregresse che hanno consentito agli scienziati di quel periodo di poter dare inizio ad una nuova Era.
 

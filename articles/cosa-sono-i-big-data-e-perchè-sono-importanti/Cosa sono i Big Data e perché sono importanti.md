@@ -1,5 +1,5 @@
 ---
-title: Cosa sono i Big Data e perché sono importanti?
+title: Big Data
 author: Roberta Ghidini
 date: 2022-09-26
 topics: [Machine Learning]
@@ -10,9 +10,8 @@ cover: big-data.jpg
 ---
 
 
-# Cosa sono i Big Data e perché sono importanti - stAi tuned
 
-## Big Data
+# Big Data
 
 Negli ultimi tempi si sente spesso parlare di **Big Data**, ma sappiamo veramente cosa sono?
 

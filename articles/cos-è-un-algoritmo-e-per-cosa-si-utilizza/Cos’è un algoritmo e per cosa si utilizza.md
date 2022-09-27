@@ -1,5 +1,5 @@
 ---
-title: Cos’è un algoritmo e per cosa si utilizza
+title: Cos’è un algoritmo?
 author: Roberta Ghidini
 date: 2022-09-26
 topics: [Machine Learning]
@@ -9,8 +9,6 @@ language: Italian
 cover: cover.png
 ---
 
-
-**Article**
 
 # **Cos’è un algoritmo?**
 

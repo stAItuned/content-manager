@@ -1,5 +1,5 @@
 ---
-title: Cos’è e la Data Science e perchè è così importante
+title: Data Science
 author: Roberta Ghidini
 date: 2022-09-26
 topics: [Machine Learning]
@@ -9,10 +9,8 @@ language: Italian
 cover: cover.jpeg
 ---
 
-# Cos’è e la Data Science e perchè è così importante
 
-
-## Data Science
+# Data Science
 
 La **Data Science** o *Scienza dei Dati* non è una vera e propria disciplina, ma un **approccio mutlidisciplinare** composto da insieme di ambiti come la **statistica**, l’**analisi dei dati**, l’**Intelligenza Artificiale** e **metodi scientifici** volti all’**analisi dei dati** e all’**estrapolazione di informazioni**. 
 
