@@ -70,7 +70,7 @@ This is typically described from the picture below:
 ![Bias-Variance trade off](./image07.png)
 
 > src: [https://fderyckel.github.io/machinelearningwithr/model-evaluation.html](https://fderyckel.github.io/machinelearningwithr/model-evaluation.html)
-> 
+ 
 
 ## Overfitting and Underfitting
 
@@ -83,7 +83,7 @@ On the other hand, **overfitting** is referred to the poor ability to generalize
 ![Underfitting vs Overfitting](./image02.png)
 
 > src: [https://medium.com/swlh/machine-learning-how-to-prevent-overfitting-fdf759cc00a9](https://medium.com/swlh/machine-learning-how-to-prevent-overfitting-fdf759cc00a9)
-> 
+ 
 
 References
 
@@ -298,7 +298,7 @@ Since considering every possible partition is computationally infeasible (NP-har
 ![Decision Trees](./image12.png)
 
 > src: [https://en.wikipedia.org/wiki/Decision_tree_learning](https://en.wikipedia.org/wiki/Decision_tree_learning)
-> 
+ 
 
 In order to select the **best split to make** for classification problems, we consider the split that minimize the so called **Gini Index**, a measure of the variances across the classes (impurity). Alternatively, another measure that can be taken into account is the **Entropy**, that measures the so called "information gain", defined as the disorder of the features with the current target. They are formalized as follows:
 
@@ -314,7 +314,7 @@ The idea of bagging is to make predictions on B bootstrapped copies of the train
 ![Random Forest](./image13.png)
 
 > src: [https://www.tibco.com/reference-center/what-is-a-random-forest](https://www.tibco.com/reference-center/what-is-a-random-forest)
-> 
+ 
 
 Random Forest is typically well performing and in many Kaggle challenges is most of the time “blindly” used for achieving satisfactory performances. 
 
@@ -333,7 +333,7 @@ In order to choose the value of $k$ it is a common practice to derive a plot bet
 ![KNN](./image14.png)
 
 > src: [https://it.wikipedia.org/wiki/K-nearest_neighbors](https://it.wikipedia.org/wiki/K-nearest_neighbors)
-> 
+ 
 
 **K Nearest Neighbors** is defined as a **lazy learner**, because it doesn’t learn a mapping function from the training data, but it only exploit the all pairwise distances between the points. So, this can be an advantage due to its “simplicity”, but it is also quite flexible and it can be easily handle multi class models. On the other hand, if we are dealing with large dataset, the predictions will be quite costly  but more importantly, if we are dealing with high dimensional problems (dataset having many features) the distance metrics will loose importance and the produced results will be a bit useless. 
 

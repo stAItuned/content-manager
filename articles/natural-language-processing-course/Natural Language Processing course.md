@@ -11,8 +11,6 @@ cover: bg.png
 
 # Natural Language Processing
 
-
-
 # Introduction to Natural Language Processing
 
 **Natural Language Processing** (NLP) is the branch of Artificial Intelligence focused on the interaction between machines and natural text. To be more precise, the overall goal is to let computers analyze and **understand** informations from text or audio. 
@@ -37,32 +35,29 @@ Natural Language Processing covers a variety of subfields, many of them with a s
 - **Topic modeling :** derive the most salient topics across a single document or a whole document collection.
 - **Sentiment analysis :** extract writer’s emotions through the analysis of raw text. It can be employed for analyzing a large collection of reviews.
 
-![Schermata 2022-06-17 alle 05.52.40.png](./image09.png)
+![NLP applications](./image09.png)
 
-
-<a name="textrepresentation" />
 
 # Text representations
 
 Unfortunately, our machines are not able to understand like humans, but we need to rearrange and encode the text in a digestible format for them.  There are two main families, occurrence based and distributed based representations. 
 
-<a name="occurrencebased" />
 
 ## Occurrence based representations
 
 **Occurrence based** representations rely on features computed from the frequency of occurrence of the words appearing in the text. The main pitfall of these text representations is that it is not possible to capture the semantic relationship among the words, but we may only make assumption about the syntactic relationships thanks to the frequency of occurrence. 
 
 > For the following graphical examples, let us consider to have three sentences: 
-- s1 : I am Mario
-- s2 : I love pizza
-- s3 : I love pasta
-> 
+> - s1 : I am Mario
+> - s2 : I love pizza
+> - s3 : I love pasta
+
 
 ### One Hot Encoding
 
 **One Hot Encoding (OHE)** builds a matrix whose rows $(i)$ and columns $(j)$  will be the words and the documents. The element $(i,j)$ of the matrix will be either 0 or 1 if the $j$th document contains the $i$-th word. Obviously there will be way more words rather than documents and therefore, as you may imagine, the matrix will be highly sparse (i.e. there will be a lot of null values) and as a consequence the curse of dimensionality [3] will prevail.
 
-![Schermata 2022-06-17 alle 06.11.27.png](./image10.png)
+![One Hot Encoding example](./image10.png)
 
 ### **Term Frequency - Inverse Document Frequency**
 
@@ -74,10 +69,10 @@ $$
 
 where $n_{ij}$ is the number of occurrences of word $i$ in document $j$, $|d_j|$ is the number of tokens in document $j$ and  $|D|$ is the total number of the documents and ${|\{d: i \in D\}|}$ represents the number of documents having word $i$. Considering the sentences defined before, we expect to have an higher weight on those tokens that are “frequent” in the current document and not so frequent across all the documents (pizza,pasta).
 
-![Schermata 2022-06-17 alle 06.34.01.png](./image11.png)
+![TF-IDF example](./image11.png)
 
 > Notice that thanks to sklearn’s hyperparameters for TfIdfVectorizer, we cut the tokens that are present across all documents (that are likely to be not informative) and to apply case normalization (lowercase in this case). Finally, TfIdfVectorizer also scales the final values between 0 and 1
-> 
+
 
 ### **Term Frequency - Document Frequency (TF-DF)**
 
@@ -89,10 +84,10 @@ $$
 
 Hence, now we expect to have higher weights to more frequent tokens like “love”. 
 
-![Untitled](./image18.png)
+![TF-DF example](./image18.png)
 
 > Note that TF-DF has not been implemented by sklearn with its own optimization techniques and adjustements. For the sake of completeness I used a simple handcrafted script for the calculation of the coefficient.
-> 
+ 
 
 ## Distributed vector representations
 
@@ -102,12 +97,10 @@ Nowadays, distributed vectors are mostly known for its fancier name “**word em
 
 👉🏻 [Word embeddings](#wordembeddings)
 
-![Untitled](./image20.png)
+![Distributed vector representation](./image20.png)
 
 > source : [https://www.tensorflow.org/tutorials/text/word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
-> 
-
-<a name="featureselection" />
+ 
 
 # Feature selection
 
@@ -125,11 +118,10 @@ Supervised means that we have to our disposal the **target variable**, therefore
 - **Filter :** iteratively select subset of features and measure the relevance with the target, then pick the most relevant one.
 - **Intrinsic :** some Machine Learning algorithms already presents some intrinsic methods for evaluating the importance of the features like Ridge and Lasso [4].
 
-<a name="wordembeddings" />
 
 # Word embeddings
 
-Due to the limitations highlighted for [occurrence-based](#occurrencebased) representations (TL;DR do not capture semantic relationships, sparsity and big dimensions), we slightly shifted towards **word embeddings**, a distributed representation of the text across typically ~200/300 dimensions, remarkably lower than one hot encoding, tf-idf and so on. 
+Due to the limitations highlighted for occurrence-based representations (TL;DR do not capture semantic relationships, sparsity and big dimensions), we slightly shifted towards **word embeddings**, a distributed representation of the text across typically ~200/300 dimensions, remarkably lower than one hot encoding, tf-idf and so on. 
 
 Other than the “lower” dimension, another great advantage is the ability to **capture semantic relationships.** In particular, the features will represent the coordinate of the given word in a latent space, therefore similar words will be represented closer in that space. In fact, while dealing with word embeddings it is extremely important the concept of **similarity,** typically expressed by means of the cosine similarity, defined as cosine angle between a pair of vectors:
 
@@ -141,10 +133,10 @@ A graphical representation of the captured semantic similarity can be seen in th
 
   
 
-![Untitled](./image20.png)
+![Distributed vector representation](./image20.png)
 
 > src: [https://www.tensorflow.org/tutorials/text/word2vec](https://www.tensorflow.org/tutorials/text/word2vec)
-> 
+ 
 
 In order to capture the semantic similarities, word embedding methods rely on the **distributional hypothesis**. In particular, we say that the words appearing nearby a target word are semantically relevant. Therefore, in order to put into practice this assumption we analyze the whole text corpora through a sliding **window** approach. This window will enforce the semantically relevant concepts, while trying to maximize the similarity between the target and the “context” words (i.e. positive samples) and to minimize the similarity with the words appearing outside of the context (i.e. negative samples).
 
@@ -155,10 +147,10 @@ In order to capture the semantic similarities, word embedding methods rely on th
 - **Skip-gram**: predict the context words given the target word.
 - **Continuous Bag of Words (CBOW):** predict the target word given the context.
 
-![Schermata 2022-06-06 alle 20.19.41.png](./image02.png)
+![CBOW cs Skip-gram](./image02.png)
 
 > source : [5]
-> 
+ 
 
 ### Continuous Bag of Words
 
@@ -171,7 +163,7 @@ $$
 where $N$ is the number of tokens encoded through the $1$-of-$V$ coding ($V$ = vocab), where  is the size of the vocabulary. Then, $N\times D$ is the dimension of the projected layer and finally $D \times log_2(V)$ is due to the fact that for improving the complexity an hierarchical softmax has been employed, therefore instead of having a complexity of  $D \times V$ we end up with “only” $D \times log_2(V)$
 
 > **1-of-V coding:** If you have a fixed-size vocabulary of symbols with $V$members in total, each input symbol can be coded as a vector of size V with all zeros except for the element corresponding to the symbol's order in the vocabulary, which gets a 1 [6]
-> 
+ 
 
 ### Skipgram
 
@@ -190,8 +182,8 @@ To sum up, skipgram will be more expensive than CBOW but it will better capture 
 The same research group proposed some optimization techniques the same year on another paper [7]. The very first problem relies on the **imbalance** between positive and negative samples for each word. 
 
 > Positive sample : word appearing in the context of the target
-Negative sample : word appearing outside of the context of the target
-> 
+> Negative sample : word appearing outside of the context of the target
+ 
 
 So, the first optimization technique is “**negative sampling”.** If we select a window - let’s say - of $10$ words, we will have $9$  positive tokens (target excluded) and $V-9$ negative samples (assuming there is no repeated words). So, in order to tackle the imbalance the authors propose to subsample $k$ samples the negative samples. For small datasets the authors claim that we may aim to deal with 5-20 words whereas with very big dataset could use a fairly smaller window size of 2-5 words.
 
@@ -238,11 +230,11 @@ Once we iteratively update all the parameters starting from any target word in t
 
 ### Drawbacks
 
-Despite the huge novelty and the important contribution given by these two papers, there are some pitfalls that will be solved in the features by novel approaches. First, if you have noticed it, we are only dealing with tokens extracted from the vocabulary. Therefore, what will it happen if we encounter a new word?  Well, we will have the so called **out of vocabulary error** (OOV). We can discard the token and go on. It will be then solved by [FastText](#fasttext).
+Despite the huge novelty and the important contribution given by these two papers, there are some pitfalls that will be solved in the features by novel approaches. First, if you have noticed it, we are only dealing with tokens extracted from the vocabulary. Therefore, what will it happen if we encounter a new word?  Well, we will have the so called **out of vocabulary error** (OOV). We can discard the token and go on. It will be then solved by FastText.
 
-Moreover, Word2Vec does not take into account the **co-occurrencies** between the words, ignoring such an important global statistic about the text. It has been proposed later on by [GloVE](#glove).
+Moreover, Word2Vec does not take into account the **co-occurrencies** between the words, ignoring such an important global statistic about the text. It has been proposed later on by GloVE.
 
-<a name="fasttext" />
+
 
 ## Fast Text
 
@@ -283,8 +275,6 @@ s(w,c)=\sum_{g \in G_w} z^T v_c
 $$
 
 Since this would be quite expansive for “long” words, in order to bound a bit the memory requirements, the authors also proposed to employ an hashing function for mapping these n-grams to integers from 1 to $K$ (experimentally set to $2.10^6$). 
-
-<a name="glove" />  
   
 ## GloVE
 
@@ -294,7 +284,7 @@ To do so, a co-occurrence matrix $X$ is built having as entries $x_{ij}$  the nu
 
 Instead of relying just on mere probabilities, the authors claim that it would be definitely more informative to deal with the **ratio of co occurrence**, because it would be more suitable for **distinguishing relevant from irrelevant words**.
 
-Generally, the ratio of co occurrence will rely on triplets of words, namely $w_i,w_j,\bar w_k$ , the model will take the following form:
+Generally, the ratio of co occurrence will rely on triplets of words, namely $w_i,w_j,\bar w_k$, the model will take the following form:
 
 $$
 F(w_i,w_j,\bar w_k) = \frac {P_{ik}}{P_{jk}}
@@ -310,7 +300,7 @@ $$
 
 where $b_i, b_j$ are bias terms, $X_{ij}$ is the frequency of occurrence and $f(\cdot)$ is a weighting function that assigns lower weights to the rare and frequent co-occurrence. 
 
-<a name="sentenceembeddings" />  
+
   
 # Sentence Embedding
 
@@ -331,7 +321,7 @@ The final vector representation is trained for predicting the words in a paragra
 Each **word** is mapped to a unique vector, represented as a column in a matrix $W$ (i.e. words) and it is indexed with the position of the word in the vocabulary. Then, the **concatenation/sum** of the word vectors is employed for **predicting the next word in the sentence.** 
 
 > Notice that here we aim to predict the next word, and not the “central” word as with CBOW
-> 
+ 
 
 Going back to the **word level representation**, we can say that given a set of words $w_1,...,w_T$ we aim to maximize the average log probability:
 
@@ -351,10 +341,9 @@ As you may notice, another difference with Word2Vec is the presence of **the par
 
 For a computational point of view, this paragraph vector can be simply treated as a word token, therefore it will be averaged/concatenated together with the other word vectors. 
 
-![Schermata 2022-06-07 alle 11.08.38.png](./image03.png)
+![PV-DM](./image03.png)
 
 > source: [10]
-> 
 
 As in CBOW, we sample fixed length context from a random paragraph, we compute the error gradient and we use this error for updating the parameters. Once we **train** the model for obtaining our **word vectors** $W$, we have to **infer** the paragraph vectors $D$ for incoming paragraphs, by simply adding more columns in $D.$  To do so, we apply gradient descent on $D$ while keeping fixed $W,U,b$. Finally, we use $D$ for making predictions on some particular labels with simple classifier like logistic regression and similar one. 
 
@@ -366,12 +355,12 @@ So, at **each iteration** of gradient descent we sample a text window, as **inpu
 
 Its simplicity works also in terms of memory because we’ll store only the softmaxed weights rather than both softmaxed weights and word vectors. 
 
-Once we complete our training procedure, ****all paragraph IDs are mapped to a new space where the probabilities for **randomly selected words** in each document are maximized starting from that vector space representation to softmax output.
+Once we complete our training procedure, all paragraph IDs are mapped to a new space where the probabilities for **randomly selected words** in each document are maximized starting from that vector space representation to softmax output.
 
-![Schermata 2022-06-07 alle 11.29.35.png](./image04.png)
+![D-BoW](./image04.png)
 
 > source: [10]
-> 
+>
 
 At **inference** time, we freeze the weights of the hidden layers and final softmax and we select a word from a new document. Then we start with a random representation for the document vector and finally we will start adjusting the randomly initialized weights in order to maximize the current probability. 
 
@@ -397,13 +386,13 @@ where the columns of $U$ are the target words, the columns of $V$ denotes the vo
 
 Another proposed trick is the usage of a **dynamic context window,** where for each subsampled word $w$, the size of its associated context window is sampled uniformly between $1$ and $w_s$. So, it is a way of weighing by the distance from the current word divided by the window size. 
 
-<a name="elmo" />
+
   
 # ELMo
 
-**ELMo** [12] states for Embeddings from Language Models. So first, what is a language model? ****A **language model** (LM) is a probabilistic statistical model that estimates the probability of linguistic units (words, sequences). Very briefly, in Natural Language Processing we use it for **predicting the next word.** 
+**ELMo** [12] states for Embeddings from Language Models. So first, what is a language model? A **language model** (LM) is a probabilistic statistical model that estimates the probability of linguistic units (words, sequences). Very briefly, in Natural Language Processing we use it for **predicting the next word.** 
 
-![2022-06-07 14.23.28.jpg](./image01.jpg)
+![Example of contextualized embedding](./image01.jpg)
 
 There are three kind (two + one bonus) of language models:
 
@@ -436,7 +425,7 @@ $$
 
 This final $\gamma$ parameter is a learnable parameter used for scaling the whole final ELMo vector. It was important from an optimization point of view, due to the different distributions between the bilateral internal representations and the task specific ones. 
 
-<a name="seq2seq" />  
+
   
 # Sequence to sequence models
 
@@ -444,15 +433,15 @@ A **sequence to sequence model** (seq2seq) aims to convert a sequence of tokens 
 
 Long Short Term Memory (LSTM) already allowed to deal with sequences, but we had one very strict requirement: both **input and output length must be equal.** So it is easy to realize that in a real scenario it is not feasible at all. 
 
-With that to be said, sequence to sequence models solve this problem with an encoder-decoder ****architecture. The **encoder** captures the context of the input sequence in the form of a. hidden state and it will send its output to the **decoder** that will learn how to decode it, and it will produce the requested output.
+With that to be said, sequence to sequence models solve this problem with an encoder-decoder architecture. The **encoder** captures the context of the input sequence in the form of a. hidden state and it will send its output to the **decoder** that will learn how to decode it, and it will produce the requested output.
 
-![Schermata 2022-06-17 alle 07.48.08.png](./image12.png)
+![Encoder-Decoder architecture](./image12.png)
 
 Inside the encoder (or decoder) block we can have either RNNs, LSTMs and GRUs. Each single element will receive as input the output of the previous one and will give its output to the next one. Obviously, each one needs to learn, therefore we’ll have **hidden states** between each single component. Then, only the last hidden vector of the encoder will be fed to the first decoder, and same as before.
 
 Based on the proposed representation, the network will learn in just one direction, taking into account the current context information. However, since we are dealing with RNNs/LSTMs/GRUs, we still have to process the data **one by one** and it will be quite slow. Then, as anticipated before, we are assuming that the current word is **only dependent from the previous words**, not considering the following ones. 
 
-<a name="attention" />  
+
   
 # Attention
 
@@ -490,25 +479,22 @@ Therefore, by doing so, we’ll compute the attention for each token with respec
 
 If you wanna read something more with amazing graphics I would suggest you the following this [reading](https://towardsdatascience.com/transformers-explained-visually-part-3-multi-head-attention-deep-dive-1c1ff1024853). 
 
-<a name="transformers" />  
+
   
 # Transformers
 
-The **Transformer architecture** leverages attention to boost the speed with which these
-models can be trained. It employs an encoder decoder architecture like recurrent
-neural nets, but the novelty here is that we can pass the input sequence in **parallel**. We have no more the concept of "timestamp" like in RNNs, so we pass them all **simultaneously** and
-as a consequence we gather the word embeddings simultaneously. The basic **structure** of a transformer is a stack of encoder and/or decoders. 
+The **Transformer architecture** leverages attention to boost the speed with which these models can be trained. It employs an encoder decoder architecture like recurrent neural nets, but the novelty here is that we can pass the input sequence in **parallel**. We have no more the concept of "timestamp" like in RNNs, so we pass them all **simultaneously** and as a consequence we gather the word embeddings simultaneously. The basic **structure** of a transformer is a stack of encoder and/or decoders. 
 
-![Schermata 2022-06-17 alle 11.41.52.png](./image14.png)
+![Transformers](./image14.png)
 
 When the attention is performed on queries, keys and values generated from the same embedding, it is called **self attention**. Vice versa, when it is performed on queries generated from one embedding and the keys/values are generated from another embedding it becomes **cross attention.** 
 
 > ***Clear example from Alfredo Canziani ([link](https://www.youtube.com/watch?v=fEVyfT-gLqQ)):***
-Recall that with attention we mimic the retrieval of a “value” given a "query” and a “key”. Let us assume that we want to retrieve a specific recipe from a book. The **query** will be my recipe, the **key** will be the title and **value** will be the actual content of the recipe.
-
-→ Query : How to make a pizza margherita?
-→ Key : Pizza margherita
-→ Value : Flour, water, tomato sauce and so on..
+> Recall that with attention we mimic the retrieval of a “value” given a "query” and a “key”. Let us assume that we want to retrieve a specific recipe from a book. The **query** will be my recipe, the **key** will be the title and **value** will be the actual content of the recipe.
+>
+> → Query : How to make a pizza margherita?
+> → Key : Pizza margherita
+> → Value : Flour, water, tomato sauce and so on..
 
 If we assume the the dimension of query and key is identical ($t$). Whenever we ask a query, we have to store **the scores** of the query against all the values. So, the attention vector is going to have $t$ items, each one will have a score for each book. 
 
@@ -525,7 +511,7 @@ So, instead of using a binary notations (that would have wasted a lot of resourc
 
 If we want go deep on the architecture, let us start from the following detailed schema proposed by the Vaswani et al [23]
 
-![Schermata 2022-06-17 alle 11.43.51.png](./image15.png)
+![Transformers](./image15.png)
 
 ### Encoder
 
@@ -568,7 +554,7 @@ For **fine tuning** we have two (three) main tasks:
 
 In all these three cases, ideally we need ∼ 2.5 billions sentences to train the model and around ∼1 thousand sentences for fine tuning it, this is why the pre train and fine tuning approach is so convenient.
 
-![Schermata 2022-06-10 alle 07.58.38.png](./image05.png)
+![BERT: pre-training and fine-tuning](./image05.png)
 
 ## GPT
 
@@ -579,7 +565,7 @@ Another key difference is on its self attention layer that now it becomes a **ma
 Finally, it seems legit to ask: how do we go **up within the stack** of decoders? Well, the first block can now process the token by first passing it through the self-attention process, then passing it through its neural network layer. Once the first transformer block processes the
 token, it sends its resulting vector up the stack to be processed by the next block. The process is identical in each block, but each block has its own weights in both self-attention and the neural network sublayers.
 
-<a name="recsys" />  
+
   
 # Recommender Systems
 
@@ -587,7 +573,7 @@ A recommender systems identifies the preferences of the users and recommends the
 
 Nowadays all the online services used recommender systems in order to maximize your engagement or your spending on their platforms. 
 
-![Untitled](./image21.png) 
+![Netflix](./image21.png) 
 
 ### Framework
 
@@ -600,7 +586,7 @@ Moreover, it could be possible to deal with **hybrid approaches**, so that the r
 
 The foundation of a recommender system is the **utility matrix**, where we can find the users in the columns and items in the rows (or vice versa). The values are the ratings given by the users to the relative contents, from 1 to 5. Assuming only a manual annotation performed by the user, it would be something like the following one:
 
-![Schermata 2022-06-10 alle 16.51.17.png](./image06.png)
+![Sparse Utility Matrix](./image06.png)
 
 Of course there is a big problem. Could we ask to the users to **annotate** their “column” for each item on the database? Of course not. So, the only thing that we could do is to **infer** the missing values through Machine Learning or Deep Learning algorithms based on user data. 
 
@@ -608,7 +594,7 @@ If a user will spontaneously annotate an item we talk about **an explicit feedba
 
 So, after these premises, from now on we can assume that we’re dealing with a complete utility matrix.
 
-![Untitled](./image24.png)
+![Filled Utility Matrix](./image24.png)
 
 ## Content based
 
@@ -629,7 +615,7 @@ To do so, the focus will be on the relationships between each user and their rat
 - **User Based** (UB): the target item will be rated with a rate similar to those assigned by similar user.
 - **Content Based** (CB): the target item will be rated with a rate similar to the ones assigned to similar items.
 
-![Schermata 2022-06-17 alle 18.23.43.png](./image17.png)
+![User based vs Content based collaborative filtering](./image17.png)
 
 The content based collaborative filtering was invented by Amazon because due to the scale of their customers, they claimed that the number and the preferences of the user are more dynamic than number and the number and relations between the items. Therefore, the item-based collaborative filtering can be computed just once in a while, whereas the user-based collaborative filtering should be updated more frequently [15].
 
@@ -640,7 +626,7 @@ Beside the previous operative approaches, we have four main approaches for colla
 - **Hybrid approaches**: combine both memory based and model based approaches, overcoming their limitation and trying to improve the overall performances.
 - **Deep Learning approaches**: with the advent of Deep Learning we have seen an increasing interest on the topic with many outstanding papers out there. Since we’re dealing with Natural Language Processing, here are two fine tuned BERT: RecoBERT [18] and BERTbase [19]
 
-<a name="mt" />  
+
   
 # Machine Translation
 
@@ -688,13 +674,13 @@ Anyway, since the goal is to obtain a sequence of tokens in the target language 
 
 In other words, we are dealing with an **encoder-decoder** architecture. The encoder will convert the input variable sequence length into a fixed size sequence and the decoder will produce the output variable sequence. 
 
-![Schermata 2022-06-17 alle 08.01.57.png](./image13.png)
+![Encoder-Decoder](./image13.png)
 
 The output sequence will be produced step by step, **maximizing the likelihood** for the next possible translation. As before we have **three possibilities**: exhaustive encoding, greedy encoding and heuristics. 
 
 Obviously a greedy encoding will lead to fast but approximate results, an exhaustive encoding will lead to accurate but very slow performances and heuristics may be suitable for balancing speed and accuracy. 
 
-<a name="ts" />  
+
   
 # Text summarization
 
@@ -780,7 +766,7 @@ An interesting **abstractive** neural summarization method is **BART**.
 
 ### BART
 
-**BART** [23] ****pre trains a model  combining Bidirectional and Auto-Regressive Transformers. In fact we could say that BART is nothing but BERT (encoding) + GPT (decoding). 
+**BART** [23] pre trains a model  combining Bidirectional and Auto-Regressive Transformers. In fact we could say that BART is nothing but BERT (encoding) + GPT (decoding). 
 
 The **training** pipeline is quite straightforward:
 
@@ -797,7 +783,6 @@ A part from training, it can be fine tuned for many tasks, achieving promising r
 
 In order to fine tune it for text summarization, it will be treated like any sequence generation task. Hence, the input will be manipulated from the encoder and finally the decoder will generate the summaries autoregressively. 
 
-<a name="tm" />  
   
 # Topic Modeling
 
@@ -878,7 +863,7 @@ $$
 
 where $T$ is the number of latent topics.  **Graphically**, the LDA generative model is the following one:
 
-![Schermata 2022-06-11 alle 18.35.48.png](./image08.png)
+![Topic Modeling via LDA](./image08.png)
 
 where $\theta$ is the joint multivariate distribution of the topic mixture, $z$ is the set of $N$ topics and $w$ is the set of terms in the input dictionary. Finally, the **joint multivariate distribution** of the topic mixture is defined as:
 
@@ -887,8 +872,6 @@ p(\theta,z,w|\alpha,\beta) = p(\theta,\alpha) \prod_{n=1}^{N_d} p(z_n|\theta)p(w
 $$
 
 that formalizes the probability of having a particular distribution given a setup for the Dirichlet priors.
-
-<a name="ner" />                                                                                                              
                                                                                                               
 # Named Entity Recognition
 
@@ -898,8 +881,7 @@ Once we define our set of pre defined named entities we can leverage many **diff
 
 ![Untitled](./image25.png)
 
-> You can try a live demo from [here](https://explosion.ai/demos/displacy-ent?)!
-> 
+> You can try a live demo from [here](https://explosion.ai/demos/displacy-ent?)! 
 
 ## Knowledge Engineering
 
@@ -920,9 +902,9 @@ Despite the efficiency of knowledge engineering approaches, at the moment most o
 
 For each word the algorithm deal with four different prefixes:
 
-- B-prefix **: beginning of a named entity
-- I-prefix **: word inside a named entity
-- O-prefix *:* word outside a named entity
+- B-prefix : beginning of a named entity
+- I-prefix : word inside a named entity
+- O-prefix : word outside a named entity
 
 Other possible features leverage POS tagging, symbols, substrings and word shapes. The latter maps each word to a simplified representation, encoding attributes like length, capitalization, numerals, internal punctuation, etc.
 
@@ -939,7 +921,7 @@ It is trained via a **Masked Language Model** and an interesting novelty regards
 The final **loss function** is the sum of MLM loss and cross-entropy loss on predicting
 the masked entities, where the latter is computed identically to the entities.
 
-<a name="gra" />  
+
   
 # Graph Ranking algorithms
 
@@ -949,7 +931,7 @@ Two of the most important algorithms are **Page Rank and HITS**.
 
 ## Page Rank
 
-**Page Rank** [27] ****is a graph ranking algorithm that relies on the idea that a user may end up in a page just randomly clicking on links. In fact, it will reproduce the likelihood that a user will arrive to a page while randomly clicking on links.
+**Page Rank** [27] is a graph ranking algorithm that relies on the idea that a user may end up in a page just randomly clicking on links. In fact, it will reproduce the likelihood that a user will arrive to a page while randomly clicking on links.
 
 There are two binding rules on Page Rank:
 
