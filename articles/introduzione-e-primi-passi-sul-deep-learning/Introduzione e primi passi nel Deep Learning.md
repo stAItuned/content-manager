@@ -11,7 +11,7 @@ cover: deep-learning.jpg
 
 # Deep Learning
 
-Il **Deep Learning** (o apprendimento approfondito) è il ramo più profondo dell'**Intelligenza Artificiale** e la sottocategoria del **Machine Learning**.
+Il **Deep Learning** (o apprendimento approfondito) è il ramo più profondo dell'**[Intelligenza Artificiale](..)** e la sottocategoria del **[Machine Learning](...)**.
 Consiste in un insieme di tecniche che utilizzano **reti neurali artificiali** per simulare il cervello umano e la sua possibilità di inviare impulsi elettrici, generando "decisioni".
 
 ## Come funziona il Deep Learning?
