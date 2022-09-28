@@ -1,7 +1,7 @@
 ---
 title: Storia dell’Intelligenza Artificiale
 author: Roberta Ghidini
-date: 2022-09-26
+date: 
 topics: [Machine Learning]
 meta: 1956 data ufficiale della nascita dell’Intelligenza Artificiale, ma bisogna considerare il lungo percorso e le scoperte che ci hanno portato a quella data. 
 target: Newbie

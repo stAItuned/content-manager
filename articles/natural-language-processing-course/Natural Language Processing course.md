@@ -1,7 +1,7 @@
 ---
 title: Natural Language Processing course
 author: Francesco Di Salvo
-date: 2022-09-20
+date: 
 topics: [NLP]
 meta: Comprehensive guide to Natural Language Processing, from the basic topics to some of the most difficult and interesting ones. 
 target: midway

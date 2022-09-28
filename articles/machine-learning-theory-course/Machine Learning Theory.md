@@ -1,7 +1,7 @@
 ---
 title: Machine Learning Theory course
 author: Francesco Di Salvo
-date: 2022-09-24
+date: 
 topics: [Machine Learning]
 meta: Machine Learning course, starting from the basics. 
 target: midway

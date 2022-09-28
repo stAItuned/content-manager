@@ -1,7 +1,7 @@
 ---
 title: Big Data
 author: Roberta Ghidini
-date: 2022-09-26
+date: 
 topics: [Machine Learning]
 meta: I Big Data sono un'enorme quantità di dati impossibile da elaborare attraverso i software tradizionali, per questo vengono utilizzate tecniche di Machine Learning
 target: Newbie
