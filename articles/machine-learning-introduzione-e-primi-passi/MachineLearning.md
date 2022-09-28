@@ -1,9 +1,9 @@
 ---
 meta: Una breve introduzione al machine learning e alle sue applicazioni. Come funziona e come un computer impara dai dati forniti.
-date: 01/08/2022 
+date: 2022/08/01
 target: Newbie 
 topics: [Machine Learning] 
-cover:  
+cover:  cover.jpg
 title:  Machine Learning - introduzione e primi passi
 language: Italian
 author: Francesco Di Gangi
