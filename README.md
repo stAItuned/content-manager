@@ -23,17 +23,17 @@
 ```YAML
 ---
 meta: brief description of the blogpost 
-date: current date 
+date: current date (yyyy/mm/dd)
 target: Newbie | Midway | Expert 
 topics: [Deep Learning, List separated by commas] 
 cover: filename of the cover image, located next to the markdown file 
-title:  
+title:  title
 language: English | Italian
 author: Name must exist
 ---
 ```
 > This piece of code has to be placed at the beginning of the page.
-> See an example [here](https://github.com/stAItuned/articles/tree/main/articles/machine-learning-intro).
+> See an example [here](https://github.com/stAItuned/content-manager/blob/main/articles/quando-%C3%A8-nata-l-intelligenza-artificiale/Quando%20%C3%A8%20nata%20l%E2%80%99Intelligenza%20Artificiale.md).
 
 ### 🙋🏼‍♀️ 🙆🏽‍♂️ Team member meta
 ```YAML

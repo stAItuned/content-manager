@@ -1,5 +1,5 @@
 ---
-title: Quando è nata l’Intelligenza Artificiale?
+title: Storia dell’Intelligenza Artificiale
 author: Roberta Ghidini
 date: 2022-09-26
 topics: [Machine Learning]
@@ -9,11 +9,9 @@ language: Italian
 cover: Storia_dellIntelligenza_Artificiale.jpg
 ---
 
-# Quando è nata l’Intelligenza Artificiale?
+# Storia dell’Intelligenza Artificiale
 
-## Storia dell’Intelligenza Artificiale
-
-Il **1956** è l’anno ufficiale in cui nasce l’**[Intelligenza Artificiale](https://www.notion.so/Cos-l-Intelligenza-Artificiale-stAI-tuned-b80b54571aae4eb98d71b5a9ebadf0b5),** ma dobbiamo tenere in considerazione quale sia stato il percorso che ci ha portato a quella data, quali sono state le scoperte pregresse che hanno consentito agli scienziati di quel periodo di poter dare inizio ad una nuova Era.
+Il **1956** è l’anno ufficiale in cui nasce l’**[Intelligenza Artificiale](...),** ma dobbiamo tenere in considerazione quale sia stato il percorso che ci ha portato a quella data, quali sono state le scoperte pregresse che hanno consentito agli scienziati di quel periodo di poter dare inizio ad una nuova Era.
 
 ## **Le basi che hanno portato alla nascita dell’Intelligenza Artificiale**
 
@@ -21,7 +19,7 @@ Nell’immaginario comune l’**Intelligenza Artificiale** non è che una novit
 
 Bisogna infatti notare che tutte le innovazioni tecnologiche a cui abbiamo accesso ogni giorno, hanno avuto origine per necessità belliche, così come è avvenuto nel 1936 per il primo modello concettuale di computer, denominato **macchina di Turing**, dal nome del suo fondatore.
 
-![Storia dell’Intelligenza Artificiale Alan Touring](Quando%20e%CC%80%20nata%20l%E2%80%99Intelligenza%20Artificiale%20-%20stAI%20t%20596fa0c5a3fd4c9295a713648cab9073/Storia_dellIntelligenza_Artificiale_Alan_Turing.jpg)
+![Storia dell’Intelligenza Artificiale Alan Touring](./Storia_dellIntelligenza_Artificiale_Alan_Turing.jpg)
 
 
 La *macchina di Turing* non era altro che una macchina ideale in grado di elaborare i dati sovrascritti sopra un nastro di lunghezza potenzialmente infinita, nel rispetto di regole definite *(algoritmi).* Ogni computer esistente al giorno d’oggi potrebbe essere semplificato in una *macchina di Turing*.
@@ -34,7 +32,7 @@ Da questo momento in avanti, le sperimentazioni proseguono e la curiosità di ri
 
 Nel **1956**, data ufficiale della nascita dell’Intelligenza Artificiale, viene quindi organizzato il primo grande seminario estivo svoltosi presso il **Dartmouth College** di Hanover nel New Hampshire, dove sono state poste le basi di questa nuova disciplina e organizzate iniziative di creazione di macchine in grado di simulare l’*apprendimento* e l’*intelligenza umana*.
 
-![Storia dell’Intelligenza Artificiale](Storia_dellIntelligenza_Artificiale.jpg)
+![Storia dell’Intelligenza Artificiale](./Storia_dellIntelligenza_Artificiale.jpg)
 
 
 
@@ -44,16 +42,15 @@ Qualche anno più tardi, uno psicologo statunitense, **Frank Rosenblatt** ha s
 
 Si tratta di un algoritmo che simula il comportamento di un **neurone biologico**, il quale prende in ingresso un impulso elettrico, se questo oltrepassa una determinata soglia il neurone si attiva e genera un impulso in uscita, altrimenti l’impulso non viene propagato. 
 
-Artificialmente il **percettrone** è un **[algoritmo](https://www.notion.so/Cos-un-algoritmo-e-per-cosa-si-utilizza-stAI-tuned-99f8ed22073948dfab1bf885941e90db)** che simula il neurone biologico. Nel momento in cui arriva un impulso (in questo caso **dati**) al neurone, quest’ultimo applica loro una funzione, detta **funzione di attivazione.** Quest’ultima, come la soglia nel neurone biologico, stabilisce se l’impulso debba essere propagato o meno.
+Artificialmente il **percettrone** è un **[algoritmo](./../cos-%C3%A8-un-algoritmo-e-per-cosa-si-utilizza/Cos%E2%80%99%C3%A8%20un%20algoritmo%20e%20per%20cosa%20si%20utilizza.md)** che simula il neurone biologico. Nel momento in cui arriva un impulso (in questo caso **dati**) al neurone, quest’ultimo applica loro una funzione, detta **funzione di attivazione.** Quest’ultima, come la soglia nel neurone biologico, stabilisce se l’impulso debba essere propagato o meno.
 
-![Le origini dell’Intelligenza Artificiale: il percettrone](Storia_dellIntelligenza_Artificiale_percettrone.png)
+![Le origini dell’Intelligenza Artificiale: il percettrone](./Storia_dellIntelligenza_Artificiale_percettrone.png)
 
 L’applicazione del percettrone è stata quella di essere utilizzato come algortimo di **classificazione binaria**, ovvero se l’input appartenesse alla classe 0 o classe 1. 
 
 Questo concetto è stato alla base della successiva elaborazione delle **reti neurali** ossia un modello di calcolo composto da neuroni artificiali, realizzati ad immagine e somiglianza della rete neurale biologica.
 
-![Storia dell’Intelligenza Artificiale, reti neurali](Storia_dellIntelligenza_Artificiale_reti_neurali.webp)
-
+![Storia dell’Intelligenza Artificiale, reti neurali](./Storia_dellIntelligenza_Artificiale_reti_neurali.webp)
 
 Gli anni successivi non sono altro che un **fermento intellettuale** continuo, le più grandi università e aziende informatiche del tempo hanno iniziato a puntare sulla ricerca e sviluppo di nuovi programmi software in grado di riprodurre l’intelligenza umana.
 
