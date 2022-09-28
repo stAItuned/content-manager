@@ -19,10 +19,10 @@ Abbiamo appunto detto che la *cluster analysis* ha l’obiettivo trovare similar
 Quindi, in soldoni, fornendo dei dati a un algoritmo di *cluster analysis*, esso riuscirà a trovare caratteristiche simili o comuni fra i dati e a raggrupparli.
 
 Un esempio di clustering è mostrato nella seguente immagine:
-<p align="center">
-| ![image](./1.jpg) | 
+
+| <img src="./1.jpg"> | 
 |:--:|
-|<i>Esempio di cluster analysis dove i dati sono divisi in tre gruppi.</i>|</p>
+|<i>Esempio di cluster analysis dove i dati sono divisi in tre gruppi.</i>|
 
 Qui vediamo che i dati, ad esempio, sono stati divisi in tre gruppi: verde, blu e rosa.
 
@@ -32,10 +32,10 @@ In generale, la qualità di un clustering è dettata da due distanze diverse:
 
 - I**ntra Clustering:** ovvero la distanza degli elementi che fanno parte dello stesso cluster, in questo caso vogliamo che gli elementi abbiano una distanza (ovvero una diversità fra gli elementi) molto ridotta.
 - I**nter Cluster:** ovvero la distanza fra i **cluster** diversi, in questo caso invece, visto che si parla di distanza fra due gruppi distinti e separati, è opportuno che essa sia più elevata. Immaginate due razze di cane molto simili fra di loro, diventerebbe difficile - in mancanza di caratteristiche dettagliate - dire a quale appartiene un cane. Mentre invece, banalmente, un chihuahua differisce molto da un pastore tedesco.
-<p align="center">
+
 | <img src="./2.jpg"> | 
 |:--:|
-|<i>Esempio grafico di intra cluster e inter cluster.</i>|</p>
+|<i>Esempio grafico di intra cluster e inter cluster.</i>|
 
 Questo *trade-off* dipende sia da come viene definito il concetto di similarità, sia da come viene implementato: ciò significa che siamo noi a poter dire cosa intendiamo per similarità. Per riprendere l’esempio precedente, fra il chihuahua e un pastore tedesco: potrebbe semplicemente bastarci che l’algoritmo capisca che sono entrambi due cani e classificarli quindi in un grande cluster “cani”; oppure potrebbe interessarci la razza - e quindi dovremmo definire un concetto di similarità diversa, come ad esempio la grandezza o il colore del pelo. 
 
@@ -45,19 +45,19 @@ I principali approcci di clustering sono di tre tipi:
  <p align="center">
 |<img src="./3.jpg"> | 
 |:--:|
-|<i>Esempio di Clustering a partizione.</i>|</p>
+|<i>Esempio di Clustering a partizione.</i>|
 
 - **Gerarchico**: in questa tipologia non forniamo in anticipo quanti k cluster ci saranno, infatti in questo caso ogni volta che un elemento viene inserito, si crea un cluster e, se si dovessero trovare degli elementi più specifici, si va a creare un “sottogruppo” dedicato a quegli elementi specifici. Qui si parla invece di clustering a più livelli, adatto anche a una quantità di dati medio/grande; ma attenzione, in quanto una volta creati i vari sottogruppi, gli elementi non si possono più spostare!
-<p align="center">
+
 | <img src="./4.jpg"> | 
 |:--:|
-|<i>Esempio di Clustering gerarchico.</i>|</p>
+|<i>Esempio di Clustering gerarchico.</i>|
 
 - **Basato su densità**: in questo tipo di clustering, si analizza più la “quantità” (o densità, appunto) degli elementi presenti in un cluster: se essa è elevata e l’elemento somiglia a quelli già presenti, lo si inserisce; altrimenti si crea una nuova zona. Questo tipo di clustering è in grado di trovare dati che possono risultare errati - anche detti outliers, rumore - ovvero dati che non appartengono a nessun gruppo.
- <p align="center">
+
 |<img src="./5.jpg"> | 
 |:--:|
-|<i>Esempio di Clustering basato su densità.</i>|</p>
+|<i>Esempio di Clustering basato su densità.</i>|
 
 È bene, a questo punto, chiarire alcuni dubbi:
 

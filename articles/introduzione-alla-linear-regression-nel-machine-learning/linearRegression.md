@@ -53,7 +53,7 @@ L’obiettivo della Linear Regression è appunto evidenziare una crescita (o una
 Nel nostro caso, evidenziamo che l’aumento dei metri quadri comporta l’aumento del prezzo (e quindi una maggiore inclinazione); e viceversa un decremento comporterebbe una minore inclinazione e di conseguenza *y* diminuirebbe velocemente tanto quanto *x.*
 
 Cambiamo adesso la equazione della retta come segue:
-<p style="text-align: center;">*y=b+wx*</p>
+<p style="text-align: center;">y=b+wx</p>
 
 Dove
 
