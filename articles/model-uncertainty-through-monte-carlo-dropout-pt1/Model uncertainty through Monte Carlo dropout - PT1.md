@@ -4,7 +4,7 @@ author: Francesco Di Salvo
 date: 2022-09-28
 topics: [Deep Learning]
 meta: Model uncertainty is typically handled via Bayesian Deep Learning, but this comes with a prohibitive cost. A solution is given by the MC Dropout.
-target: Newbie
+target: Expert
 language: English
 cover: cover.webp 
 ---
