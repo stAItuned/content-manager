@@ -1,6 +1,6 @@
 ---
 meta: La classificazione consiste nell’identificare a quale categoria appartiene un elemento in input, sulla base di un modello di classificazione applicato.
-date: 2022/09/10
+date: 
 target: Newbie 
 topics: [Machine Learning, Classification, Classificazione] 
 cover:  cover.jpg
