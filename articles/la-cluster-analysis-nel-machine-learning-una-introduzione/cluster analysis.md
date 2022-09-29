@@ -1,6 +1,6 @@
 ---
 meta: La Cluster Analysis, o clustering, consiste in un insieme di tecniche che vanno a raggruppare (in cluster, o contenitori) un insieme di dati omogenei.
-date: 2022/08/25
+date: 
 target: Newbie 
 topics: [Machine Learning, Cluster Analysis, Clustering] 
 cover:  cover.jpg
