@@ -1,6 +1,6 @@
 ---
 name: Roberta Ghidini
-team: [Marketing, Graphics]
+team: [Marketing]
 title: Founder & Digital Marketing Strategist
 linkedin: https://www.linkedin.com/in/robertaghidini/
 email: robighidini@gmail.com
