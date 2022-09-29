@@ -1,6 +1,6 @@
 ---
 meta: La Linear Regression si occupa di studiare e formalizzare una relazione fra fenomeni, con una funzione che esprime tale relazione.
-date: 2022/08/12
+date: 
 target: Newbie 
 topics: [Machine Learning, Regressione Lineare, Linear Regression] 
 cover:  lr.jpg
