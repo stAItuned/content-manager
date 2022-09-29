@@ -1,6 +1,6 @@
 ---
 meta: Una breve introduzione al machine learning e alle sue applicazioni. Come funziona e come un computer impara dai dati forniti.
-date: 2022/08/01
+date: 
 target: Newbie 
 topics: [Machine Learning] 
 cover:  cover.jpg
