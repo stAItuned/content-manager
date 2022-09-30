@@ -4,7 +4,7 @@ date:
 target: Newbie 
 topics: [Deep Learning, Computer Vision, Earth Observation] 
 cover: cover.png 
-title:  Super Resolution: what is it and why is it useful?
+title:  "Super Resolution: what is it and why is it useful?"
 language: English
 author: Gabriele Inzerillo
 ---
