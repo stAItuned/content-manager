@@ -1,4 +1,4 @@
-```markdown
+---
 meta: Of the various computer vision techniques, super-resolution tasks are among the least known but at the same time those that could become more game-changing in the future.
 date: 
 target: Newbie 
@@ -7,7 +7,7 @@ cover: cover.png
 title:  Super Resolution: what is it and why is it useful?
 language: English
 author: Gabriele Inzerillo
-```
+---
 
 # Super-Resolution: what is it and why is it useful?
 
