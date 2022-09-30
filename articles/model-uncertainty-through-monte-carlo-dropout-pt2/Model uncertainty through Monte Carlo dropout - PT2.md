@@ -9,7 +9,7 @@ language: English
 cover: cover.jpg 
 ---
 
-# Model uncertainty through Monte Carlo dropout - Part 2
+# Model uncertainty through Monte Carlo dropout - PT2
 This small series of blog-posts aims to explain and illustrate the Monte Carlo Dropout for evaluating the model uncertainty. The [first part](./../model-uncertainty-through-monte-carlo-dropout-pt1/Model%20uncertainty%20through%20Monte%20Carlo%20dropout%20-%20PT1.md) will investigate the model uncertainty in Deep Learning and how it can be hadled, inspecting pros and cons of different approaches. Then, this second part explains, step by step, the pipeline of a practical project (with [code](https://github.com/francescodisalvo05/monte-carlo-dropout)) in PyTorch. I hope you'll enjoy them!
 
 ## Brief recap of Monte Carlo Dropout

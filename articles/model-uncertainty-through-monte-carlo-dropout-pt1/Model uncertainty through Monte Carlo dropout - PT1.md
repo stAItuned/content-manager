@@ -9,7 +9,7 @@ language: English
 cover: cover.webp 
 ---
 
-# Model uncertainty through Monte Carlo dropout - Part 1
+# Model uncertainty through Monte Carlo dropout - PT1
 This small series of blog-posts aims to explain and illustrate the Monte Carlo Dropout for evaluating the model uncertainty. The first one will investigate the model uncertainty in Deep Learning and how it can be hadled, inspecting pros and cons of different approaches. Then, the [second part](./../model-uncertainty-through-monte-carlo-dropout-pt2/Model%20uncertainty%20through%20Monte%20Carlo%20dropout%20-%20PT2.md) explains, step by step, the pipeline of a practical project (with [code](https://github.com/francescodisalvo05/monte-carlo-dropout)). I hope you'll enjoy them!
 
 
@@ -72,6 +72,7 @@ In case of a classification or regression task, it would be interesting the eval
 The following example is taken from my Master Thesis and it represents a Monte Carlo dropout pipeline employed on a tumor classification task. The goal was to classify whether a tumor was benign or malignant. Therefore we leveraged $100$ Monte Carlo samples and we estimated the uncertainty with the variance between the malignant probabilities, proving that an higher variance was correlated with lower classification performances. 
 
 ![Monte Carlo dropout pipeline on a tumor classification task](./mc_classification_pipeline.png)
+
 
 ## Conclusions 
 To conclude, it should be clear that Bayesian Deep Learning is prohibitive for all those modern netwrorks which have billions of parameters. Several approximation of the Bayesian inference were proposed over the years and one the most popular is the Monte Carlo Dropout, that we covered on this first article. 
