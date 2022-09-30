@@ -12,7 +12,7 @@ cover: cover.png
 
 # **Cos’è un algoritmo?**
 
-Dal **dizionario [Treccani**](https://www.treccani.it/) troviamo l’origine del termine **algoritmo**:
+Dal dizionario [Treccani](https://www.treccani.it/) troviamo l’origine del termine **algoritmo**:
 
 *“Con un algoritmo si tende a esprimere in termini matematicamente precisi il concetto di procedura generale, di metodo sistematico valido per la soluzione di una certa classe di problemi”*
 
