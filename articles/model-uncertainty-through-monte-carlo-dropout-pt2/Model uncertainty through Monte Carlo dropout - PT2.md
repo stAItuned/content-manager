@@ -1,7 +1,7 @@
 ---
 title: Model uncertainty through Monte Carlo dropout - PT2
 author: Francesco Di Salvo
-date: 2022-09-28
+date: 
 topics: [Deep Learning, Uncertainty]
 meta: Practical example of the Monte Carlo dropout with code. 
 target: Expert
