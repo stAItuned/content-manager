@@ -2,7 +2,7 @@
 title: Data Science
 author: Roberta Ghidini
 date: 
-topics: [Machine Learning]
+topics: [Basic]
 meta: La Data Science è un approccio mutlidisciplinare composto da statistica, analisi dei dati, Intelligenza Artificiale e metodi scientifici per l’analisi dei dati 
 target: Newbie
 language: Italian
