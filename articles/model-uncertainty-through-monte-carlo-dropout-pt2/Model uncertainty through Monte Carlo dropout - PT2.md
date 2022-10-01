@@ -438,7 +438,7 @@ Therefore, below I reported the top 16 images for both categories, namely "certa
 
 |Low variance|High variance|
 |:----:|:-------------:|
-|![](./certain.png) | ![16 examples of "uncertain" outcomes](./uncertain.png) |
+|![16 examples of 'certain' outcomes](./certain.png) | ![16 examples of 'uncertain' outcomes](./uncertain.png) |
 
 Can we draw further assumptions based on these samples? Well, probably not. We probably need to investigate more in depth the images in order to spot some interesting pattern. 
 
