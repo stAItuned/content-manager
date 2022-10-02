@@ -10,7 +10,7 @@ cover: cover.webp
 ---
 
 # Model uncertainty through Monte Carlo dropout - PT1
-This small series of blog-posts aims to explain and illustrate the Monte Carlo Dropout for evaluating the model uncertainty. The first one will investigate the model uncertainty in Deep Learning and how it can be hadled, inspecting pros and cons of different approaches. Then, the [second part](./../model-uncertainty-through-monte-carlo-dropout-pt2/Model%20uncertainty%20through%20Monte%20Carlo%20dropout%20-%20PT2.md) explains, step by step, the pipeline of a practical project (with [code](https://github.com/francescodisalvo05/monte-carlo-dropout)). I hope you'll enjoy them!
+This small series of blog-posts aims to explain and illustrate the Monte Carlo Dropout for evaluating the model uncertainty. The first one will investigate the model uncertainty in Deep Learning and how it can be hadled, inspecting pros and cons of different approaches. Then, the [second part](./../model-uncertainty-through-monte-carlo-dropout-pt2/Model%20uncertainty%20through%20Monte%20Carlo%20dropout%20-%20PT2.md) explains, step by step, the pipeline of a practical project (with [code](https://github.com/francescodisalvo05/uncertainty-monte-carlo-dropout)). I hope you'll enjoy them!
 
 
 ## Model uncertainty
@@ -77,7 +77,7 @@ The following example is taken from my Master Thesis and it represents a Monte C
 ## Conclusions 
 To conclude, it should be clear that Bayesian Deep Learning is prohibitive for all those modern netwrorks which have billions of parameters. Several approximation of the Bayesian inference were proposed over the years and one the most popular is the Monte Carlo Dropout, that we covered on this first article. 
 
-The [second part](./../model-uncertainty-through-monte-carlo-dropout-pt2/Model%20uncertainty%20through%20Monte%20Carlo%20dropout%20-%20PT2.md) of this small series aims to propose a practical example (with [code](https://github.com/francescodisalvo05/monte-carlo-dropout)), let's have a look! 
+The [second part](./../model-uncertainty-through-monte-carlo-dropout-pt2/Model%20uncertainty%20through%20Monte%20Carlo%20dropout%20-%20PT2.md) of this small series aims to propose a practical example (with [code](https://github.com/francescodisalvo05/uncertainty-monte-carlo-dropout)), let's have a look! 
 
 ---
 
@@ -85,7 +85,7 @@ The [second part](./../model-uncertainty-through-monte-carlo-dropout-pt2/Model%2
 1. [A Deeper Look into Aleatoric and Epistemic Uncertainty Disentanglement](https://arxiv.org/abs/2204.09308), Valdenegro 2022
 2. [A Comprehensive Introduction to Bayesian Deep Learning](https://jorisbaan.nl/2021/03/02/introduction-to-bayesian-deep-learning.html)
 3. [Bayesian QuickNAT: Model Uncertainty in Deep Whole-Brain Segmentation for Structure-wise Quality Control](https://arxiv.org/abs/1811.09800)
-4. Code of the [project](https://github.com/francescodisalvo05/monte-carlo-dropout) for the second part of this blogpost
+4. Code of the [project](https://github.com/francescodisalvo05/uncertainty-monte-carlo-dropout) for the second part of this blogpost
 
 
 **Images**:

@@ -465,7 +465,7 @@ To me, this is such an interesting and relevant topic that I'd like to investiga
 
 **References**:
 * [First part](./../model-uncertainty-through-monte-carlo-dropout-pt1/Model%20uncertainty%20through%20Monte%20Carlo%20dropout%20-%20PT1.md) - Theoretical blog post about the MC dropout
-* [Code of the project](https://github.com/francescodisalvo05/monte-carlo-dropout) - GitHub
+* [Code of the project](https://github.com/francescodisalvo05/uncertainty-monte-carlo-dropout) - GitHub
 * [Dataset](https://www.kaggle.com/competitions/dogs-vs-cats/data?select=train.zip) - Dogs vs Cats (kaggle)
 * [Seed](https://en.wikipedia.org/wiki/Random_seed) - Wikipedia
 
