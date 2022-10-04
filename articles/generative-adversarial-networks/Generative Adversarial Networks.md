@@ -37,7 +37,9 @@ The discriminator model $D(z;\theta_g)$ outputs a scalar, which represents the p
 $D$ is trained to maximize the probability of assigning the correct label to the input sample, while $G$ to minimize $log(1-D(G(z))$.
 The competition between the two networks can be expressed as:
 
-$$ min_Gmax_D V(D,G) = E{x~p_{data}(x)}[logD(x)] + E{z~p_z(z)}[log(1-D(G(z)))] $$
+$$ 
+min_Gmax_D V(D,G) = E{x~p_{data}(x)}[logD(x)] + E{z~p_z(z)}[log(1-D(G(z)))] 
+$$
 
 Over the years, GAN application has reached a lot of different contexts, obtaining sensational performances above all in the Computer Vision field, while they still represent a new world to discover in Natural Language Processing
 
