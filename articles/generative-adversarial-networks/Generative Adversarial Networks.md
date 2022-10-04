@@ -21,8 +21,8 @@ Generative models started to increse their reputation and slowly became a valid 
 ## How do GANs work?
 The generative model is joined by an adversary, a discriminative model which goal is to determine if a sample comes from the real distribution of data or from the generated one.
 
-![Alt text](./gan_diagram.svg)
-<img src="./gan_diagram.svg">
+![GAN architecture](./gan_diagram.svg)
+
 
 The goal of the **Generator** is to create a fake sample which is as much realistic as possible , while the target of the **Discriminator** is to try distinguish the generated sample from the real one.
 
