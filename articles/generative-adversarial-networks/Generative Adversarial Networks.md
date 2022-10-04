@@ -3,7 +3,7 @@ title: Generative Adversarial Networks GAN
 author: Gianluca La Malfa
 date: 
 topics: [Deep Learning]
-meta: One of the main goals of deep learning is to discover and test new models able to handle probability distributions about different kinds of data, which are the focus of different disciplines like computer vision, sounds processing and natural language processing.
+meta: One of the main goals of deep learning is to discover and test new models able to handle probability distributions about different kinds of data, which are the focus of different disciplines like computer vision, sounds processing and natural language processing. 
 target: Expert
 language: English
 cover: 
@@ -12,7 +12,8 @@ cover:
 # Generative Adversarial Networks (GAN)
 
 One of the main goals of deep learning is to discover and test new models able to handle probability distributions about different kinds of data, which are the focus of different disciplines like computer vision, sounds processing and natural language processing.
-The classical and more conventional approach contemplated the use of discriminative models, which aim to identify the decisional margin between classes in order to find the label for data instances.
+
+The classical and more conventional approach contemplated the use of discriminative models, which aim to identify the decisional boundaries between classes in order to find the label for data instances.
 As concerns generative models, they are based on the calculation of joint probabilities, but because of the difficulties found on the approximation of computations and the impossibilty of exploring the power of linear units, they did not gain enough success.
 
 In 2014, the situation completely changed, with the publication of "Generative Adversarial Nets" [Ian J. Goodfellow et Al.].
@@ -23,7 +24,7 @@ The generative model is joined by an adversary, a discriminative model which goa
 
 ![GAN architecture](./gan_diagram.svg)
 
-The goal of the **Generator** is to create a fake sample which is as much realistic as possible , while the target of the **Discriminator** is to try distinguish the generated sample from the real one.
+The goal of the **Generator** is to create a fake sample which is as much realistic as possible , while the target of the **Discriminator** is to try to distinguish the generated sample from the real one.
 
 Having said that, it's now a race between the two parts. The objective function of the two agents is opposite, when one wins the other one loses. The feedback shared between the two is fundamental, because on the base of the answers emitted by the discriminator, the generator improves his production of fake samples.
 At some point, the discriminator, that at each iteration will refine his capabilities of detection, will not be able to distinguish real samples from fake ones, ending the training.
