@@ -54,7 +54,7 @@ Meno riconoscibili ad un occhio poco esperto sono le **serie temporali,** la cui
 
 La sfera dell’intelligenza artificiale
 
-Al giorno d’oggi si sente sempre piu parlare di **Machine Learning** e [D**eep Learning](./../introduzione-e-primi-passi-sul-deep-learning/Introduzione%20e%20primi%20passi%20nel%20Deep%20Learning.md)** associandoli all’Intelligenza Artificiale. Effettivamente ne fanno parte, peró cosí come viene mostrato nella figura qui proposta.
+Al giorno d’oggi si sente sempre piu parlare di **Machine Learning** e **[Deep Learning](./../introduzione-e-primi-passi-sul-deep-learning/Introduzione%20e%20primi%20passi%20nel%20Deep%20Learning.md)** associandoli all’Intelligenza Artificiale. Effettivamente ne fanno parte, peró cosí come viene mostrato nella figura qui proposta.
 
 L’**Intelligenza Artificiale** in particolare le include entrambe e, come spiegato precedentemente, racchiude tutte quelle *tecniche* che hanno l’obiettivo di agire come farebbe il cervello umano.
 
