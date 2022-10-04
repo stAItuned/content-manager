@@ -3,7 +3,7 @@ title: Generative Adversarial Networks GAN
 author: Gianluca La Malfa
 date: 
 topics: [Deep Learning]
-meta: One of the main goals of deep learning is to discover and test new models able to handle probability distributions about different kinds of data, which are the focus of different disciplines like computer vision, sounds processing and natural language processing. 
+meta: GANs represent a huge innovation for generative models, they automatically learn and discover patterns in data inputs, generating plausible outputs based on the original dataset.
 target: Expert
 language: English
 cover: 
