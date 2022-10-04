@@ -6,7 +6,7 @@ topics: [Deep Learning]
 meta: GANs represent a huge innovation for generative models, they automatically learn and discover patterns in data inputs, generating plausible outputs based on the original dataset.
 target: Expert
 language: English
-cover: 
+cover: cover.jpg
 ---
 
 # Generative Adversarial Networks (GAN)
@@ -46,6 +46,6 @@ Over the years, GAN application has reached a lot of different contexts, obtaini
 - Generative adversarial Nets: https://arxiv.org/pdf/1406.2661.pdf
 
 
-**Immages:**
+**Images:**
 
 - Google developers : https://developers.google.com/machine-learning/gan/gan_structure
