@@ -1,6 +1,6 @@
 repos:
 -   repo: https://github.com/stAItuned/pre-commit-hooks
-    rev: 75e2ba34d099b2f3c75918b15c108ae2bd01c2ef
+    rev: 6d29471039201a70e6cd64e67919d7ed370a86e6
     hooks:
     -   id: team-card-validate
     -   id: team-author-name
@@ -17,3 +17,6 @@ repos:
     -   id: article-title
     -   id: article-topics
     -   id: article-validate
+    -   id: article-length
+    -   id: article-images
+    -   id: article-equations
