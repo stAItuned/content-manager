@@ -35,10 +35,7 @@ Tutti i giorni vediamo l’Intelligenza Artificiale applicata alle **immagini** 
 
 
 
-Per non parlare di **Siri** o **Alexa**, che avrai sentito o con cui avrai interagito direttamente. Ecco, loro costituiscono un esempio che riguarda l’applicazione di Intelligenza Artificiale nel **linguaggio naturale**. Per linguaggio naturale si intende **testo** o **parlato**, nel caso di *assistenti virtuali vocali* si tratterà di parlato, nel caso dei *[chatbot](https://www.notion.so/Chatbot-317d6520b6df47a499fe9f33bf8e2aa8)*, presenti ormai in moltissimi siti, di testo. Inoltre anche ai **traduttori** è stato applicato un modello di intelligenza artificiale che si basa sul linguaggio naturale di tipo testuale, come [**DeepL](https://www.deepl.com/translator)** o lo stesso [**Google Translate**](https://translate.google.com/). 
-
-![Intelligenza Artificiale Alexa di Amazon](./Intelligenza_Artificiale_Alexa_di_Amazon.png)
-
+Per non parlare di **Siri** o **Alexa**, che avrai sentito o con cui avrai interagito direttamente. Ecco, loro costituiscono un esempio che riguarda l’applicazione di Intelligenza Artificiale nel **linguaggio naturale**. Per linguaggio naturale si intende **testo** o **parlato**, nel caso di *assistenti virtuali vocali* si tratterà di parlato, nel caso dei **chatbot**, presenti ormai in moltissimi siti, di testo. Inoltre anche ai **traduttori** è stato applicato un modello di intelligenza artificiale che si basa sul linguaggio naturale di tipo testuale, come [**DeepL**](https://www.deepl.com/translator) o lo stesso [**Google Translate**](https://translate.google.com/). 
 
 ![Intelligenza Artificiale Google Traduttore](./Intelligenza_Artificiale_Google_Traduttore.png)
 
@@ -51,8 +48,6 @@ Meno riconoscibili ad un occhio poco esperto sono le **serie temporali,** la cui
 ## Entriamo all’interno dell’Intelligenza Artificiale
 
 ![La sfera dell’intelligenza artificiale](./Untitled.png)
-
-La sfera dell’intelligenza artificiale
 
 Al giorno d’oggi si sente sempre piu parlare di **Machine Learning** e **[Deep Learning](./../introduzione-e-primi-passi-sul-deep-learning/Introduzione%20e%20primi%20passi%20nel%20Deep%20Learning.md)** associandoli all’Intelligenza Artificiale. Effettivamente ne fanno parte, peró cosí come viene mostrato nella figura qui proposta.
 
