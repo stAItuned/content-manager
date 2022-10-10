@@ -1,7 +1,7 @@
 ---
 title: "Cos’è l’Intelligenza Artificiale?"
 author: Daniele Moltisanti
-date: 
+date: 2022-10-10
 topics: [Basic]
 meta: Continui a sentire parlare di Intelligenza Artificiale ma nessuno ti ha ancora spiegato bene che cos’è? Per questo ci siamo noi!
 target: Newbie
@@ -67,6 +67,7 @@ Consideriamo di avere immagini di cani e gatti e di voler creare un modello di i
 Il **deep learning** è, a sua volta, un sott’insieme del machine learning, e sono tutte quelle tecniche basate sulle reti neurali intelligenti, che hanno l’obiettivo di simulare il cervello umano e gli impulsi elettrici tra neuroni, generando *decisioni*.
 
 Che **differenza** c'è quindi nell'usare il Machine Learning o Deep Learning? Prendiamo l'esempio precedente per la classificazione di cane o gatto all'interno di immagini; la diversità non sta nel risultato finale, ma nella tecnica utilizzata, che sarà basata su **reti neurali**. Le reti neurali artificiali vogliono simulare il comportamento del **cervello umano**, formato da **neuroni** che propagano gli **impulsi** (quindi i dati nel caso artificiale) per generare un risultato.
+
 
 *Grazie a queste nozioni iniziali è piu semplice capire cosa sia l’intelligenza artificiale e come operi nel mondo reale.* 
 
