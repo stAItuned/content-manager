@@ -1,6 +1,17 @@
+ci:
+    autofix_commit_msg: |
+        [pre-commit.ci] auto fixes from pre-commit.com hooks
+
+        for more information, see https://pre-commit.ci
+    autofix_prs: true
+    autoupdate_branch: ''
+    autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
+    autoupdate_schedule: quarterly
+    skip: []
+    submodules: false
 repos:
 -   repo: https://github.com/stAItuned/pre-commit-hooks
-    rev: 24f1d5ee879f4f28cfeff3694b527e7a636cb927
+    rev: b07c5cd40b68fd09e7bcca1bbb75a2a74ef6d5e3
     hooks:
     -   id: team-card-validate
     -   id: team-author-name
