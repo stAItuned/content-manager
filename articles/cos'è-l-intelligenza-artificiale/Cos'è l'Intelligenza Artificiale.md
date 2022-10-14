@@ -1,7 +1,7 @@
 ---
 title: "Cos’è l’Intelligenza Artificiale?"
 author: Daniele Moltisanti
-date: 
+date: 2022-10-10
 topics: [Basic]
 meta: Continui a sentire parlare di Intelligenza Artificiale ma nessuno ti ha ancora spiegato bene che cos’è? Per questo ci siamo noi!
 target: Newbie
@@ -35,10 +35,7 @@ Tutti i giorni vediamo l’Intelligenza Artificiale applicata alle **immagini** 
 
 
 
-Per non parlare di **Siri** o **Alexa**, che avrai sentito o con cui avrai interagito direttamente. Ecco, loro costituiscono un esempio che riguarda l’applicazione di Intelligenza Artificiale nel **linguaggio naturale**. Per linguaggio naturale si intende **testo** o **parlato**, nel caso di *assistenti virtuali vocali* si tratterà di parlato, nel caso dei *[chatbot](https://www.notion.so/Chatbot-317d6520b6df47a499fe9f33bf8e2aa8)*, presenti ormai in moltissimi siti, di testo. Inoltre anche ai **traduttori** è stato applicato un modello di intelligenza artificiale che si basa sul linguaggio naturale di tipo testuale, come [**DeepL](https://www.deepl.com/translator)** o lo stesso [**Google Translate**](https://translate.google.com/). 
-
-![Intelligenza Artificiale Alexa di Amazon](./Intelligenza_Artificiale_Alexa_di_Amazon.png)
-
+Per non parlare di **Siri** o **Alexa**, che avrai sentito o con cui avrai interagito direttamente. Ecco, loro costituiscono un esempio che riguarda l’applicazione di Intelligenza Artificiale nel **linguaggio naturale**. Per linguaggio naturale si intende **testo** o **parlato**, nel caso di *assistenti virtuali vocali* si tratterà di parlato, nel caso dei **chatbot**, presenti ormai in moltissimi siti, di testo. Inoltre anche ai **traduttori** è stato applicato un modello di intelligenza artificiale che si basa sul linguaggio naturale di tipo testuale, come [**DeepL**](https://www.deepl.com/translator) o lo stesso [**Google Translate**](https://translate.google.com/). 
 
 ![Intelligenza Artificiale Google Traduttore](./Intelligenza_Artificiale_Google_Traduttore.png)
 
@@ -52,9 +49,7 @@ Meno riconoscibili ad un occhio poco esperto sono le **serie temporali,** la cui
 
 ![La sfera dell’intelligenza artificiale](./Untitled.png)
 
-La sfera dell’intelligenza artificiale
-
-Al giorno d’oggi si sente sempre piu parlare di **Machine Learning** e [D**eep Learning](./../introduzione-e-primi-passi-sul-deep-learning/Introduzione%20e%20primi%20passi%20nel%20Deep%20Learning.md)** associandoli all’Intelligenza Artificiale. Effettivamente ne fanno parte, peró cosí come viene mostrato nella figura qui proposta.
+Al giorno d’oggi si sente sempre piu parlare di **Machine Learning** e **[Deep Learning](./../introduzione-e-primi-passi-sul-deep-learning/Introduzione%20e%20primi%20passi%20nel%20Deep%20Learning.md)** associandoli all’Intelligenza Artificiale. Effettivamente ne fanno parte, peró cosí come viene mostrato nella figura qui proposta.
 
 L’**Intelligenza Artificiale** in particolare le include entrambe e, come spiegato precedentemente, racchiude tutte quelle *tecniche* che hanno l’obiettivo di agire come farebbe il cervello umano.
 
@@ -67,6 +62,7 @@ Consideriamo di avere immagini di cani e gatti e di voler creare un modello di i
 Il **deep learning** è, a sua volta, un sott’insieme del machine learning, e sono tutte quelle tecniche basate sulle reti neurali intelligenti, che hanno l’obiettivo di simulare il cervello umano e gli impulsi elettrici tra neuroni, generando *decisioni*.
 
 Che **differenza** c'è quindi nell'usare il Machine Learning o Deep Learning? Prendiamo l'esempio precedente per la classificazione di cane o gatto all'interno di immagini; la diversità non sta nel risultato finale, ma nella tecnica utilizzata, che sarà basata su **reti neurali**. Le reti neurali artificiali vogliono simulare il comportamento del **cervello umano**, formato da **neuroni** che propagano gli **impulsi** (quindi i dati nel caso artificiale) per generare un risultato.
+
 
 *Grazie a queste nozioni iniziali è piu semplice capire cosa sia l’intelligenza artificiale e come operi nel mondo reale.* 
 
