@@ -1,7 +1,7 @@
 ---
 title: "Computer: lo strumento che ha trasformato la nostra vita"
 author: Roberta Ghidini
-date: 
+date: 2022-10-04
 topics: [Basic]
 meta: Il computer è un dispositivo elettronico che si occupa di processare i dati e manipolare informazioni, è automatica e programmabile.
 target: Newbie
@@ -21,7 +21,6 @@ Innanzitutto il computer è un **dispositivo** elettronico che si occupa di **pr
 
 ![Cosa è un computer?](./Cos_un_computer.jpg)
 
-Cosa è un computer?
 
 ## Come funziona il computer
 
@@ -33,7 +32,6 @@ Il **computer** è costituito da una serie di componenti fisiche, il cui insieme
 
 ![Il Computer parla attraverso il linguaggio macchina, sequenza di 0 e 1](./Il_Computer_e_linguaggio_macchina.jpg)
 
-Il Computer parla attraverso il linguaggio macchina, sequenza di 0 e 1
 
 Questo linguaggio che è alla base dei computer e si chiama **sistema binario**, perchè tutte le sue funzionalità partono dal processamento di 0 e 1. Sulla base di questa conversione binaria, sono state costruite tutte le logiche che permettessero di svolgere operazioni matematiche, a partire da operazioni logiche di **AND** (e), **OR** (o) e **NOT** (no).
 
@@ -42,6 +40,7 @@ Questo linguaggio che è alla base dei computer e si chiama **sistema binario**,
 Sembrerà strano, ma la combinazione di 0 e 1 gestiti con **AND**, **OR** e **NOT** permette di generare quelle logiche che stanno alla base anche di una semplice funzione di calcolatrice sul nostro pc.
 
 Basti inoltre pensare che con 0 e 1 sia possibile rappresentare i **numeri decimali,** utilizzando la logica di AND e OR si crea la somma con cui si potrà poi fare delle somme di numeri decimali.
+
 
 
 *Grazie a queste nozioni iniziali è piu semplice comprendere i nostri articoli e avvicinarti piano piano al mondo dell’Intelligenza Artificiale.* 

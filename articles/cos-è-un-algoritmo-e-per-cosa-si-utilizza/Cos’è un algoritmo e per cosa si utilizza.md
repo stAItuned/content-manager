@@ -1,7 +1,7 @@
 ---
 title: Cos’è un algoritmo?
 author: Roberta Ghidini
-date: 2022-28-09
+date: 2022-09-28
 topics: [Basic]
 meta: Un algoritmo è una serie di istruzioni e regole che vengono fornite ad un computer per svolgere e completare delle attività.
 target: Newbie
