@@ -18,4 +18,4 @@ Deep Learning , as IBM defines it is “an attempt to mimic the human brain albe
 
 It is essentially a Machine Learning technique that helps teach computers how to learn by example, something which is an innate quality possessed by humans.
 
-
+![](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/Intro_DL.jpeg)
