@@ -20,6 +20,7 @@ It is essentially a Machine Learning technique that helps teach computers how to
 
 
 |Image credits to: [I3 harris](https://www.l3harris.com/sites/default/files/styles/610_x_345_2x/public/2020-10/sas-ssg-maven-102020-press-release-1220x684.png?itok=uFLDDQZP)|
+|:----:|
 ![](./Intro_DL.jpeg)
 
 ## What is Image Segmentation?
