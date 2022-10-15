@@ -18,7 +18,9 @@ Deep Learning , as IBM defines it is “an attempt to mimic the human brain albe
 
 It is essentially a Machine Learning technique that helps teach computers how to learn by example, something which is an innate quality possessed by humans.
 
-![](./Intro_DL.jpeg "Image credits to: [I3 harris](https://www.l3harris.com/sites/default/files/styles/610_x_345_2x/public/2020-10/sas-ssg-maven-102020-press-release-1220x684.png?itok=uFLDDQZP)")
+
+|Image credits to: [I3 harris](https://www.l3harris.com/sites/default/files/styles/610_x_345_2x/public/2020-10/sas-ssg-maven-102020-press-release-1220x684.png?itok=uFLDDQZP)|
+![](./Intro_DL.jpeg)
 
 ## What is Image Segmentation?
 Image segmentation is the process by which an image is broken down into various subgroups called segments. This essentially helps in reducing the complexity of the image to make further processing or analysis of the image much simpler. Image segmentation is generally used to locate objects and boundaries in images.
