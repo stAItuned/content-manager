@@ -18,19 +18,19 @@ Deep Learning , as IBM defines it is “an attempt to mimic the human brain albe
 
 It is essentially a Machine Learning technique that helps teach computers how to learn by example, something which is an innate quality possessed by humans.
 
-![](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/Intro_DL.jpeg)
+![](./Intro_DL.jpeg)
 
 ## What is Image Segmentation?
 Image segmentation is the process by which an image is broken down into various subgroups called segments. This essentially helps in reducing the complexity of the image to make further processing or analysis of the image much simpler. Image segmentation is generally used to locate objects and boundaries in images.
 
 There are a variety of applications of Image segmentation in various domains. Some of which include: Medical Imaging, Object Detection, Face Recognition, etc.
 
-![](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/Segmentation.jpeg)
+![](./Segmentation.jpeg)
 
 ## What is a U-Net?
 The U-Net is a convolutional network architecture for fast and precise segmentation of biomedical images. Let’s go ahead and discuss the architecture of the U-Net which has been described in the following [paper](https://link.springer.com/chapter/10.1007/978-3-319-24574-4_28).
 
-![The U-Net architecture as described in the original paper](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/U-net%20architecture.png)
+![The U-Net architecture as described in the original paper](./U-net_architecture.png)
 
 In the U-Net, like every other Convolutional Neural Network, it consists of operations such as Convolution and Max Pooling.
 
@@ -134,8 +134,8 @@ After training the model over 30 epochs, the model which was saved (with a valid
 ## Results
 Followed by this, the saved model was used for the purpose of testing. The predictions of the masks on the test set were saved and a combined image of the original image, the original mask and the predicted mask have been given for a few test samples as follows.
 
-![Input Image (on the left), Original mask (in the middle), Predicted mask (on the right) for test case:1](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/Output_1.png)
+![Input Image (on the left), Original mask (in the middle), Predicted mask (on the right) for test case:1](./Output_1.png)
 
-![Input Image (on the left), Original mask (in the middle), Predicted mask (on the right) for test case:2](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/Output_2.png)
+![Input Image (on the left), Original mask (in the middle), Predicted mask (on the right) for test case:2](./Output_2.png)
 
 The following is the link to the [code](https://github.com/PRITH-S07/Lung-segmentation-using-U-Net).
