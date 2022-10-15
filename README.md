@@ -23,9 +23,9 @@
 ```YAML
 ---
 meta: brief description of the blogpost 
-date: current date (yyyy/mm/dd)
+date: leave it empty
 target: Newbie | Midway | Expert 
-topics: [Deep Learning, List separated by commas] 
+topics: [Deep Learning, ...] List separated by commas 
 cover: filename of the cover image, located next to the markdown file 
 title:  title
 language: English | Italian
@@ -57,10 +57,8 @@ Raise an [issue](https://github.com/stAItuned/content-manager/issues) or contact
 
 
 ## To do:
-- [ ] Specify an ideal dimension for the cover, in order to fit the cards and the home preview 
 - [x] Update repo name? (and issue's link)
-- [ ] Add template commit? 
-- [ ] Add document structure? 
+- [ ] Add template commit?  
 - [ ] Briefly explain the "goal" of this repo and add the link of our website and social account (when they'll be ready)
 - [x] Specify who belong to "Tech", "Marketing" and "Writers" team
 
