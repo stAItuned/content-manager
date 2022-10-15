@@ -6,7 +6,7 @@ topics: [AI, Medical Imaging, Deep Learning,  X-Rays]
 meta: Using U-Nets for segmenting regions of interest in X-ray images, it is an introduction to U-Nets and one of its many applications!
 target: Expert
 language: English
-cover: U-Net architecture.png 
+cover: U-net_architecture.png
 ---
 
 # X-Ray Image Segmentation using U-Nets
