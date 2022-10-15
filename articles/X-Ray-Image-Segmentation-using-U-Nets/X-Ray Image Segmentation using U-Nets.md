@@ -114,9 +114,28 @@ def build_unet(input_shape):
 This is the U-Net architecture which was used.
 
 Following this, the following hyperparameters were used for training:
-<ul>
-    <li>batch size = 2</li>
-    <li>learning rate = 1e-5</li>
-    <li>epochs = 30</li>
-</ul>
+- batch size = 2
+- learning rate = 1e-5
+- epochs = 30
 
+The model was compiled using the Adam optimizer with the above mentioned learning rate. The metrics used included Dice coefficient, IoU, Recall and Precision.
+
+After training the model over 30 epochs, the model which was saved (with a validation loss of 0.10216) had the following metrics:
+- dice_coef: 0.9148
+- iou: 0.8441
+- recall: 0.9865
+- precision: 0.9781
+- val_loss: 0.1022
+- val_dice_coef: 0.9002
+- val_iou: 0.8198
+- val_recall: 0.9629
+- val_precision: 0.9577
+
+## Results
+Followed by this, the saved model was used for the purpose of testing. The predictions of the masks on the test set were saved and a combined image of the original image, the original mask and the predicted mask have been given for a few test samples as follows.
+
+![Input Image (on the left), Original mask (in the middle), Predicted mask (on the right) for test case:1](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/Output_1.png)
+
+![Input Image (on the left), Original mask (in the middle), Predicted mask (on the right) for test case:2](https://github.com/PRITH-S07/content-manager/blob/main/articles/X-Ray-Image-Segmentation-using-U-Nets/Output_2.png)
+
+The following is the link to the [code](https://github.com/PRITH-S07/Lung-segmentation-using-U-Net).
