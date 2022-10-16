@@ -11,7 +11,7 @@ ci:
     submodules: false
 repos:
 -   repo: https://github.com/stAItuned/pre-commit-hooks
-    rev: 87cd41c52c08c79022d63166d07bca7c6266c8ed
+    rev: 1d0dcee4e46db989394e3005e49bed9403ef6e08
     hooks:
     -   id: team-card-validate
     -   id: team-author-name
