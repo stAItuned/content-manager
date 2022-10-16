@@ -1,5 +1,5 @@
 ---
-name: Alex Buffa
+name: alex buffa
 team: [Tech]
 title: Web Developer & SEO Expert
 linkedin: https://www.linkedin.com/in/alexandro-buffa/
