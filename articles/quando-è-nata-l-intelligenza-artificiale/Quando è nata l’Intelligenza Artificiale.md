@@ -1,7 +1,7 @@
 ---
 title: Storia dell’Intelligenza Artificiale
 author: Roberta Ghidini
-date: 
+date: 2022-10-17
 topics: [Machine Learning]
 meta: 1956 data ufficiale della nascita dell’Intelligenza Artificiale, ma bisogna considerare il lungo percorso e le scoperte che ci hanno portato a quella data. 
 target: Newbie
@@ -11,7 +11,7 @@ cover: Storia_dellIntelligenza_Artificiale.jpg
 
 # Storia dell’Intelligenza Artificiale
 
-Il **1956** è l’anno ufficiale in cui nasce l’**[Intelligenza Artificiale](...),** ma dobbiamo tenere in considerazione quale sia stato il percorso che ci ha portato a quella data, quali sono state le scoperte pregresse che hanno consentito agli scienziati di quel periodo di poter dare inizio ad una nuova Era.
+Il **1956** è l’anno ufficiale in cui nasce l’**[Intelligenza Artificiale](./../cos'è-l-intelligenza-artificiale/Cos'è%20l'Intelligenza%20Artificiale.md),** ma dobbiamo tenere in considerazione quale sia stato il percorso che ci ha portato a quella data, quali sono state le scoperte pregresse che hanno consentito agli scienziati di quel periodo di poter dare inizio ad una nuova Era.
 
 ## **Le basi che hanno portato alla nascita dell’Intelligenza Artificiale**
 
@@ -54,18 +54,20 @@ Questo concetto è stato alla base della successiva elaborazione delle **reti n
 
 Gli anni successivi non sono altro che un **fermento intellettuale** continuo, le più grandi università e aziende informatiche del tempo hanno iniziato a puntare sulla ricerca e sviluppo di nuovi programmi software in grado di riprodurre l’intelligenza umana.
 
+<br />
+
 *Grazie a queste nozioni iniziali è piu semplice capire cosa sia l’intelligenza artificiale e come operi nel mondo reale.* 
 
 Per scoprire nuove curiosità di Intelligenza Artificiale continua a seguirci e a leggere il nostro blog! stAI tuned 
 
 **Referenze:** 
 
-- Francesco Amigoni, Viola Schiaffonati, Marco Somalvico, Intelligenza Artificiale, Treccani, 2008 [https://www.treccani.it/enciclopedia/intelligenza-artificiale_%28Enciclopedia-della-Scienza-e-della-Tecnica%29/#:~:text=L'intelligenza%20artificiale%20ha%20una,negli%20anni%20precedenti%20e%20in](https://www.treccani.it/enciclopedia/intelligenza-artificiale_%28Enciclopedia-della-Scienza-e-della-Tecnica%29/#:~:text=L'intelligenza%20artificiale%20ha%20una,negli%20anni%20precedenti%20e%20in)
+- Francesco Amigoni, Viola Schiaffonati, Marco Somalvico, [Intelligenza Artificiale](https://www.treccani.it/enciclopedia/intelligenza-artificiale_%28Enciclopedia-della-Scienza-e-della-Tecnica%29/#:~:text=L'intelligenza%20artificiale%20ha%20una,negli%20anni%20precedenti%20e%20in), Treccani, 2008 
 - Stefano Quintarelli, *Intelligenza Artificiale, Cos’è davvero, come funziona, che effetti avrà,* Torino, Bollati Boringhieri Editore, 2020
 
 **Immagini:**
 
-- [https://1.cms.s81c.com/sites/default/files/2021-01-06/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.png](https://1.cms.s81c.com/sites/default/files/2021-01-06/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.png)
-- [https://www.repstatic.it/content/contenthub/img/2021/08/30/200704520-b41eebc4-4351-4253-8770-51afd010d539.jpg](https://www.repstatic.it/content/contenthub/img/2021/08/30/200704520-b41eebc4-4351-4253-8770-51afd010d539.jpg)
-- [https://novingenio.altervista.org/wp-content/uploads/2021/01/Alan-Turing-960x560.jpg](https://novingenio.altervista.org/wp-content/uploads/2021/01/Alan-Turing-960x560.jpg)
-- [https://www.researchgate.net/profile/Eduardo-Alves-13/publication/226190708/figure/fig1/AS:393793066029064@1470898992097/Rosenblatts-perceptron.png](https://www.researchgate.net/profile/Eduardo-Alves-13/publication/226190708/figure/fig1/AS:393793066029064@1470898992097/Rosenblatts-perceptron.png)
+- [Immagine 1](https://1.cms.s81c.com/sites/default/files/2021-01-06/ICLH_Diagram_Batch_01_03-DeepNeuralNetwork-WHITEBG.png)
+- [Immagine 2](https://www.repstatic.it/content/contenthub/img/2021/08/30/200704520-b41eebc4-4351-4253-8770-51afd010d539.jpg)
+- [Immagine 3](https://novingenio.altervista.org/wp-content/uploads/2021/01/Alan-Turing-960x560.jpg)
+- [Immagine 4](https://www.researchgate.net/profile/Eduardo-Alves-13/publication/226190708/figure/fig1/AS:393793066029064@1470898992097/Rosenblatts-perceptron.png)

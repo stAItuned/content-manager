@@ -1,5 +1,5 @@
 ---
-meta: Of the various computer vision techniques, super-resolution tasks are among the least known but at the same time those that could become more game-changing in the future.
+meta: Of the various computer vision techniques, super-resolution tasks are among the least known but at the same time they could become more changing in the future.
 date: 
 target: Newbie 
 topics: [Deep Learning, Computer Vision, Earth Observation] 
