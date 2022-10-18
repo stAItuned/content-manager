@@ -2,6 +2,7 @@
 title: "Computer: lo strumento che ha trasformato la nostra vita"
 author: Roberta Ghidini
 date: 2022-10-04
+published: True
 topics: [Basic]
 meta: Il computer è un dispositivo elettronico che si occupa di processare i dati e manipolare informazioni, è automatica e programmabile.
 target: Newbie
