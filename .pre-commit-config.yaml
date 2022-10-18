@@ -5,7 +5,7 @@ ci:
     autoupdate_branch: ''
     autoupdate_commit_msg: '[pre-commit.ci] pre-commit autoupdate'
     autoupdate_schedule: quarterly
-    skip: [article-slug, team-card-propic]
+    skip: []
     submodules: false
 repos:
 -   repo: https://github.com/stAItuned/pre-commit-hooks
