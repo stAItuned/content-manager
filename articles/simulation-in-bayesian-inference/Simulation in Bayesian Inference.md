@@ -3,7 +3,7 @@ meta: Simulations are able to generate random variables with certain properties 
 date: 
 target: Expert 
 topics: [Bayesian Inference,MCMC,Simulation] 
-cover: filename of the cover image, located next to the markdown file 
+cover: filename of the cover image, located next to the markdown 
 title: Simulation in Bayesian Inference
 language: English 
 author: Gabriele Cola

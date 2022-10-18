@@ -2,6 +2,7 @@
 title: "Cos’è l’Intelligenza Artificiale?"
 author: Daniele Moltisanti
 date: 2022-10-10
+published: True
 topics: [Basic]
 meta: Continui a sentire parlare di Intelligenza Artificiale ma nessuno ti ha ancora spiegato bene che cos’è? Per questo ci siamo noi!
 target: Newbie
