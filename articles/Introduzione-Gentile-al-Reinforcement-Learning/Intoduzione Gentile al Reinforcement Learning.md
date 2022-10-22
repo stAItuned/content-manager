@@ -5,7 +5,7 @@ target: Newbie
 topics: [Reinforcement Learning, AI, Decision Making Theory]
 cover: cover.png
 title:  Introduzione Gentile al Reinforcement Learning
-language: Italiano
+language: Italian
 author: Monteiro Del Prete
 ---
 
