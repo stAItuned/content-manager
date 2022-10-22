@@ -44,7 +44,7 @@ Con questi elementi risulta facile formalizzare il framework del RL.
 
 Dunque, l'agente al tempo $t$ si trova in $S_t$ e compie l'azione $A_t$ ed effettua un'osservazione. Da questa scopre di essere passato allo stato $S_{t+1}$ ottenendo una reward $R_{t+1}$. La policy è la funzione che per ogni stato fornisce un'azione
 
-$\pi \colon s \mapsto a$
+$\pi \colon s \rightarrow a$
 
 dunque dice all'agente cosa fare. La policy si dice *ottimale*, $\pi^*$, se ad ogni stato l'azione mappata è quella ottimale, ovvero quella che massimizza l'utilità $U$ attesa. Tutti gli algoritmi di RL lavorano sul calcolo dell'utilità e della policy basata su di essa.
 
