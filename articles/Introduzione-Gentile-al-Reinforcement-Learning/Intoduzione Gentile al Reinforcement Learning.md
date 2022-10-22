@@ -2,7 +2,7 @@
 meta: introduzione alle basi del Reinforcement Learning
 date:
 target: Newbie
-topics: [Reinforcment Learning, AI, Decision Making Theory]
+topics: [Reinforcement Learning, AI, Decision Making Theory]
 cover: cover.png
 title:  Introduzione Gentile al Reinforcement Learning
 language: Italiano
