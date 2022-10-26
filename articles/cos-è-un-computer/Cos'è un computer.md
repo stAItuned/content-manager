@@ -1,5 +1,5 @@
 ---
-title: "Computer: lo strumento che ha trasformato la nostra vita"
+title: "Computer: strumento che ha trasformato la nostra vita"
 author: Roberta Ghidini
 date: 2022-10-04
 published: True
