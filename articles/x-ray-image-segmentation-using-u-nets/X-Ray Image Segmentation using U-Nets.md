@@ -2,6 +2,7 @@
 title: X-Ray Image Segmentation using U-Nets
 author: Prith Sharma
 date: 2022-10-20
+published: True
 topics: [AI, Medical Imaging, Deep Learning,  X-Rays]
 meta: Using U-Nets for segmenting regions of interest in X-ray images, it is an introduction to U-Nets and one of its many applications!
 target: Expert
