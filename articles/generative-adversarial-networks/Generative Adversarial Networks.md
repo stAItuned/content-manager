@@ -7,6 +7,7 @@ meta: GANs represent a huge innovation for generative models, they automatically
 target: Expert
 language: English
 cover: cover.jpg
+published: True
 ---
 
 # Generative Adversarial Networks (GAN)
