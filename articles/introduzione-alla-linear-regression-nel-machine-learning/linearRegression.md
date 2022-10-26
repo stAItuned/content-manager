@@ -4,7 +4,7 @@ date:
 target: Newbie 
 topics: [Machine Learning, Regressione Lineare, Linear Regression] 
 cover:  lr.jpeg
-title:  Introduzione alla Linear Regression nel Machine Learning
+title:  Introduzione alla Linear Regression 
 language: Italian
 author: Francesco Di Gangi
 ---

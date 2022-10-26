@@ -4,7 +4,7 @@ author: Francesco Di Salvo
 date: 
 topics: [Machine Learning]
 meta: Five reasons why my Machine Learning models failed and how to avoid them. 
-target: Midway
+target: Expert
 language: English
 cover: cover.jpg
 ---

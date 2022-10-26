@@ -3,7 +3,7 @@ meta: Simulations are able to generate random variables with certain properties 
 date: 
 target: Expert 
 topics: [Bayesian Inference,MCMC,Simulation] 
-cover: filename of the cover image, located next to the markdown 
+cover: cover.png
 title: Simulation in Bayesian Inference
 language: English 
 author: Gabriele Cola
@@ -38,5 +38,7 @@ MCMC techniques are often applied to **solve integration and optimisation proble
 Furthermore, **Bayesian strategies** help various machine learning algorithms in removing pivotal data from little informational indexes and taking care of missing information. They assume a significant function in an immense scope of territories from game improvement to sedate disclosure. 
 Bayesian strategies empower the assessment of uncertainty in forecasts which demonstrates crucial for fields like medicine. The techniques assist setting aside with timing and cash by permitting the pressure of deep learning algorithms a hundred folds and naturally tuning hyperparameters.
 
+## Image
+- [cover](cover.png)
 
 
