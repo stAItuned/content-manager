@@ -1,12 +1,13 @@
 ---
 title: Big Data
 author: Roberta Ghidini
-date: 
+date: 2022-10-26
 topics: [Machine Learning]
 meta: Big Data, una quantità di dati impossibile da elaborare attraverso i software tradizionali, vengono utilizzate dunque tecniche di Machine Learning
 target: Newbie
 language: Italian
 cover: big-data.jpg
+published: True
 ---
 
 
@@ -51,6 +52,7 @@ La loro importanza, nonostante il loro utilizzo ancora oggi sia molto poco svilu
 - per prendere rapidamente **decisioni;**
 - stabilire **strategie aziendali** con una consapevolezza maggiore;
 - **elaborare** nuove **opportunità** di crescita.
+
 
 *Grazie a queste nozioni teoriche è piu semplice capire cosa sia l’intelligenza artificiale e come operi nel mondo reale.* 
 
