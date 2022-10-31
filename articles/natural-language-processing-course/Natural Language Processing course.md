@@ -4,7 +4,7 @@ author: Francesco Di Salvo
 date: 
 topics: [NLP]
 meta: Comprehensive guide to Natural Language Processing, from the basic topics to some of the most difficult and interesting ones. 
-target: Midway
+target: Expert
 language: English
 cover: bg.png
 ---
