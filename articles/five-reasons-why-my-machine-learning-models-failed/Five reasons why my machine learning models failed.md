@@ -23,8 +23,7 @@ It is divided in **five sections**, following the entire Machine Learning pipeli
 
 I don't want to report what the author already said, the paper is extremely easy to follow and you should definitely check it out. Instead, I just want to share **my experience** and tell you why my machine learning models failed, reporting one example for each proposed section.
 
-
-## Before you start to build models - Do talk to domain experts
+## Before you start to build models - Do talk to domain experts
 
 This lesson was extremely valuable for me. I learned it while I was working as a volunteer Machine Learning Engineer for Trillion Tree Fund, now [Symbaiosys](https://www.symbaiosys.ai/), under [Omdena](https://omdena.com/)'s platform. 
 
@@ -74,8 +73,8 @@ From this experience I learned that I never worked with a completely independent
     <img src="./point.jpg" alt="" height="300px" width="auto">
 </p>
 
+## How to compare models fairly - Do use statistical tests when comparing models
 
-## How to compare models fairly - Do use statistical tests when comparing models
 This is another lesson that I learned while working on my master thesis. I designed a **classification architecture** on contrast-enhanced breast CT scans, obtaining an AUC of **0.80**. Then, I proposed two variations: one using as a second channel the masks of the tumors given by a radiologist, and another one using the segmented masks through a semantic segmentation architecture.
 
 As expected, the architecture having the manual annotations as a second channel obtained an AUC of **0.84**, whereas the last one obtained an AUC of **0.81**.
@@ -88,8 +87,7 @@ However, we then evaluated these AUCs through the **DeLong test** [5]. The null 
     <img src="./evaluate.jpg" alt="" height="300px" width="auto">
 </p>
 
-
-## How to report your results - Do be transparent
+## How to report your results - Do be transparent
 
 Likely enough, I think I never failed on the five reported pitfalls for this specific category. Therefore I will report here what I prefer, **being transparent**. Sometimes I see some cool papers or repositories without clear indications about data, training details and so on. 
 
@@ -104,7 +102,7 @@ Therefore, unless I get completely crazy for that, I typically **avoid them**. F
 1. [How to avoid machine learning pitfalls: a guide for academic researchers](https://arxiv.org/pdf/2108.02497.pdf)
 2. Mangroves: https://ocean.si.edu/ocean-life/plants-algae/mangroves
 3. [Green Space and Stress: Evidence from Cortisol Measures in Deprived Urban Communities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799530/)
-4. [Reduction of physiological stress by urban green space in a multisensory virtual experiment][(](https://www.nature.com/articles/s41598-019-46099-7))
+4. [Reduction of physiological stress by urban green space in a multisensory virtual experiment]((https://www.nature.com/articles/s41598-019-46099-7)
 5. [DeLong test](https://statisticaloddsandends.wordpress.com/2020/06/07/what-is-the-delong-test-for-comparing-aucs/)
 
 
