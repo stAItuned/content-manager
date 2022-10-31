@@ -3,8 +3,8 @@ meta: La Linear Regression si occupa di studiare e formalizzare una relazione fr
 date: 
 target: Newbie 
 topics: [Machine Learning, Regressione Lineare, Linear Regression] 
-cover:  lr.jpg
-title:  Introduzione alla Linear Regression nel Machine Learning
+cover:  lr.jpeg
+title:  Introduzione alla Linear Regression 
 language: Italian
 author: Francesco Di Gangi
 ---

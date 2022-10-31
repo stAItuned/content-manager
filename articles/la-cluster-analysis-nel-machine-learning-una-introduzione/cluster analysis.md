@@ -1,13 +1,18 @@
 ---
-meta: La Cluster Analysis, o clustering, consiste in un insieme di tecniche che vanno a raggruppare (in cluster, o contenitori) un insieme di dati omogenei.
-date: 
-target: Newbie 
-topics: [Machine Learning, Cluster Analysis, Clustering] 
-cover:  cover.jpg
-title:  La Cluster Analysis nel Machine Learning - una introduzione
-language: Italian
 author: Francesco Di Gangi
+cover: cover.jpg
+date: null
+language: Italian
+meta: La Cluster Analysis, o clustering, consiste in un insieme di tecniche che vanno
+  a raggruppare (in cluster, o contenitori) un insieme di dati omogenei.
+target: Newbie
+title: La Cluster Analysis nel Machine Learning - Introduzione
+topics:
+- Machine Learning
+- Cluster Analysis
+- Clustering
 ---
+
 # Cluster Analysis
 
 L’obiettivo della **cluster analysis**, o *clustering*, è quello di trovare oggetti che hanno così tante similitudini da poter stare nello stesso gruppo, anche detto, per l’appunto, **cluster.** 
@@ -75,7 +80,3 @@ FONTI:
 [A Brief Introduction to Unsupervised Learning | by Aidan Wilson | Towards Data Science](https://towardsdatascience.com/a-brief-introduction-to-unsupervised-learning-20db46445283) 
 
 [8-Intra-Cluster-Distance-and-Inter-Cluster-Distance.png (2006×1174) (wp.com)](https://i0.wp.com/dataaspirant.com/wp-content/uploads/2020/12/8-Intra-Cluster-Distance-and-Inter-Cluster-Distance.png?ssl=1)
-
-
-
-
