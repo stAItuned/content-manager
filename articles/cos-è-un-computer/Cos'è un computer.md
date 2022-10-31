@@ -20,7 +20,10 @@ Innanzitutto il computer è un **dispositivo** elettronico che si occupa di **pr
 
 È così fondamentalmente perché **semplifica** tutti i processi traducendo tutta l’informazione in **impulsi elettrici**. Testi, documenti, immagini, video, registrazioni vocali vengono trasformati in sequenze di **0** e **1.**
 
-![Cosa è un computer?](./Cos_un_computer.jpg)
+<p align="center">
+  <img src="./Cos_un_computer.jpg" alt="Cos'è un computer?" height="500px"/>
+</p>
+
 
 
 ## Come funziona il computer
@@ -31,17 +34,20 @@ Il **computer** è costituito da una serie di componenti fisiche, il cui insieme
 
 È necessario che il computer venga istruito da un **programmatore**, esperto nel comunicare con questo dispositivo, attraverso il **linguaggio macchina**. Tutto ha origine da **impulsi elettrici** che vengono convertiti in segnali 0 e 1: nel caso in cui si verifica un passaggio di corrente allora si registra un 1, altrimenti uno 0. 
 
-![Il Computer parla attraverso il linguaggio macchina, sequenza di 0 e 1](./Il_Computer_e_linguaggio_macchina.jpg)
+<p align="center">
+  <img src="./Il_Computer_e_linguaggio_macchina.jpg" alt="Il Computer parla attraverso il linguaggio macchina, sequenza di 0 e 1"/>
+</p>
 
 
 Questo linguaggio che è alla base dei computer e si chiama **sistema binario**, perchè tutte le sue funzionalità partono dal processamento di 0 e 1. Sulla base di questa conversione binaria, sono state costruite tutte le logiche che permettessero di svolgere operazioni matematiche, a partire da operazioni logiche di **AND** (e), **OR** (o) e **NOT** (no).
 
-![Esempio di sistema binario con porte logiche AND, OR, NOT](./Untitled.png)
+<p align="center">
+  <img src="./Untitled.png" alt="Esempio di sistema binario con porte logiche AND, OR, NOT"/>
+</p>
 
 Sembrerà strano, ma la combinazione di 0 e 1 gestiti con **AND**, **OR** e **NOT** permette di generare quelle logiche che stanno alla base anche di una semplice funzione di calcolatrice sul nostro pc.
 
 Basti inoltre pensare che con 0 e 1 sia possibile rappresentare i **numeri decimali,** utilizzando la logica di AND e OR si crea la somma con cui si potrà poi fare delle somme di numeri decimali.
-
 
 
 *Grazie a queste nozioni iniziali è piu semplice comprendere i nostri articoli e avvicinarti piano piano al mondo dell’Intelligenza Artificiale.* 
