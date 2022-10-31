@@ -102,7 +102,7 @@ Therefore, unless I get completely crazy for that, I typically **avoid them**. F
 1. [How to avoid machine learning pitfalls: a guide for academic researchers](https://arxiv.org/pdf/2108.02497.pdf)
 2. Mangroves: https://ocean.si.edu/ocean-life/plants-algae/mangroves
 3. [Green Space and Stress: Evidence from Cortisol Measures in Deprived Urban Communities](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3799530/)
-4. [Reduction of physiological stress by urban green space in a multisensory virtual experiment]((https://www.nature.com/articles/s41598-019-46099-7)
+4. [Reduction of physiological stress by urban green space in a multisensory virtual experiment](https://www.nature.com/articles/s41598-019-46099-7)
 5. [DeLong test](https://statisticaloddsandends.wordpress.com/2020/06/07/what-is-the-delong-test-for-comparing-aucs/)
 
 
