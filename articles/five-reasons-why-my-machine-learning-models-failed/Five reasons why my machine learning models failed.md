@@ -1,12 +1,13 @@
 ---
 title: Five reasons why my Machine Learning models failed
 author: Francesco Di Salvo
-date: 
+date: 2022-31-10
 topics: [Machine Learning]
 meta: Five reasons why my Machine Learning models failed and how to avoid them. 
 target: Expert
 language: English
 cover: cover.jpg
+published: true
 ---
 
 # Five reasons why my Machine Learning models failed
@@ -22,7 +23,9 @@ It is divided in **five sections**, following the entire Machine Learning pipeli
 
 I don't want to report what the author already said, the paper is extremely easy to follow and you should definitely check it out. Instead, I just want to share **my experience** and tell you why my machine learning models failed, reporting one example for each proposed section.
 
+
 ## Before you start to build models - Do talk to domain experts
+
 This lesson was extremely valuable for me. I learned it while I was working as a volunteer Machine Learning Engineer for Trillion Tree Fund, now [Symbaiosys](https://www.symbaiosys.ai/), under [Omdena](https://omdena.com/)'s platform. 
 
 The goal of the project was to develop predictive models in order to quantify the environmental, economical and social impact of **forest landscape restoration projects**. Sounds cool, right? Totally, but it was extremely difficult. We needed too much data and internet was not a good friend, at all.
@@ -39,7 +42,9 @@ Starting from these small examples we started to clearly **think about the probl
     <img src="./people-listening.jpg" alt="" height="300px" width="auto">
 </p>
 
+
 ## How to reliably build models - Don’t use inappropriate models
+
 This is probably the main pitfall of any Machine Learning practictioner that starts from **Kaggle**, myself included. If you start sniffing some notebooks, without a solid background on the models, you will just **try different random models** (Random Forest FTW!), but you will not understand why one performs better than another one! 
 
 When I started my master course "Mathematics in Machine Learning" I finally realized why, and this of course changed the way I approached any other problem. 
@@ -56,6 +61,7 @@ Being **curious and eager to learn** is the key.
 
 
 ## How to robustly evaluate models - Do use an appropriate test set
+
 I knew that we have to evaluate our models on independent data. But **what does it mean independent?** Do we just need to split the data before any inspection/analysis? Well, yes, but if the data comes from the same dataset, they cannot be considered completely independent.
 
 I realized that while working in a **Medical Imaging** research lab. Here the concept of independence is really strong. Medical imaging datasets are typically really small, therefore it is always easy to include bias or to overfit the models. 
@@ -67,6 +73,7 @@ From this experience I learned that I never worked with a completely independent
 <p align="center">
     <img src="./point.jpg" alt="" height="300px" width="auto">
 </p>
+
 
 ## How to compare models fairly - Do use statistical tests when comparing models
 This is another lesson that I learned while working on my master thesis. I designed a **classification architecture** on contrast-enhanced breast CT scans, obtaining an AUC of **0.80**. Then, I proposed two variations: one using as a second channel the masks of the tumors given by a radiologist, and another one using the segmented masks through a semantic segmentation architecture.
@@ -81,7 +88,9 @@ However, we then evaluated these AUCs through the **DeLong test** [5]. The null 
     <img src="./evaluate.jpg" alt="" height="300px" width="auto">
 </p>
 
+
 ## How to report your results - Do be transparent
+
 Likely enough, I think I never failed on the five reported pitfalls for this specific category. Therefore I will report here what I prefer, **being transparent**. Sometimes I see some cool papers or repositories without clear indications about data, training details and so on. 
 
 Therefore, unless I get completely crazy for that, I typically **avoid them**. For this reasons, on my repositories, I always **try to include detailed readme and instructions** about data, training, inference and so on. This makes the repository way more enjoyable by other open source developers!
