@@ -26,7 +26,7 @@ In informatica, con questo termine viene indicata un'*informazione* (un simbolo,
 
 I **Big Data** sono un'enorme volume di dati impossibile da elaborare attraverso i software tradizionali, per questo motivo, si é ricorsi all'**Intelligenza Artificiale**.
 
-![Big Data](20220824_165554.jpg)
+![Big Data](./20220824_165554.jpg)
 
 
 I Big Data sono caratterizzati da cinque fattori:
