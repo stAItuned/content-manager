@@ -5,7 +5,7 @@ date: null
 language: English
 meta: A brief survey about compression techniques based on pruning
 target: Newbie
-title: Iterative Pruning Methods for Artificial Neural Networks in Julia
+title: Iterative Pruning Methods in Julia
 topics:
 - Machine Learning
 - Deep Learning
