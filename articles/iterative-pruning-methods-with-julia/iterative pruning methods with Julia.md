@@ -13,8 +13,6 @@ topics:
 - Julia
 ---
 
-![Photo by [Morgan Housel](https://unsplash.com/@morganhousel?utm_source=medium&utm_medium=referral) on [Unsplash](https://unsplash.com?utm_source=medium&utm_medium=referral)](https://miro.medium.com/0*MLIjvdpkCmEuW8gk)
-
 ### [Thoughts and Theory](https://towardsdatascience.com/tagged/thoughts-and-theory)
 
 # Iterative Pruning Methods for Artificial Neural Networks in Julia
@@ -53,17 +51,25 @@ For this reason, it is essential to retrain the network starting from the last o
 
 ### Boring preprocessing steps
 
-**using** Flux: onehotbatch , onecold\n**using** MLDatasets
 
-train_x , train_y = CIFAR10.traindata()\ntest_x , test_y = CIFAR10.testdata()
+```julia
+using Flux: onehotbatch , onecold
+using MLDatasets
 
-X = Flux.flatten(train_x)\nY = onehotbatch(train_y , 0:9)
+train_x , train_y = CIFAR10.traindata()
+test_x , test_y = CIFAR10.testdata()
 
-test_X = Flux.flatten(test_x)\ntest_Y = onehotbatch(test_y , 0:9)
+X = Flux.flatten(train_x)
+Y = onehotbatch(train_y , 0:9)
 
-data = Flux.Data.DataLoader ((X,Y),batchsize = 128, shuffle=true)\ntest_data = Flux.Data.DataLoader ((test_X ,test_Y), batchsize = 128)
+test_X = Flux.flatten(test_x)
+test_Y = onehotbatch(test_y , 0:9)
 
-\n### A quick implementation
+data = Flux.Data.DataLoader ((X,Y),batchsize = 128, shuffle=true)
+test_data = Flux.Data.DataLoader ((test_X ,test_Y), batchsize = 128)
+```
+
+### A quick implementation
 
 Pruning is commonly achieved by setting weights to zero and freezing them during subsequent training. My implementation uses an element-wise operation, multiplying the weight matrix by a binary pruning mask.
 
@@ -73,19 +79,38 @@ The first matrix represents the weights of a neural network layer while the seco
 
 In Flux a simple dense layer is defined by two fundamental parts. First of all, a struct that contains three fields: weight, bias and activation function.
 
-**struct** Dense{F, M <: AbstractMatrix , B}\n  weight :: M\n  bias::B\n  sigma::F\nend
+```julia
+struct Dense{F, M <: AbstractMatrix , B}  
+  weight :: M  
+  bias::B  
+  sigma::F
+end
+```
 
 The second key part is the function that expresses the forward step computation as follows:
-
-**function**(a::Dense)(x:: AbstractVecOrMat)\n  W, b, sigma = a.weight , a.bias , a.sigma\n  **return** sigma.(W*x .+ b)\nend
+```julia
+function(a::Dense)(x:: AbstractVecOrMat)
+  W, b, sigma = a.weight , a.bias , a.sigma
+  return sigma.(W*x .+ b)
+end
+```
 
 The implementation I have developed extends the one provided by Flux by adding the Hadamard product with the matrix mask as described before. A layer PrunableDense then is defined as a struct that reuses the Dense layer with the addition of a field for a bit matrix:
 
-**struct** PrunableDense\n  dense :: Dense\n  mask:: BitMatrix\nend
+```julia
+struct PrunableDense  
+  dense :: Dense  
+  mask:: BitMatrix
+end
+```
+Secondly, we redefined the forward step function to include the Hadamard product for the mask matrix:
 
-Secondly, we redefined the forward step function to include the Hadamard product for the mask matrix :
-
-**function** (a:: PrunableDense)(x:: AbstractVecOrMat)\n  W, b,sigma , M = a.dense.W, a.dense.b, a.dense.sigma , a.mask\n  **return** sigma .((W.*M)*x .+ b)\nend
+```julia
+function (a:: PrunableDense)(x:: AbstractVecOrMat)
+  W, b,sigma , M = a.dense.W, a.dense.b, a.dense.sigma , a.mask  
+  return sigma .((W.*M)*x .+ b)
+end
+```
 
 Now you can use these prunable dense layers in the way you wish to create and then reduce the size of your neural network!
 
