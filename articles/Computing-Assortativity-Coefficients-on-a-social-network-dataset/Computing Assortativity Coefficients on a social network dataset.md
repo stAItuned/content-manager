@@ -30,3 +30,8 @@ Importing the main network file is very easy:
 _path = r'Downloads/facebook_combined.txt'
 G_fb = nx.read_edgelist(_path, create_using = nx.Graph(), nodetype=int)
 ```
+
+Let’s take a quick glance at the network. The following representation allows to display two important features:
+1. The node colour will vary with the node degree, i.e. the number of connections that each node has.
+2. The node size will vary depending on the node betweenness centrality, a measure that quantifies how much a node lies on paths between other nodes, or, in other words, this metric quantifies how much the removal of a node with high betweenness centrality can break the network. The formula for this indicator is the following:
+![Betweenness Centrality](./Formula_Betweenness Centrality.png)
