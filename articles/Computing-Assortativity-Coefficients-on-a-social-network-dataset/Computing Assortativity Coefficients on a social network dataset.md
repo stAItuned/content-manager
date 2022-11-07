@@ -35,8 +35,9 @@ Let’s take a quick glance at the network. The following representation allows 
 1. The node colour will vary with the node degree, i.e. the number of connections that each node has.
 2. The node size will vary depending on the node betweenness centrality, a measure that quantifies how much a node lies on paths between other nodes, or, in other words, this metric quantifies how much the removal of a node with high betweenness centrality can break the network. The formula for this indicator is the following:
 
-![Betweenness_Centrality](./Formula_Betweenness_Centrality.png = 250x250)
-
+<p align="center">
+    <img src="./Formula_Betweenness_Centrality.png" alt="Betweenness Centrality" width="50%" height="50%">
+</p>
 n^i_st : represents the number of shortest paths from “s” to “t” passing by node “i”;
 g_st : is the total number of shortest paths from “s” to “t” not necessarily passing by node “i”;
 n²: is the total nr of nodes and the term 1/n² can be omitted.
