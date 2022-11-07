@@ -36,7 +36,7 @@ Let’s take a quick glance at the network. The following representation allows 
 2. The node size will vary depending on the node betweenness centrality, a measure that quantifies how much a node lies on paths between other nodes, or, in other words, this metric quantifies how much the removal of a node with high betweenness centrality can break the network. The formula for this indicator is the following:
 
 <p align="center">
-    <img src="./Formula_Betweenness_Centrality.png" alt="Betweenness Centrality" width="30%" height="30%">
+    <img src="./Formula_Betweenness_Centrality.png" alt="Betweenness Centrality" width="35%" height="35%">
 </p>
 n^i_st : represents the number of shortest paths from “s” to “t” passing by node “i”;
 g_st : is the total number of shortest paths from “s” to “t” not necessarily passing by node “i”;
@@ -113,7 +113,7 @@ nx.set_node_attributes(G_fb, node_feats)
 
 Finally, we can get all attribute information for each node, e.g. node id “200”:
 <p align="center">
-    <img src="./06_Attribute_Assignment.png" alt="Attribute_Assignment" width="30%" height="30%">
+    <img src="./06_Attribute_Assignment.png" alt="Attribute_Assignment" width="50%" height="50%">
 </p>
 
 ## 2. The attribute assortativity coefficient
@@ -124,16 +124,16 @@ Newman et. all (2003) in their article define a way to measure the assortativity
 - We can build a mixing matrix M where the entry e[i][j] represents the fraction of tot edges in the network (E) which connects nodes having attribute A = A[i] to nodes having attribute A = A[j]
 
 <p align="center">
-    <img src="./Formula_Mixing_Matrix_01.png" alt="Formula Mixing Matrix" width="30%" height="30%">
+    <img src="./Formula_Mixing_Matrix_01.png" alt="Formula Mixing Matrix" width="50%" height="50%">
 </p>
 - We then build the following quantities:
 <p align="center">
-    <img src="./Formula_Mixing_Matrix_02.png" alt="Formula Mixing Matrix" width="30%" height="30%">
+    <img src="./Formula_Mixing_Matrix_02.png" alt="Formula Mixing Matrix" width="50%" height="50%">
 </p>
 
 - The assortativity coefficient can be computed with the formulas below (the second formula uses the matrix notation of tr() trace. We’ll see an example below):
 <p align="center">
-    <img src="./Formula_Attribute_Assortativity_Coefficient.png" alt="Attribute Assortativity Coefficient Formula" width="30%" height="30%">
+    <img src="./Formula_Attribute_Assortativity_Coefficient.png" alt="Attribute Assortativity Coefficient Formula" width="50%" height="50%">
 </p>
 
 ### 2.1 Computing the assortativity coefficient
@@ -148,7 +148,7 @@ mapping_ = {'anonymized feature 77' : 0,
 M_ = nx.attribute_mixing_matrix(G_fb, 'gender;', mapping = mapping_, normalized = True)
 ```
 <p align="center">
-    <img src="./08_Mixing_Matrix.png" alt="Mixing Matrix" width="50%" height="50%">
+    <img src="./08_Mixing_Matrix.png" alt="Mixing Matrix" width="30%" height="30%">
 </p>
 (Note: by setting normalized = False, we would have the effective edge count in our matrix).
 
@@ -189,7 +189,7 @@ for attr in attrs_:
 print(dict(sorted(assort_coeff.items(), key=lambda item: item[1], reverse=True)))
 ``` 
 <p align="center">
-    <img src="./11_Assortativity_Coefficients.png" alt="Assortativity Coefficients" width="50%" height="50%">
+    <img src="./11_Assortativity_Coefficients.png" alt="Assortativity Coefficients" width="40%" height="40%">
 </p>
 As expected, it seems that the network is assortative especially on attributes related to: geolocation, birthyear, family name, school which can determine circumstances or reasons why people meet each other. The only slightly disassortative attribute is the political orientation.
 
