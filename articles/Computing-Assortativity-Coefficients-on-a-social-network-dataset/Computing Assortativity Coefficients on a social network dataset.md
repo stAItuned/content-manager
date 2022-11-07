@@ -36,7 +36,7 @@ Let’s take a quick glance at the network. The following representation allows 
 2. The node size will vary depending on the node betweenness centrality, a measure that quantifies how much a node lies on paths between other nodes, or, in other words, this metric quantifies how much the removal of a node with high betweenness centrality can break the network. The formula for this indicator is the following:
 
 <p align="center">
-    <img src="./Formula_Betweenness_Centrality.png" alt="Betweenness Centrality" width="50%" height="50%">
+    <img src="./Formula_Betweenness_Centrality.png" alt="Betweenness Centrality" width="30%" height="30%">
 </p>
 n^i_st : represents the number of shortest paths from “s” to “t” passing by node “i”;
 g_st : is the total number of shortest paths from “s” to “t” not necessarily passing by node “i”;
@@ -55,7 +55,9 @@ plt.axis('off')
 plt.savefig("G_fb.png", format="PNG")
 plt.show()
 ```
-![Network](./03_Network_Img.png)
+<p align="center">
+    <img src="./03_Network_Img.png" alt="Network" width="30%" height="30%">
+</p>
 
 ### 1.2 Adding nodes attributes
 To assign attributes to nodes, we’ll need to parse the following files:
