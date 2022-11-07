@@ -6,7 +6,7 @@ topics: [Social Networks Analysis, Graphs, Assortativity]
 meta: Upload and visualize Facebook Network data, compute the assortativity coefficient and understand its relevance.
 target: Midway
 language: English
-cover: cover.png
+cover: 03_Network_Img.png
 ---
 
 # Computing Assortativity Coefficients on a social network dataset
@@ -35,7 +35,7 @@ Let’s take a quick glance at the network. The following representation allows 
 1. The node colour will vary with the node degree, i.e. the number of connections that each node has.
 2. The node size will vary depending on the node betweenness centrality, a measure that quantifies how much a node lies on paths between other nodes, or, in other words, this metric quantifies how much the removal of a node with high betweenness centrality can break the network. The formula for this indicator is the following:
 
-![Betweenness_Centrality](./Formula_Betweenness Centrality.png)
+![Betweenness_Centrality](./Formula_Betweenness_Centrality.png)
 
 n^i_st : represents the number of shortest paths from “s” to “t” passing by node “i”;
 g_st : is the total number of shortest paths from “s” to “t” not necessarily passing by node “i”;
@@ -118,15 +118,15 @@ Newman et. all (2003) in their article define a way to measure the assortativity
 - Let’s consider an attribute A of a node. The attribute can take values: [A1, A2, …]
 - We can build a mixing matrix M where the entry e[i][j] represents the fraction of tot edges in the network (E) which connects nodes having attribute A = A[i] to nodes having attribute A = A[j]
 
-![Formula_Mixing Matrix_01](./Formula_Mixing Matrix_01.png)
+![Formula_Mixing Matrix_01](./Formula_Mixing_Matrix_01.png)
 
 - We then build the following quantities:
 
-![Formula_Mixing Matrix_02](./Formula_Mixing Matrix_02.png)
+![Formula_Mixing Matrix_02](./Formula_Mixing_Matrix_02.png)
 
 - The assortativity coefficient can be computed with the formulas below (the second formula uses the matrix notation of tr() trace. We’ll see an example below):
 
-![Formula_Attribute Assortativity Coefficient](./Formula_Attribute Assortativity Coefficient.png)
+![Formula_Attribute Assortativity Coefficient](./Formula_Attribute_Assortativity_Coefficient.png)
 
 ### 2.1 Computing the assortativity coefficient
 Let’s compute the coefficient for one attribute of the available dataset: “gender”. This attribute can assume 3 values in our dataset: “anonymized feature 77”, “anonymised feature 78”, and “None”.
