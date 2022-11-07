@@ -56,7 +56,7 @@ plt.savefig("G_fb.png", format="PNG")
 plt.show()
 ```
 <p align="center">
-    <img src="./03_Network_Img.png" alt="Network" width="30%" height="30%">
+    <img src="./03_Network_Img.png" alt="Network" width="75%" height="75%">
 </p>
 
 ### 1.2 Adding nodes attributes
@@ -112,7 +112,9 @@ nx.set_node_attributes(G_fb, node_feats)
 ```
 
 Finally, we can get all attribute information for each node, e.g. node id “200”:
-![Attributes](./06_Attribute_Assignment.png)
+<p align="center">
+    <img src="./06_Attribute_Assignment.png" alt="Attribute_Assignment" width="30%" height="30%">
+</p>
 
 ## 2. The attribute assortativity coefficient
 In the study of social networks, analysing the pattern of connections between nodes plays an important role. Assortativity helps understanding if people tend to connect to similar or dissimilar nodes and this network property may affect the network structure: a strong assortativity on a discrete attribute may for instance break the network into subnetworks. Suppose that birthyear is a very strong assortativity attribute: we can therefore expect subnetworks of people of different ages connected together.
@@ -121,15 +123,18 @@ Newman et. all (2003) in their article define a way to measure the assortativity
 - Let’s consider an attribute A of a node. The attribute can take values: [A1, A2, …]
 - We can build a mixing matrix M where the entry e[i][j] represents the fraction of tot edges in the network (E) which connects nodes having attribute A = A[i] to nodes having attribute A = A[j]
 
-![Formula_Mixing Matrix_01](./Formula_Mixing_Matrix_01.png)
-
+<p align="center">
+    <img src="./Formula_Mixing_Matrix_01.png" alt="Formula Mixing Matrix" width="30%" height="30%">
+</p>
 - We then build the following quantities:
-
-![Formula_Mixing Matrix_02](./Formula_Mixing_Matrix_02.png)
+<p align="center">
+    <img src="./Formula_Mixing_Matrix_02.png" alt="Formula Mixing Matrix" width="30%" height="30%">
+</p>
 
 - The assortativity coefficient can be computed with the formulas below (the second formula uses the matrix notation of tr() trace. We’ll see an example below):
-
-![Formula_Attribute Assortativity Coefficient](./Formula_Attribute_Assortativity_Coefficient.png)
+<p align="center">
+    <img src="./Formula_Attribute_Assortativity_Coefficient.png" alt="Attribute Assortativity Coefficient Formula" width="30%" height="30%">
+</p>
 
 ### 2.1 Computing the assortativity coefficient
 Let’s compute the coefficient for one attribute of the available dataset: “gender”. This attribute can assume 3 values in our dataset: “anonymized feature 77”, “anonymised feature 78”, and “None”.
@@ -142,9 +147,9 @@ mapping_ = {'anonymized feature 77' : 0,
             None : 2}
 M_ = nx.attribute_mixing_matrix(G_fb, 'gender;', mapping = mapping_, normalized = True)
 ```
-
-![Mixing_Matrix](./08_Mixing_Matrix.png)
-
+<p align="center">
+    <img src="./08_Mixing_Matrix.png" alt="Mixing Matrix" width="50%" height="50%">
+</p>
 (Note: by setting normalized = False, we would have the effective edge count in our matrix).
 
 We will now compute the coefficient using the matrix notation formula:
@@ -183,9 +188,9 @@ for attr in attrs_:
 
 print(dict(sorted(assort_coeff.items(), key=lambda item: item[1], reverse=True)))
 ``` 
-
-![Assortativity_Coefficients](./11_Assortativity_Coefficients.png)
-
+<p align="center">
+    <img src="./11_Assortativity_Coefficients.png" alt="Assortativity Coefficients" width="50%" height="50%">
+</p>
 As expected, it seems that the network is assortative especially on attributes related to: geolocation, birthyear, family name, school which can determine circumstances or reasons why people meet each other. The only slightly disassortative attribute is the political orientation.
 
 ## References
