@@ -34,7 +34,9 @@ G_fb = nx.read_edgelist(_path, create_using = nx.Graph(), nodetype=int)
 Let’s take a quick glance at the network. The following representation allows to display two important features:
 1. The node colour will vary with the node degree, i.e. the number of connections that each node has.
 2. The node size will vary depending on the node betweenness centrality, a measure that quantifies how much a node lies on paths between other nodes, or, in other words, this metric quantifies how much the removal of a node with high betweenness centrality can break the network. The formula for this indicator is the following:
+
 ![Betweenness_Centrality](./Formula_Betweenness Centrality.png)
+
 n^i_st : represents the number of shortest paths from “s” to “t” passing by node “i”;
 g_st : is the total number of shortest paths from “s” to “t” not necessarily passing by node “i”;
 n²: is the total nr of nodes and the term 1/n² can be omitted.
@@ -115,10 +117,15 @@ In the study of social networks, analysing the pattern of connections between no
 Newman et. all (2003) in their article define a way to measure the assortativity in a network, which is the assortativity coefficient (also available in the NetworkX library [Link1](https://networkx.org/documentation/stable/reference/algorithms/generated/networkx.algorithms.assortativity.attribute_assortativity_coefficient.html), [Link2](https://networkx.org/nx-guides/content/algorithms/assortativity/correlation.html)):
 - Let’s consider an attribute A of a node. The attribute can take values: [A1, A2, …]
 - We can build a mixing matrix M where the entry e[i][j] represents the fraction of tot edges in the network (E) which connects nodes having attribute A = A[i] to nodes having attribute A = A[j]
+
 ![Formula_Mixing Matrix_01](./Formula_Mixing Matrix_01.png)
+
 - We then build the following quantities:
+
 ![Formula_Mixing Matrix_02](./Formula_Mixing Matrix_02.png)
+
 - The assortativity coefficient can be computed with the formulas below (the second formula uses the matrix notation of tr() trace. We’ll see an example below):
+
 ![Formula_Attribute Assortativity Coefficient](./Formula_Attribute Assortativity Coefficient.png)
 
 ### 2.1 Computing the assortativity coefficient
@@ -132,7 +139,9 @@ mapping_ = {'anonymized feature 77' : 0,
             None : 2}
 M_ = nx.attribute_mixing_matrix(G_fb, 'gender;', mapping = mapping_, normalized = True)
 ```
+
 ![Mixing_Matrix](./08_Mixing_Matrix.png)
+
 (Note: by setting normalized = False, we would have the effective edge count in our matrix).
 
 We will now compute the coefficient using the matrix notation formula:
@@ -171,7 +180,9 @@ for attr in attrs_:
 
 print(dict(sorted(assort_coeff.items(), key=lambda item: item[1], reverse=True)))
 ``` 
+
 ![Assortativity_Coefficients](./11_Assortativity_Coefficients.png)
+
 As expected, it seems that the network is assortative especially on attributes related to: geolocation, birthyear, family name, school which can determine circumstances or reasons why people meet each other. The only slightly disassortative attribute is the political orientation.
 
 ## References
