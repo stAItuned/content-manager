@@ -10,6 +10,7 @@ cover: ./30DaysOfMachineLearningEngineering.png
 published: true
 ---
 
+
 # 30 Days of Machine Learning Engineering
 
 ## Day 0 - What is this challenge about?
@@ -35,3 +36,5 @@ Sources:
 - [LinkedIn](https://www.linkedin.com/company/stai-tuned)
 - Github: [#66DaysOfDataChallenge](https://github.com/francescodisalvo05/66DaysOfData)
 - Github: [#30DaysOfMachineLearningEngineering](https://github.com/francescodisalvo05/30DaysOfMachineLearningEngineering)
+
+
