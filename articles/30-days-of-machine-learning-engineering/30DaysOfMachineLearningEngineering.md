@@ -1,7 +1,7 @@
 ---
 title: 30 Days of Machine Learning Engineering
 author: Francesco Di Salvo
-date: 2022-10-07
+date: 2022-11-07
 topics: [Machine Learning]
 meta: 30 Days of Machine Learning Engineering
 target: Expert
@@ -11,7 +11,7 @@ published: true
 ---
 
 
-# 30 Days of Machine Learning Engineering
+# Thirty Days of Machine Learning Engineering
 
 ## Day 0 - What is this challenge about?
 
