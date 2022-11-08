@@ -6,8 +6,9 @@ topics: [Machine Learning]
 meta: 30 Days of Machine Learning Engineering
 target: Expert
 language: English
-cover: ./30DaysOfMachineLearningEngineering.png
+cover: ./cover.jpeg
 published: true
+layout: guide
 ---
 
 
@@ -29,12 +30,23 @@ P.S. I do truly believe on the values of this challenge, and great examples can 
 
 Disclaimer: The book is distributed on the “read first, buy later” principle. Therefore you can  freely read the book too and then decide to buy it!
 
-Sources:
+**Sources**:
 
 - [Book](http://www.mlebook.com/wiki/doku.php?id=start)
 - [Blog](https://staituned.com/learn/expert/30-days-of-machine-learning-engineering)
 - [LinkedIn](https://www.linkedin.com/company/stai-tuned)
 - Github: [#66DaysOfDataChallenge](https://github.com/francescodisalvo05/66DaysOfData)
 - Github: [#30DaysOfMachineLearningEngineering](https://github.com/francescodisalvo05/30DaysOfMachineLearningEngineering)
+- [Cover image](https://www.ocpathink.org/post/quality-not-seniority-stressed-for-teacher-pay)
 
+## Day 1 - Machine Learning preliminaries
 
+Today we went through the first chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+This chapter starts from the **initial definitions** of Machine Learning, Supervised vs Unsupervised learning, as in any ML book. 
+
+However, there are two interesting sections devoted to “when to use” and “when to not use” Machine Learning. 
+
+Ideally, Machine Learning **should be employed** when the problem cannot be hard-coded, when we expect a lot of variations over time, when it involves a perceptive problem, when there is little information about the topic, when it has a simple objective and finally, when it is cost effective! 
+
+On the other hand, Machine Learning **should be avoided** when every action or behavior has to be explained, when the error cost it too high, when the data is too expansive or hard to obtain, when the problem is too complex and it has too many required outcomes and when it can be eventually solved through heuristics or lookup tables.
