@@ -1,12 +1,14 @@
 ---
-title: Fractional Differentiation in time series
 author: Daniele Moltisanti
-date: 2022-01-01
-topics: [Finance]
-meta: The Fractional Differentiation is the data transformation for financial time series data that permit more powerful forecasting of your model
-target: expert
-language: English
 cover: https://i.imgur.com/TQasoCN.jpeg
+date: 
+language: English
+meta: The Fractional Differentiation is the data transformation for financial time
+  series data that permit more powerful forecasting of your model
+target: Expert
+title: Fractional Differentiation in time series
+topics:
+- Finance
 ---
 
 # **Fractional Differentiation in time series**

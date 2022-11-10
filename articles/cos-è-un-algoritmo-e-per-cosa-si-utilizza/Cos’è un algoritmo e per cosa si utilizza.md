@@ -1,8 +1,9 @@
 ---
 title: Cos’è un algoritmo?
 author: Roberta Ghidini
-date: 2022-09-26
-topics: [Machine Learning]
+date: 2022-09-28
+published: True
+topics: [Basic]
 meta: Un algoritmo è una serie di istruzioni e regole che vengono fornite ad un computer per svolgere e completare delle attività.
 target: Newbie
 language: Italian
@@ -12,7 +13,7 @@ cover: cover.png
 
 # **Cos’è un algoritmo?**
 
-Dal **dizionario [Treccani**](https://www.treccani.it/) troviamo l’origine del termine **algoritmo**:
+Dal dizionario [Treccani](https://www.treccani.it/) troviamo l’origine del termine **algoritmo**:
 
 *“Con un algoritmo si tende a esprimere in termini matematicamente precisi il concetto di procedura generale, di metodo sistematico valido per la soluzione di una certa classe di problemi”*
 

@@ -1,7 +1,7 @@
 ---
 title: Reti generative avversarie (GAN)
 author: Roberta Ghidini
-date: 2022-09-27
+date: 
 topics: [Deep Learning]
 meta: Le GAN (Reti Generative Avversarie) sono due reti neurali artificiali in grado di generare nuovi elementi a partire da contenuti esistenti.
 target: Newbie
