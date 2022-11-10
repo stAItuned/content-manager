@@ -1,7 +1,7 @@
 ---
 title: Deep Learning
 author: Roberta Ghidini
-date: 2022-09-26
+date: 
 topics: [Deep Learning]
 meta: Il Deep Learning, ramo del Machine Learning, è una grande rete neurale multistrato addestrata a risolvere problemi di apprendimento automatico
 target: Newbie

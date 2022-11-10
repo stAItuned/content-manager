@@ -1,12 +1,12 @@
 ---
 title: Reti neurali Convoluzionali e le loro applicazioni
 author: Roberta Ghidini
-date: 2022-09-27
+date: 
 topics: [Deep Learning]
 meta: LLe reti neurali convoluzionali, sottoinsieme delle reti feed forward, sono uno degli algoritmi più impiegati tra le tecniche del Deep Learning.
 target: Newbie
 language: Italian
-cover: solution-now-reti-neurali.jpg
+cover: cover.jpeg
 ---
 
 # Cosa sono le Reti Neurali Convoluzionali? - stAI tuned

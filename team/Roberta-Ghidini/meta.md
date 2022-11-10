@@ -1,6 +1,6 @@
 ---
 name: Roberta Ghidini
-team: [Marketing]
+team: [Marketing, Writers]
 title: Founder & Digital Marketing Specialist
 linkedin: https://www.linkedin.com/in/robertaghidini/
 email: robighidini@gmail.com
