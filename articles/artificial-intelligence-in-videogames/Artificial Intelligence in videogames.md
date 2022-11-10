@@ -1,7 +1,7 @@
 ---
 meta: Artificial Intelligence is a giant world where we can find everything. Also videogames when we don't even notice...
 date: 
-target: Videogames, AI 
+target: Newbie 
 topics: [Artificial Intelligence] 
 cover:  cover.jpg
 title:  Artificial Intelligence in videogames
