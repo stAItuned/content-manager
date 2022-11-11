@@ -31,8 +31,10 @@ Yet, most of them use a different concept of Artificial Intelligence
 Videogames, with AI, are able to provide a better experience for the user an to their games itself. 
 
 A game with a type of Artificial Intelligence that I particularly appreciated was "Detroit: Become Human"
-
+<figure>
 ![image](./connor.jpg)
+<figcaption align = "center"><b>Image Credits: IGN</b></figcaption>
+</figure>
 
 In this game we play three different characters: all of them are robots that have to make choices. Every choice that we do, will change inevitably the story, including the different characters. 
 
