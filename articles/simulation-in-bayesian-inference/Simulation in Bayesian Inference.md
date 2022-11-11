@@ -1,12 +1,13 @@
 ---
 meta: Simulations are able to generate random variables with certain properties and hence being able to mimic real random phenomena.
-date: 
+date: 2022-11-10
 target: Expert 
 topics: [Bayesian Inference,MCMC,Simulation] 
 cover: cover.png
 title: Simulation in Bayesian Inference
 language: English 
 author: Gabriele Cola
+published: true
 ---
 
 # Simulation in Bayesian Inference
