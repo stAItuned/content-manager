@@ -42,13 +42,19 @@ In this game we play three different characters: all of them are robots that hav
 
 A quite similar game is "Until Dawn". We also play different characters and the multiple choices are presented to us with the name of "butterfly effect", here too every choice can make a huge difference on the game history.
 
-![image](./untildawn.jpg)
+
+| ![image](./untildawn.jpg) |
+|:--:|
+| <b>Image Credits: IGN</b>|
 
 But, in these cases, how the AI can be realized? Game AI often amounts to pathfinding and finite states machines in a form of tree. 
 
 Pathfinding gets the AI from point A to point B, so for example if we make a choice in Until Dawn, we may be redirected to a different tree, instead of a desired one. This method is called **Monte Carlo Search Tree Algorithm**:
 
-![image](./montecarlo.jpg)
+
+| ![image](./montecarlo.jpg) |
+|:--:|
+| <b>Image Credits: Harvard.edu</b>|
 
 Above, an example of MCST.
 
