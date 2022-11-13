@@ -1,6 +1,6 @@
 ---
 meta: Una breve introduzione al machine learning e alle sue applicazioni. Come funziona e come un computer impara dai dati forniti.
-date: 
+date: 2022-11-03
 target: Newbie 
 topics: [Machine Learning] 
 cover:  cover.jpg
@@ -32,6 +32,7 @@ Ci sono differenti tecniche per la sua implementazione, le tecniche più adottat
 Il **Machine Learning** continua ad essere utilizzato sempre di più: dalla classificazioni di dati al riconoscimento degli oggetti, della voce. L’esempio più basilare risulta quello dei filti **anti spam,** ovvero la divisione della mail in due categorie (spam e non spam) e il riconoscimento delle mail che possono risultare dannose.
 
 Un esempio più moderno è appunto il riconoscimento vocale, basti vedere **Siri,** o **Google Voice**; entrambi i software utilizzano degli algoritmi di machine learning per comprendere e capire il tuo tono di voce e le tue parole. 
+
 
 FONTI:
 
