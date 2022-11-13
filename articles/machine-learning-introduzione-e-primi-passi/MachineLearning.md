@@ -7,6 +7,7 @@ cover:  cover.jpg
 title:  Machine Learning - introduzione e primi passi
 language: Italian
 author: Francesco Di Gangi
+published: true
 ---
 # Machine Learning - introduzione e primi passi
 
