@@ -1,12 +1,13 @@
 ---
 meta: Artificial Intelligence is a giant world where we can find everything. Also videogames when we don't even notice...
-date: 
+date: 2022-11-14
 target: Newbie 
 topics: [Artificial Intelligence] 
 cover:  cover.jpg
 title:  Artificial Intelligence in videogames
 language: English
 author: Francesco Di Gangi
+published: true
 ---
 # Artificial Intelligence in videogames
 
