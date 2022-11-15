@@ -1,6 +1,6 @@
 ---
 author: Marcello Politi
-cover: https://miro.medium.com/0*MLIjvdpkCmEuW8gk
+cover: cover.jpeg
 date: 2022-11-15
 language: English
 meta: A brief survey about compression techniques based on pruning
