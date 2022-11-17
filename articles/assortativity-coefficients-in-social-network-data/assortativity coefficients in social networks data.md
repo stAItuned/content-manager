@@ -1,12 +1,13 @@
 ---
 title: Assortativity Coefficients in social networks data
 author: Gabriele Albini
-date:
+date: 2022-11-18
 topics: [Social Networks Analysis, Graphs, Assortativity]
 meta: Assortativity helps analysing pattern of connections in networks. Let’s use it to confirm if people tend to connect to similar people.
 target: Expert
 language: English
 cover: 03_Network_Img.png
+published: true
 ---
 
 # Computing Assortativity Coefficients on a social network dataset
