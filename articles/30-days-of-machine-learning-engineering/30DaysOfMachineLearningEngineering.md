@@ -85,6 +85,27 @@ Estimating the **complexity** of a ML project is everything but easy. To do so, 
 - **Compare existing projects:** in can give an idea of the current state of the art
 - **Compare human performances**: this can help in order to evaluate a human benchmark in terms of time and performances.
 - **Benchmark on simpler scenarios**: try to simplify the problem and check whether if it is solvable. If so, you can start to make the model more complex in order to answer to broader requirements.
-  
+
+## Day 05 - **Why Machine Learning Projects Fail**
+
+Today we went through the second chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+The author proposed **7 reasons why Machine Learning Projects fail** 
+
+- **Lack of experienced talent**: this is still a fairly recent discipline, therefore it is not always easy to hire highly skilled talents, and moreover, even the way employers hire do not always maximize the change of getting the best candidate
+- **Lack of support by the leadership**:  sometimes the responsible of the project is not an AI-expert, therefore the real technical limitations cannot easily understood.
+- **Missing data infrastructure**: it is always true that “garbage in, garbage out”, therefore it is important to deal with clean and consisted data.
+- **Data labeling**: dealing with labeled data is a gold mine nowadays, therefore it is something that has to be taken into account before diving into a new ML project.
+- **Lack of collaboration**: siloed companies may have communication issues between their teams, obtaining as a consequence troubles on the integration of smaller pieces of the project
+- **Technically infeasible projects**: being ambitious is always important, but the issues arrive when the constraints are not feasible at all.
+- **Lack of alignment between Technical and business teams**: the business side has its own requirements, as well as the technical side. However, the meeting point may be hard to reach.
+
+To this extend, we recently published an article called [**“Five reasons why my Machine Learning models failed”**](https://staituned.com/learn/expert/five-reasons-why-my-machine-learning-models-failed), reporting some real examples! 
+
+Reference:
+
+- [https://arxiv.org/pdf/2108.02497.pdf](https://arxiv.org/pdf/2108.02497.pdf)
+
+
 <br />
 <br />
