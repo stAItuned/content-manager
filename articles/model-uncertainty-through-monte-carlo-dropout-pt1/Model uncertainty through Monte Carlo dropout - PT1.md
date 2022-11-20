@@ -82,8 +82,6 @@ The following example is taken from my Master Thesis [5] and it represents a Mon
 <p align="center"> 
   <img src="./mc_classification_pipeline.png" alt="MC Classification pipeline" />
 </p>
-  
-> Monte Carlo dropout pipeline on a tumor classification task
 
 
 ## Conclusions 
