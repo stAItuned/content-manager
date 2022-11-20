@@ -6,7 +6,7 @@ topics: [Deep Learning, Uncertainty]
 meta: Model uncertainty is typically handled via Bayesian Deep Learning, but this comes with a prohibitive cost. A solution is given by the MC Dropout.
 target: Expert
 language: English
-cover: cover.webp 
+cover: cover.jpg 
 published: true
 ---
 
@@ -80,8 +80,9 @@ In case of a classification or regression task, it would be interesting the eval
 The following example is taken from my Master Thesis [5] and it represents a Monte Carlo dropout pipeline employed on a tumor classification task. The goal was to classify whether a tumor was benign or malignant. Therefore we leveraged $100$ Monte Carlo samples and we estimated the uncertainty with the variance between the malignant probabilities, proving that an higher variance was correlated with lower classification performances. 
 
 <p align="center"> 
-  <img src="./mc_classification_pipeline.png"
+  <img src="./mc_classification_pipeline.png" alt="MC Classification pipeline" />
 </p>
+  
   
 > Monte Carlo dropout pipeline on a tumor classification task
 
