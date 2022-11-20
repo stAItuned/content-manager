@@ -1,12 +1,13 @@
 ---
 title: Model uncertainty through Monte Carlo dropout - PT1
 author: Francesco Di Salvo
-date: 
+date: 2022-11-21
 topics: [Deep Learning, Uncertainty]
 meta: Model uncertainty is typically handled via Bayesian Deep Learning, but this comes with a prohibitive cost. A solution is given by the MC Dropout.
 target: Expert
 language: English
 cover: cover.webp 
+published: true
 ---
 
 # Model uncertainty through Monte Carlo dropout - PT1
@@ -21,7 +22,9 @@ Uncertainty in Deep Learning represents one of the major **obstacles** during th
 
 Starting from the definition, we may first distinguish two kinds of uncertainty: aleatoric and epistemic [1]. The intrinsic stochasticity of the data is referred to as the **aleatoric uncertainty**, and it is obvious that it cannot be minimized. On the other side, the inappropriateness of the training observations is referred to as **epistemic uncertainty**. Simply put, the lack of data and understanding is reflected in the epistemic uncertainty, which may be reduced by including additional training examples. A visual representation of both uncertainty measures are reported in figure below. The epistemic uncertainty also accounts for the model uncertainty, because this is a type of uncertainty that can be explained if we have enough data.
 
-![Epistemic vs Aletatoric uncertainty](./epistemic-vs-aleatoric.jpg)
+<p align="center">
+  <img src="./epistemic-vs-aleatoric.jpg" height="400px" width="auto" alt="epistemic-vs-aleatoric"/>
+</p>
 
 ## Overview of Bayesian Deep Learning
 
@@ -58,7 +61,12 @@ $$
 
 where $f(x,\Theta)$ represents the mean and $s^2(x,\Theta)$ represents the variance. 
 
-![A set of $N$ inferences with dropout activated provides $N$ different model configurations and slightly different outcomes. The uncertainty will be estimated afterwards through a statistical analysis performed on the output, called Monte Carlo samples](./MCDropoutPipeline.png)
+<p align="center"> 
+  <img src="./MCDropoutPipeline.png" alt="pipeline" />
+</p>
+
+> A set of $N$ inferences with dropout activated provides $N$ different model configurations and slightly different outcomes. The uncertainty will be estimated afterwards through a statistical analysis performed on the output, called Monte Carlo samples
+
 
 Each dropout configuration yields a different output by randomly switching neurons off (the ones with a red cross) with each forward propagation. Multiple forward passes with different dropout configurations yield a predictive distribution over the mean $p(f(x, \Theta)$). 
 
@@ -69,10 +77,13 @@ Therefore, this is strictly related to the task we are dealing with. So, are we 
 
 In case of a classification or regression task, it would be interesting the evaluate the variance between the monte carlo samples. On the other hand, in semantic segmentation task there may be many ways for estimating the uncertainty. For example in Bayesian QuickNat [3], the authors proposed three different metrics: the coefficient of variation in MC Volumes, the Dice agreement in MC samples and the Intersection over Unions of MC samples. 
 
-The following example is taken from my Master Thesis and it represents a Monte Carlo dropout pipeline employed on a tumor classification task. The goal was to classify whether a tumor was benign or malignant. Therefore we leveraged $100$ Monte Carlo samples and we estimated the uncertainty with the variance between the malignant probabilities, proving that an higher variance was correlated with lower classification performances. 
+The following example is taken from my Master Thesis [5] and it represents a Monte Carlo dropout pipeline employed on a tumor classification task. The goal was to classify whether a tumor was benign or malignant. Therefore we leveraged $100$ Monte Carlo samples and we estimated the uncertainty with the variance between the malignant probabilities, proving that an higher variance was correlated with lower classification performances. 
 
-![Monte Carlo dropout pipeline on a tumor classification task](./mc_classification_pipeline.png)
-
+<p align="center"> 
+  <img src="./mc_classification_pipeline.png"
+</p>
+  
+> Monte Carlo dropout pipeline on a tumor classification task
 
 ## Conclusions 
 To conclude, it should be clear that Bayesian Deep Learning is prohibitive for all those modern netwrorks which have billions of parameters. Several approximation of the Bayesian inference were proposed over the years and one the most popular is the Monte Carlo Dropout, that we covered on this first article. 
@@ -86,6 +97,7 @@ The [second part](./../model-uncertainty-through-monte-carlo-dropout-pt2/Model%2
 2. [A Comprehensive Introduction to Bayesian Deep Learning](https://jorisbaan.nl/2021/03/02/introduction-to-bayesian-deep-learning.html)
 3. [Bayesian QuickNAT: Model Uncertainty in Deep Whole-Brain Segmentation for Structure-wise Quality Control](https://arxiv.org/abs/1811.09800)
 4. Code of the [project](https://github.com/francescodisalvo05/uncertainty-monte-carlo-dropout) for the second part of this blogpost
+5. [My MSc thesis](https://webthesis.biblio.polito.it/24629/)
 
 
 **Images**:
