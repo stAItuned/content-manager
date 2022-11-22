@@ -106,6 +106,18 @@ Reference:
 
 - [https://arxiv.org/pdf/2108.02497.pdf](https://arxiv.org/pdf/2108.02497.pdf)
 
+## **Day 06 - Questions about the data**
+
+Today we went through the third chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Focusing on the data collection pipeline, the author suggests to **ask 5 questions about the data.**
+
+1. **Is the data accessible?** While looking for some data, it is important to understand whether the **data** is already **available** and as a consequence, if it is protected under **copyright**. Moreover, it is also important to check if the data is sensitive and if there might be some related **privacy** issues.
+2. **Is the data sizeable?** Once we have an idea about the data that we can use, we have to understand if the data is **enough** for our project. And if not, we have to check how frequently we can **generate** new data. A **rule of thumb** about the dataset says suggest that we need ~10 times the number of features, ~100 or 1000 times the number of classes and ~10 times the number of trainable parameters (in Deep Learning).
+3. **Is the data usable?** We cannot escape from it: garbage in, garbage out! We have to deal with tidy data. Therefore it is important to spot missing values, potential imbalance, expired data and eventual incompleteness of the represented phenomenon. 
+4. **Is the data understandable?** It is truly important to understand where each feature and instance comes from, in order to easily manipulate them, if needed.
+5. **Is the data reliable?** While dealing with old and historical data, this is something to bear in mind. Do we have some expired data? Maybe some measurement comes from some broken and replaced devices. Moreover, is there any delay between measurement and collected labels?
+
 
 <br />
 <br />
