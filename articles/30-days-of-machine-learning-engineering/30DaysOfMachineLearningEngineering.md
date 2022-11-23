@@ -118,6 +118,18 @@ Focusing on the data collection pipeline, the author suggests to **ask 5 questio
 4. **Is the data understandable?** It is truly important to understand where each feature and instance comes from, in order to easily manipulate them, if needed.
 5. **Is the data reliable?** While dealing with old and historical data, this is something to bear in mind. Do we have some expired data? Maybe some measurement comes from some broken and replaced devices. Moreover, is there any delay between measurement and collected labels?
 
+## Day 07 - Bias on our data
 
+Today we are going through the third chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Here there is reported a comprehensive **list of biases** that we might encounter on our datasets. Together with this list, you can also find some ways that can reduce this likelihood. 
+
+- The **selection bias** happens when we select data sources that are more likely to be easily available or cheap.
+- The **self-selection bias** happens when the data comes from people that “volunteered” to provide it (e.g. reviews or polls).
+- The **omitted variable bias** happens when we miss a fundamental feature for the problem at hand.
+- The **sampling bias** occurs when the data distribution used in training does not reflect the distribution that will receive in production afterwards.
+- The **labeling bias** typically occurs when the labeling is performed from a biased process or person.
+
+This was just a few mentioned example from the book, if you want to know more, I invite you to read the third chapter, it is extremely interesting!
 <br />
 <br />
