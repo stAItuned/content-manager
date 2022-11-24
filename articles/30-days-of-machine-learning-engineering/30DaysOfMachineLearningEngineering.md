@@ -131,5 +131,20 @@ Here there is reported a comprehensive **list of biases** that we might encounte
 - The **labeling bias** typically occurs when the labeling is performed from a biased process or person.
 
 This was just a few mentioned example from the book, if you want to know more, I invite you to read the third chapter, it is extremely interesting!
+
+## Day 08 - Causes of data leakage
+
+Today we are going through the third chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+**Data leakage** happens when the information from the validation or the test set are used to train the model. 
+
+There are three main situations in which we may spot it.
+
+The **target is a function of the features**. I guess you all experienced at least once. The simplest case is when you have a copy of your target on the feature space. 
+
+The **features hides the target**. The target can be represented as a code or something similar and it can be directly associated with a perfect match with the outcome. 
+
+We are dealing with **feature from the future**. At inference time we will get only the “current” scenario. However, we may have features that has to be collected in the future that cannot be modeled. The author proposed the example of the “Will pay loan” classification problem in which we have the features “Late Payment Reminders”. Since the prediction will be given before the user starts the loan, it will be always 0!
+
 <br />
 <br />
