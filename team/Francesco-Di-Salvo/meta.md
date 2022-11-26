@@ -7,15 +7,6 @@ email: francesco.disalvo99@gmail.com
 description: I am a Machine Learning Engineer amazed by the research world and strongly interested in Computer Vision and Natural Language Processing.
 ---
 
----
-name: Francesco Di Salvo
-team: [Tech, Writers]
-title: Co-Founder & Technical Director
-linkedin: https://www.linkedin.com/in/francescodisalvo-pa/
-email: francesco.disalvo99@gmail.com
-description: I am a Machine Learning Engineer amazed by the research world and strongly interested in Computer Vision and Natural Language Processing.
----
-
 <p align="center" style="font-weight:bold"> 👋 <b>Hi there, I'm Francesco!</b> <p>
 
 <div id="header" align="center">
