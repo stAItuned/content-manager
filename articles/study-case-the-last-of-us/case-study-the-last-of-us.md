@@ -4,7 +4,7 @@ date: 2022-11-26
 target: Newbie 
 topics: [Artificial Intelligence] 
 cover:  cover.jpg
-title:  Case of Study: The Last of Us
+title:  Case of Study - The Last of Us
 language: English
 author: Francesco Di Gangi
 published: false
