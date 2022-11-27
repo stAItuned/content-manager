@@ -1,15 +1,15 @@
 ---
 meta: The Last of Us is one of the most famous videogames developed for PlayStation, today we are going to learn something about the AI of the game...
-date: 2022-11-26
+date: 2022-11-28
 target: Newbie 
 topics: [Artificial Intelligence] 
 cover:  cover.jpg
-title:  Case of Study - The Last of Us
+title:  Case Study - The Last of Us
 language: English
 author: Francesco Di Gangi
-published: false
+published: true
 ---
-# Case of Study: The Last of Us
+# Case Study: The Last of Us
 
 ## The Last of Us
 The Last of Us is a 2013 action-adventure-survivor videogame developed by Naughty Dog. There are two chapter of the game:
