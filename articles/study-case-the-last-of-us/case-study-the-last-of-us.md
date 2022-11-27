@@ -15,6 +15,7 @@ published: true
 The Last of Us is a 2013 action-adventure-survivor videogame developed by Naughty Dog. There are two chapter of the game:
 - The Last of Us 1
 - The Last of Us 2
+
 There is also a DLC that goes deep in the last of *Ellie*, one of the character in the game that walk with *Joel*: the main character of the game. 
 
 The Last of Us is one of the most renowned game probably that always been published, not only for his story, but also for his gameplay and for the Artificial Intelligence used for the development.
