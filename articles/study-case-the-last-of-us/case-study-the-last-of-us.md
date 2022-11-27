@@ -90,7 +90,7 @@ One of the most interesting is the **investigation**, behaviour used when a Hunt
 - **Exposure Map**: sits on top of the navigation map that shows information about what the NPC can see from his current position. This shows to the NPC what is nearby.
 - **Cover Point System**: identifies not only good covers but also specific animation and behaviours. This is called by the NPC to understand where *Joel* could be. 
 
-| ![image](./path.png) |
+| ![image](./path.jps) |
 |:--:|
 | <b>Image Credits: Game Developer</b>|
 
