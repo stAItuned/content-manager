@@ -1,7 +1,7 @@
 ---
 title: 30 Days of Machine Learning Engineering
 author: Francesco Di Salvo
-date: 2022-11-14
+date: 2022-11-23
 topics: [Machine Learning]
 meta: 30 Days of Machine Learning Engineering
 target: Expert
@@ -118,6 +118,33 @@ Focusing on the data collection pipeline, the author suggests to **ask 5 questio
 4. **Is the data understandable?** It is truly important to understand where each feature and instance comes from, in order to easily manipulate them, if needed.
 5. **Is the data reliable?** While dealing with old and historical data, this is something to bear in mind. Do we have some expired data? Maybe some measurement comes from some broken and replaced devices. Moreover, is there any delay between measurement and collected labels?
 
+## Day 07 - Bias on our data
+
+Today we are going through the third chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Here there is reported a comprehensive **list of biases** that we might encounter on our datasets. Together with this list, you can also find some ways that can reduce this likelihood. 
+
+- The **selection bias** happens when we select data sources that are more likely to be easily available or cheap.
+- The **self-selection bias** happens when the data comes from people that “volunteered” to provide it (e.g. reviews or polls).
+- The **omitted variable bias** happens when we miss a fundamental feature for the problem at hand.
+- The **sampling bias** occurs when the data distribution used in training does not reflect the distribution that will receive in production afterwards.
+- The **labeling bias** typically occurs when the labeling is performed from a biased process or person.
+
+This was just a few mentioned example from the book, if you want to know more, I invite you to read the third chapter, it is extremely interesting!
+
+## Day 08 - Causes of data leakage
+
+Today we are going through the third chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+**Data leakage** happens when the information from the validation or the test set are used to train the model. 
+
+There are three main situations in which we may spot it.
+
+The **target is a function of the features**. I guess you all experienced at least once. The simplest case is when you have a copy of your target on the feature space. 
+
+The **features hides the target**. The target can be represented as a code or something similar and it can be directly associated with a perfect match with the outcome. 
+
+We are dealing with **feature from the future**. At inference time we will get only the “current” scenario. However, we may have features that has to be collected in the future that cannot be modeled. The author proposed the example of the “Will pay loan” classification problem in which we have the features “Late Payment Reminders”. Since the prediction will be given before the user starts the loan, it will be always 0!
 
 <br />
 <br />

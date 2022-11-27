@@ -1,6 +1,6 @@
 ---
 name: Marcello Politi
-team: [Tech, Writers]
+team: [Writers]
 title: Machine Learning Specialist
 linkedin: https://www.linkedin.com/in/marcello-politi/
 email: mpoliti08@gmail.com
