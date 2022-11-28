@@ -16,7 +16,7 @@ The Last of Us is a 2013 action-adventure-survivor videogame developed by Naught
 - The Last of Us 1
 - The Last of Us 2
 
-There is also a DLC that goes deep in the last of *Ellie*, one of the character in the game that walk with *Joel*: the main character of the game. 
+There is also a DLC that goes deep in the life of *Ellie*, one of the character in the game that walk with *Joel*: the main character of the game. 
 
 The Last of Us is one of the most renowned game probably that always been published, not only for his story, but also for his gameplay and for the Artificial Intelligence used for the development.
 
@@ -78,7 +78,7 @@ But how is actually implemented?
 |:--:|
 | <b>Image Credits: Game Developer</b>|
 
-The Last of Us uses a *cone* that allow the player to be seen by enemies after typically 102 seconds. Very similar techniques are used in games such as *Splinter Cell and Uncharted*. In addition to that, enemies also scan the near environment, to understand if there is something standing between them and *Joel* (such as Anomaly Detection algorithms). Originally a enemy would have run in Joel's direction without scanning his nearest environment. Eventually, if *Joel* is spotted, the enemy aims to the chest or to the head.
+The Last of Us uses a *cone* that allow the player to be seen by enemies after typically 1 or 2 seconds. Very similar techniques are used in games such as *Splinter Cell and Uncharted*. In addition to that, enemies also scan the near environment, to understand if there is something standing between them and *Joel* (such as Anomaly Detection algorithms). Originally a enemy would have run in Joel's direction without scanning his nearest environment. Eventually, if *Joel* is spotted, the enemy aims to the chest or to the head.
 These are the skills of the hunters:
 
 | ![image](./hunterskills.png) |
