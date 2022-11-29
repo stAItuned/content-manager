@@ -1,7 +1,7 @@
 ---
 title: 30 Days of Machine Learning Engineering
 author: Francesco Di Salvo
-date: 2022-11-23
+date: 2022-11-29
 topics: [Machine Learning]
 meta: 30 Days of Machine Learning Engineering
 target: Expert
@@ -145,6 +145,40 @@ The **target is a function of the features**. I guess you all experienced at lea
 The **features hides the target**. The target can be represented as a code or something similar and it can be directly associated with a perfect match with the outcome. 
 
 We are dealing with **feature from the future**. At inference time we will get only the “current” scenario. However, we may have features that has to be collected in the future that cannot be modeled. The author proposed the example of the “Will pay loan” classification problem in which we have the features “Late Payment Reminders”. Since the prediction will be given before the user starts the loan, it will be always 0!
+
+## Day 09 - Data augmentation in NLP
+
+Today we are going through the third chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+**Data augmentation** is a fairly known technique, especially in Computer Vision, where it is possible to generate new examples by flipping the image, changing the brightness, the color and so on. 
+
+However, in **Natural Language Processing**, this is less straightforward and we may see different interesting techniques. 
+
+1. Replace some words with its closest **synonym** or **hypernym**. The latter is a word having a broader meaning. 
+2. In word or document **embedding** applications, we may employ **Gaussian noise** to randomly chosen features, obtaining different similar words. 
+3. Given a word to update, use KNN in order to get the K closest words and generate K new different sentences.
+4. Given a sentence or a document, translate it into another language and then translate it again into the source language, obtaining a new different sample close to the initial one. This is called **back translation**.
+
+## Day 10 - Data sampling strategies
+
+Today we are going through the third chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+It is not always necessary to deal with all the dataset available. Therefore in these cases it is important to rely on a **meaningful samples**. To this extent, the author proposes three **sampling strategies**.
+
+- **Simple Random Sampling** is probably the easiest. Every selected instance is randomly taken, no matter how. Therefore, every instance has the same probability of being selected (1/N). Despite its simplicity, it may miss some relevant and meaningful instances.
+- **Systematic Sampling** starts from the definition of a list containing all the examples. From this list you select the starting point and then decide to pick one instance every “k” elements. In this way we are able to consider instances across the full range of possible ones. However there may be troubles with periodic examples.
+- **Stratified Sampling** is probably one of the most used strategy. Here the instances will be sampled based on some defined groups based on the available features. For example we may want to pick 50% of males and 50% of females in order to balance the gender.
+
+## Day 11 - How to convert categorical features to numbers
+
+Today we are going through the fourth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Most of the machine learning algorithms are **not able to deal with categorical features**, therefore we have several workarounds to our disposal in order to overcome this limitation. 
+
+- **One Hot Encoding** is extremely popular and it transforms a categorical feature into different binary ones. Hence, if the categorical feature has cardinality N, this will be translated into a N-dimensional binary vector, increasing a lot the final dimension.
+- **Bin counting,** or mean encoding,  ****overcomes the size limitation introduced by OHE. It converts every value with its occurrence mean, calculated as the instance frequency/total frequency.
+- **Odds ratio** or **log odds ratio** come from statistics and are used for binary classification problems. The odds ratio (OR) quantifies the strength if the association between the two events (A,B) and it is defined as the ratio of the odds of A in the presence of B and the odds of A in the absence of B.
+
 
 <br />
 <br />
