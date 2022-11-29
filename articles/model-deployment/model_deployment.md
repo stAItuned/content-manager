@@ -6,7 +6,7 @@ topics: []
 meta: How many times did you build up a great machine learning model that never seen the light? This is the right article for you!
 target: Expert
 language: English
-cover: FastAPI.jpg
+cover: FastAPI.png
 ---
 
 # Model Deployment
