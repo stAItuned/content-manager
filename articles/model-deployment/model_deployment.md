@@ -1,12 +1,13 @@
 ---
 title: Model deployment
 author: Gianluca La Malfa
-date: 
-topics: []
+date: 2022-12-01
+topics: [Projects]
 meta: How many times did you build up a great machine learning model that never seen the light? This is the right article for you!
 target: Expert
 language: English
 cover: FastAPI.png
+published: true
 ---
 
 # Model Deployment
