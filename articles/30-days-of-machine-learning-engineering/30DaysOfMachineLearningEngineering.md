@@ -1,7 +1,7 @@
 ---
 title: 30 Days of Machine Learning Engineering
 author: Francesco Di Salvo
-date: 2022-11-29
+date: 2022-12-05
 topics: [Machine Learning]
 meta: 30 Days of Machine Learning Engineering
 target: Expert
@@ -179,6 +179,46 @@ Most of the machine learning algorithms are **not able to deal with categorical 
 - **Bin counting,** or mean encoding,  ****overcomes the size limitation introduced by OHE. It converts every value with its occurrence mean, calculated as the instance frequency/total frequency.
 - **Odds ratio** or **log odds ratio** come from statistics and are used for binary classification problems. The odds ratio (OR) quantifies the strength if the association between the two events (A,B) and it is defined as the ratio of the odds of A in the presence of B and the odds of A in the absence of B.
 
+## Day 12 - How to deal with time series
+
+Today we are going through the fourth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+**Time series data** are different from what we are used to. A time series is an **ordered sequence** of observations. 
+
+Before feeding these data to a Machine Learning algorithm, this need some transformation. The **go-to strategy** involves three simple step: 
+
+1. **Split** the whole time series into smaller segment of a given length 
+2. Create a **training example** from each segment 
+3. For each training example, calculate the **statistics** observed on the relative segment 
+
+The involved statistics are mainly based on the **domain of interest**, and they can vary from average, spread, returns and so on.
+
+## Day 13 - Four properties of good features
+
+Today we are going through the fourth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Have you ever asked yourself whether your **features were “good” or not**? Well, in this chapter we can find four properties that might help answering that question. 
+
+- First and foremost, the features need to have an **high predictive power**, therefore they have to be meaningful with respect to the problem.
+- Second, that should be **fast to compute**. Bear in mind that time = money in production, therefore slow and costly features may drastically impact the final result.
+- Third, the features have to be **reliable**. Our sources have to be reliable and always available when we need them. Reliability can be also translated into the correctness of the data and their quality.
+- Finally, the features must be **uncorrelated**. Correlated features may provide redundant information and will not be beneficial for our model. If we put it in another way, we have one or more features to maintain (higher cost) with no advantages.
+
+Some other bonus features may involve the represented values, based on outliers, distribution and many other factors.
+
+## Day 14 - Discretize features via binning
+
+Today we are going through the fourth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Many Machine Learning algorithms are developed or optimized for dealing with discrete features. Therefore it is a common practice su **discretize continuous features**. 
+
+One of the most common methods for discretization is **binning** (or bucketing), which replaces the continuous range numbers with a categorical value. 
+
+The easiest way is via a **uniform binning**, where we have bins having the same size. 
+
+Another way is via **k-means,** where every bin is now a cluster, therefore we’ll have on every bean, the closest values. 
+
+Finally, another way relies on **quantiles**, where each bin will have the same number of samples.
 
 <br />
 <br />
