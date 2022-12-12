@@ -220,5 +220,43 @@ Another way is via **k-means,** where every bin is now a cluster, therefore we�
 
 Finally, another way relies on **quantiles**, where each bin will have the same number of samples.
 
+## Day 15 - Feature engineering best practices
+
+Today we are going through the fourth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+This chapter reports 11 feature engineering best practices, but for the sake of simplicity I will write the ones that I use the most. I invite you to read the chapter in order to discover the remaining ones! 
+
+**Reducing the cardinality** is one of the most common. Sometimes we have to rely on categorical features with thousands of distinct elements. If they are not “crucial” information, it would be idea to reduce the cardinality by grouping similar ones, by removing less frequent cases, or eventually, remove the whole feature directly. 
+
+**Make feature selection when necessary**. In order to make our models simpler, lighter and more explainable, it would be ideal to select the right number of features, removing the ones that we may consider “less useful” 
+
+**Isolate feature extraction code**. This step of any MLE pipeline has to be independent from the rest. Further step must nos strictly rely on it.
+
+## Day 16 - Choose the right baseline
+
+Today we are going through the fifth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Any Machine Learning pipeline need a **baseline** to compare. This gives an analyst the feeling that the problem is solvable. 
+
+We can take as a reference the outcome of some heuristic algorithm or the human performances. However, there are **two main ways** to approach a baseline: 
+
+- **Random prediction**: we consider a random label between the possible alternatives.
+- **Zero-rule algorithms**: this is every easier than the random one. In classification it always predict the most common class seen in training whereas in regression it always predict the average observed in training.
+
+## Day 17 - How to select the learning algorithm
+
+Today we are going through the fifth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+A crucial aspect of any Machine Learning pipeline is the **choice of the learning algorithm**. Thanks to the No Free Launch Theorem, we know that there is no a “universal learner”, therefore we have to look for the right one for a given task. 
+
+Instead of tying all the possible algorithms, we can start from our requirements:
+
+- **Explainability**: we can choose between less performing but more explainable models and vice versa.
+- **In memory vs out-of-memory**: If we cannot load all the data in memory, we might opt for incremental learning algorithms.
+- **Number of features**: some algorithms are more sensitive to the dimensionality of the feature space.
+- **Nonlinearity of the data**: based on the nonlinearity of the data, we can select different algorithms. The classical example relies on SVM with its linear or not-linear kernels.
+- **Speed**: this has to be considered. Speed means money in a company. Therefore, we have to take into account how much the speed impact the overall project.
+
+
 <br />
 <br />
