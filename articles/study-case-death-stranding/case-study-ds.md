@@ -1,5 +1,5 @@
 ---
-meta: Death Stranding is the first videogame produced by Kojima Productions, it is an open world with different possibilities, but it required a lot of AI to be developed... 
+meta: Today we are going to explore the Artificial Intelligence used in Death Stranding! 
 date: 2022-12-20
 target: Newbie 
 topics: [Artificial Intelligence] 
