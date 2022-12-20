@@ -33,11 +33,11 @@ The world of Death Stranding is big. There is a great cooperation between player
 |:--:|
 | <b>Image Credits: Sportskeeda</b>|
 
-But that's not all. You will find also enemy factios that will wait for you and stole your equipment, and they will also hunt you down if you get spotted. 
+But that's not all. You will find also enemy factions that will wait for you and stole your equipment, and they will also hunt you down if you get spotted. 
 
 These enemies are of course NPC players that are guided by an Artificial Intelligence, that use a navigation map and because of so they know how to navigate the world in a realistic way.
 
-Let's now take a look then at the gameplay of Death Stranding and let's explain how does the *Artificial Intelligence* works in this amazing videgame. 
+Let's now take a look then at the gameplay of Death Stranding and let's explain how does the *Artificial Intelligence* works in this amazing videogame. 
 
 ### **AI for Navigation**
 Usually videogames use a data structure known as *navigation mesh* (a lot of data where you can produce a research algorithm and understand how to move inside big spaces). This navigation mesh is computed by looking at all the geometry in the game world, such as 
@@ -45,7 +45,7 @@ Usually videogames use a data structure known as *navigation mesh* (a lot of dat
 - objects
 - environments
 
-In a mesh we will see that these objects represents the area which a NPC can move aound based upon the game's internal understanding of the character's size. From there, as said, a research algorithm is ran to understand where the character can move or not.
+In a mesh we will see that these objects represents the area which a NPC can move around based upon the game's internal understanding of the character's size. From there, as said, a research algorithm is ran to understand where the character can move or not.
 
 | ![image](./mesh.png) |
 |:--:|
@@ -68,7 +68,7 @@ But rocks and walls are the first of many problems in this game, in fact also *r
 |:--:|
 | <b>Image Credits: Gigazine</b>|
 
-Another issue is about the volatility of navmeshes. A navigation mesh is computed one time based on what is in the world right now. Everytime that the user changes scenario, it has to be calculated again. Reason why, in Death Stranding, is possible for other players to help each other, leaving ropes and ladders where a path may became difficult (gotta say that sometimes enemies are also someone who tricks you...). 
+Another issue is about the volatility of navmeshes. A navigation mesh is computed one time based on what is in the world right now. Every time that the user changes scenario, it has to be calculated again. Reason why, in Death Stranding, is possible for other players to help each other, leaving ropes and ladders where a path may became difficult (gotta say that sometimes enemies are also someone who tricks you...). 
 
 Whenever one of those is dropped down, there is a change in the map and the navmesh needs to be recalculated. This happens also when there is a "timefall" (or when it's raining), the world becomes harder to navigate and the player must stay hide not to be spotted, otherwise there will be a mini-battle or the player has to run away from the creatures. Also in a fight, the navmesh needs to be updated.
 
@@ -87,7 +87,7 @@ Of course enemy characters could not rely only on navigation mesh or cheat their
 
 If the player enters in a region where the enemies are active, they will ping the environment and they can also detect the cargo you are carrying. Once pinged, they enter in the *hunting mode* as they seek to find you and hurt you. 
 
-Death Stranding is built in the Decima engine, a tool developed by Guerilla Games originally for Killzone: Shadow Fall, butalso in Horizon Zero Dawn and its sequel Forbidden West. They are a bit different tho, from Killzone, because Death Stranding is actually an 'island', or at least is what we can see from the navmesh. 
+Death Stranding is built in the Decima engine, a tool developed by Guerilla Games originally for Killzone: Shadow Fall, but also in Horizon Zero Dawn and its sequel Forbidden West. They are a bit different tho, from Killzone, because Death Stranding is actually an 'island', or at least is what we can see from the navmesh. 
 
 And most importantly, it is an apocalyptic world! There are much more rocks on the ground and the environment is quite much... destroyed. The most challenging part of developing Death Stranding was to make Sam not to overstep rocks. Actually if you try, you will see that Sam walks **over** the rocks. Of course these actions eat up stamina so you don't want to do it over and over again.
 
@@ -98,7 +98,7 @@ And most importantly, it is an apocalyptic world! There are much more rocks on t
 Sometimes tho, it is necessary because the navmesh indicates you that it is the best path, or simply there are no other paths for the destination.
 
 ### **Finding the Path**
-The pathfinding runs on the **A* search algorithm**, this is pretty much a standard algorithm in the *Artificial Intelligence* that will start in one part of the navigation mesh and, and on each iteration will find the nearby connecting areas and prioritise their exploration based on the overall costs and perceived distance to the goal and the distance traversed to reach it. Generally, the algorithm is quite stable. 
+The pathfinding runs on the **A* search algorithm**, this is pretty much a standard algorithm in the *Artificial Intelligence* that will start in one part of the navigation mesh and, and on each iteration will find the nearby connecting areas and prioritizes their exploration based on the overall costs and perceived distance to the goal and the distance traversed to reach it. Generally, the algorithm is quite stable. 
 
 However, the environment of Death Stranding is quite much rocky. This means that the navmesh if often fractured into more and more areas which increase the number of iterations that the **A* search** will require to find a path, so depending on the area, those 500 iterations could mean it can find a path to traverse 200m, or only path 25m given the area is complex and not reach the goal. 
 
