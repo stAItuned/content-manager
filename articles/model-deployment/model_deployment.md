@@ -6,7 +6,7 @@ topics: [Projects]
 meta: How many times did you build up a great machine learning model that never seen the light? This is the right article for you!
 target: Expert
 language: English
-cover: FastAPI.png
+cover: background.jpg
 published: true
 ---
 
@@ -119,5 +119,8 @@ params = {"text": example}
 x = requests.get(url=backend, params=params)
 ```
 
-
 As we have seen, web service model deployment is very easy for simple machine learning models, it can be quite tricky when dealing with really complex deep learning model, but showed to represent the best compromise to put into production your favourite models!
+
+
+### References
+- [Cover](https://www.pexels.com/it-it/foto/persona-di-fronte-al-computer-portatile-sul-tavolo-di-legno-marrone-2115217/) 
