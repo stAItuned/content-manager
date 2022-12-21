@@ -257,6 +257,36 @@ Instead of tying all the possible algorithms, we can start from our requirements
 - **Nonlinearity of the data**: based on the nonlinearity of the data, we can select different algorithms. The classical example relies on SVM with its linear or not-linear kernels.
 - **Speed**: this has to be considered. Speed means money in a company. Therefore, we have to take into account how much the speed impact the overall project.
 
+## Day 18 - Hyperparameters tuning
+
+Today we are going through the fifth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Once you selected a model, the default configuration is not likely to produce satisfactory results. Therefore it is important to **evaluate different hyperparameters** and see how it behaves. 
+
+There are three main strategies, two of which are well-known:
+
+- **Grid search**:  defines a search space as a grid of hyperparameter values and evaluate every position in the grid (hence, every combination). It is typically performed when the training time is not so long.
+- **Random search** defines a search space as a bounded domain of hyperparameter values and randomly sample points in that domain.
+- **Coarse-to-fine search** is a combination of the previous two. It starts with a random search in order to find the regions with an higher potential. Then, once the region is spotted, it leverages a grid search in order to select the best combination.
+
+## Day 19 - Distribution shift
+
+Today we are going through the sixth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Sometimes the data that we observe in production is different from what we used in training. Therefore, our model evaluations might be a bit misleading. This is called **distribution shift**. 
+
+This is still an open problem in the research, but we can distinguish between three kind of distribution shifts:
+
+- **Covariance shift** : shift in the values of features
+- **Prior probability shift**: shift in the values of the target
+- **Concept drift**: shift in the relationship between the features and the label
+
+An approach commonly used to mitigate this phenomenon is the **adversarial validation**. This allows to estimate whether the training and test data are similar. 
+
+To do so, we **halve** our training data. The **first half** will use the old label as an additional feature and it will be replaced with the label “**train**”. Then, a modified test set will do the same, using the **label** “**test**”.  Afterwards, we use this data settings for **training a binary classification algorithm** that should be able to re-identify them. 
+
+Finally, we **apply** this model to the **second half** of the training set. From here, we **select** the **samples** which are more **similar** to the “**test set**” (in terms of scoring) and we’ll use them as a **validation** set for the original problem. Pretty cool, right?
+
 
 <br />
 <br />
