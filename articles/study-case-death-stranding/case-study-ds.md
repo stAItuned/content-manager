@@ -7,7 +7,7 @@ cover:  cover.jpg
 title:  Case Study - Death Strading
 language: English
 author: Francesco Di Gangi
-published: false
+published: true
 ---
 # **Case Study: Death Strading**
 
