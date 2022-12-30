@@ -287,6 +287,36 @@ To do so, we **halve** our training data. The **first half** will use the old la
 
 Finally, we **apply** this model to the **second half** of the training set. From here, we **select** the **samples** which are more **similar** to the “**test set**” (in terms of scoring) and we’ll use them as a **validation** set for the original problem. Pretty cool, right?
 
+## Day 20 - Imbalanced dataset
+
+Today we are going through the sixth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Other than resampling methods and class weighting that you are more likely to know, the author reports another interesting approach that allows to deal with imbalanced dataset: **ensemble of resampled dataset**.
+
+This is a simple yet effective technique which randomly divide the **training set in smaller chunks** (possibly balanced), obtaining many training sets. 
+
+Each training sample will be used to train a model, and all these models will be used to make **inferences** on the test set. The final prediction will be the **average** (in regression) or the **majority** class (in classification).
+
+## Day 21 - Offline and online evaluation
+
+Today we are going through the seventh chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+As a Machine Learning practitioner, I have always evaluated my models **offline** using the validation and test data to our disposal. It allows to check how well the model is performing in a “naive” scenario. However, once the model goes into production, it has to be evaluated in an **online** way. 
+
+The **online evaluation** is focused on the analysis of the business outcomes which are affected by the usage of the proposed algorithms. They can be average online time, customer satisfaction and similar ones. They will be not strictly based by our “intrinsic data”, but this is what the business wanna really measure. 
+
+To this extend, the A/B testing is one of the most used techniques. This is a statistical tool that **analyze the customer behaviors** on **two different versions** of the proposed model. Therefore one group of users (A) will use the previous version and another group (B) will use the new one, or vice versa. Based on the response, it can be possible to decide if the new model is actually **better** than the old one, from a business perspective.
+
+## Day 22 - Statistical intervals
+
+Today we are going through the seventh chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Every time we report the model performances, it is a common practice to provide the **statistical intervals**. This allows to provide more robust evaluations. 
+
+The most popular technique is the **bootstrapping statistical interval**. Bootstrapping iteratively creates B samples with replacement from a dataset and trains a model, computing the required statistics on the test set. 
+To use it for a statistical interval in an error metric, we create **B samples from the test set**. Then, we **inference** on them, evaluating all the single performance metrics (B). They will be **sort** in ascending order and we sum them all (S). 
+
+Finally, in order to get our final interval, we want to find the boundaries **[a,b]** such that the sum of the values within this range accounts for at least a given **percentage** of **S**. This percentage is also called **confidence level**.
 
 <br />
 <br />
