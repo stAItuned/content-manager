@@ -34,7 +34,8 @@ $$
 
 where $w_k$ represents the weight for the lagged series by $k$ lags.
 
-![Image from [https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)](./Untitled.png)
+
+![Preserving memory](./Untitled.png)
 
 
 Here is visible the application of different order of differentiation, in order to highlight the $w$ coefficients and their weights over lags.
@@ -60,3 +61,4 @@ Have you ever thought to use the fractional differentiation as transformation fo
 - [https://www.investopedia.com/articles/trading/07/stationary.asp](https://www.investopedia.com/articles/trading/07/stationary.asp)
 - Advanced Financial Machine Learning, Marcos Lopez De Prado
 - [Cover](https://www.pexels.com/it-it/foto/foto-ravvicinata-del-monitor-159888/)
+- [Image 1](https://towardsdatascience.com/preserving-memory-in-stationary-time-series-6842f7581800)
