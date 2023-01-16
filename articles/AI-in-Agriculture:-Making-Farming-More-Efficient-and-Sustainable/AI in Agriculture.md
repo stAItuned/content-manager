@@ -1,5 +1,5 @@
 ---
-title: AI in Agriculture: Making Farming More Efficient and Sustainable
+title: AI in Agriculture Making Farming More Efficient and Sustainable
 author: Daniele Moltisanti
 date: 2023-01-17
 topics: [AI, Application, Agriculture]
@@ -10,7 +10,6 @@ cover: cover.webp
 published: false
 ---
 
-
 # AI in Agriculture: Making Farming More Efficient and Sustainable
 
 Agriculture is the process of producing food, fiber, and other goods by raising plants and animals. With the help of artificial intelligence, farming is becoming more **efficient** and **sustainable**. AI technology can help **farmers make better decisions** and improve their crop yields.
@@ -20,7 +19,7 @@ Agriculture is the process of producing food, fiber, and other goods by raising 
 One way that AI is used in agriculture is through **precision farming**. This method uses technology, such as **drones** and **sensors**, to collect data about the soil and weather. AI algorithms then analyze this data to create a map of the field. This map can be used to identify areas that need more water, fertilizer, or pest control. This helps farmers make more informed decisions about how to manage their crops, which can lead to better yields and less waste.
 
 <p align="center">
-    <img src="image1.webp" alt="drones-for-agriculture" height="300px" width="auto">
+    <img src="image1.webp" alt="drones-for-agriculture" height="500px" width="auto">
 </p>
 
 ## Crop Monitoring
@@ -30,7 +29,7 @@ Another way that AI is used in agriculture is through **crop monitoring**. AI-po
 AI is also being used in the breeding of plants and animals. By analyzing genetic data, AI algorithms can help breeders identify which animals or plants have the best traits for certain conditions. This can lead to **more resilient crops** that are better able to resist pests and diseases, and animals that are more productive and healthy.
 
 <p align="center">
-    <img src="image2.webp" alt="crop-monitoring" height="300px" width="auto">
+    <img src="image2.webp" alt="crop-monitoring" height="500px" width="auto">
 </p>
 
 ## Resource Optimization
