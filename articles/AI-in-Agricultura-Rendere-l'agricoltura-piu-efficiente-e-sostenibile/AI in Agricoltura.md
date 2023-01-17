@@ -1,7 +1,7 @@
 ---
 title: AI in Agricoltura Rendere l'Agricoltura più Efficiente e Sostenibile
 author: Daniele Moltisanti
-date: None
+date: 2023-01-17
 topics: [AI, Application, Agriculture]
 meta: L'agricoltura è il processo di produzione di cibo, fibra e altri beni coltivando piante e allevando animali. Con l'aiuto dell'intelligenza artificiale (IA), l'agricoltura sta diventando sempre più efficiente e sostenibile. La tecnologia IA può aiutare gli agricoltori a prendere decisioni migliori e migliorare i loro raccolti.
 target: Newbie
