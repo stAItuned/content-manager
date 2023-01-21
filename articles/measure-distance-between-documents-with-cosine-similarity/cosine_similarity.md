@@ -1,14 +1,14 @@
 ---
 author: Matteo Villosio
 cover: cover.jpg
-date: null
+date: 
 language: English
 topics: [NLP, Machine Learning, embedding, cosine similarity]
 meta: How many times did you build up a great machine learning model that never seen the light? This is the right article for you!
 target: Midway
 language: English
 cover: background.jpg
-published: false
+published: 
 ---
 
 # Cosine Similarity
