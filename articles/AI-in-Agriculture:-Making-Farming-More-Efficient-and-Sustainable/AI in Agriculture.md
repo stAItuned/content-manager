@@ -7,6 +7,7 @@ meta: Agriculture is the process of producing food, fiber, and other goods by ra
 target: Newbie
 language: English
 cover: cover.webp
+published:
 ---
 
 # AI in Agriculture: Making Farming More Efficient and Sustainable
