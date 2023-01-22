@@ -7,7 +7,7 @@ meta: Anomaly detection is a critical task in various domains such as fraud dete
 target: Expert
 language: English
 cover: cover.webp
-published: false
+published: 
 ---
 
 # Using Autoencoders for Anomaly Detection in Strong Unbalanced Datasets
