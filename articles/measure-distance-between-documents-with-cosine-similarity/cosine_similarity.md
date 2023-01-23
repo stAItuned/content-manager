@@ -1,13 +1,12 @@
 ---
+title: Measure the distance between documents with cosine similarity
 author: Matteo Villosio
 cover: cover.jpg
 date: 
-language: English
 topics: [NLP, Machine Learning, embedding, cosine similarity]
 meta: How many times did you build up a great machine learning model that never seen the light? This is the right article for you!
-target: Midway
+target: Expert
 language: English
-cover: background.jpg
 published: 
 ---
 
