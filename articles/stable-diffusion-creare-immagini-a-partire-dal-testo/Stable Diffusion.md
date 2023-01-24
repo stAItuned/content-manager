@@ -18,7 +18,7 @@ Ti è mai capitato di voler creare un'immagine di qualcosa che hai letto in un l
 La stable diffusion funziona prendendo una descrizione di un'immagine, come "*un gatto arancione seduto su un davanzale*" e utilizzando questa descrizione per generare un'immagine che assomigli a ciò che la descrizione descrive. Ciò viene fatto addestrando un modello di computer su un insieme di dati di immagini e le relative descrizioni di testo. Il modello quindi utilizza queste informazioni per generare nuove immagini che corrispondono alla descrizione.
 
 <p align="center">
-  <img src="./image.png" height="400px" width="auto" alt="epistemic-vs-aleatoric"/>
+  <img src="./image.png" height="400px" width="auto" alt="gatto-rosso-sul-davanzale"/>
 </p>
 
 La chiave di questa tecnica è che le immagini generate sono "stabili", il che significa che sembrano **coerenti** e **credibili** anche se la descrizione del testo cambia leggermente. Questo è un grande miglioramento rispetto ad altre tecniche di testo-immagine, che spesso producono immagini sfocate o poco realistiche.
