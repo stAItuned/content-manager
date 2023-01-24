@@ -1,7 +1,7 @@
 ---
 title: AI in Agriculture Making Farming More Efficient and Sustainable
 author: Daniele Moltisanti
-date: 2023-01-17
+date: 
 topics: [AI, Application, Agriculture]
 meta: Agriculture is the process of producing food, fiber, and other goods by raising plants and animals. With the help of artificial intelligence, farming is becoming more efficient and sustainable. AI technology can help farmers make better decisions and improve their crop yields.
 target: Newbie

@@ -1,14 +1,13 @@
 ---
+title: Measure the distance between documents with cosine similarity
 author: Matteo Villosio
 cover: cover.jpg
-date: 
-language: English
+date: 2023-01-24
 topics: [NLP, Machine Learning, embedding, cosine similarity]
-meta: How many times did you build up a great machine learning model that never seen the light? This is the right article for you!
-target: Midway
+meta: Learn about the benefits of using Cosine Similarity as a distance metric in NLP and information retrieval. Unlike Euclidean Distance, Cosine Similarity is not influenced by the magnitude of vectors and is faster with sparse data points. Understand how it is computed as the dot product of two vectors divided by their magnitudes and the range of [-1,1] it produces. Discover its use in comparing documents and corpora of different lengths in NLP and information retrieval.
+target: Expert
 language: English
-cover: background.jpg
-published: 
+published: true
 ---
 
 # Cosine Similarity
@@ -18,7 +17,7 @@ published:
 It often happens that we must measure the distance between two vectors (be them the numerical representation of documents, audio samples or DNA sequences). The most famous distance metric, used everyday by anyone, is the Euclidean Distance: unfortunately such a similarity metric is highly dependent on the magnitude of the vectors, an attribute that might disturb our analysis.
 
 <p align="center">
-  <img src="./euclidean_distance_2d.png" height="400px" width="auto" alt="epistemic-vs-aleatoric"/>
+  <img src="./euclidean_distance_2d.png" height="400px" width="auto" alt="euclidean_distance_2d"/>
 </p>
 
 Cosine similarity, on the other hand, measures the angle between the two vectors: it is in fact computed as the dot product of the two vectors A and B divided by the product of their magnitudes. This produces a measure that falls in the interval [-1,1] where 1 is exact correspondence in direction, 0 orthogonality and -1 opposed direction.
@@ -32,7 +31,7 @@ Such distance metric, as previously indicated, not only has the great benefit of
 Finally, due to the fact that the dot product is divided by the norms the metric doesn’t need any normalization or scaling.
 
 <p align="center">
-  <img src="./topic_vectors.png" height="400px" width="auto" alt="epistemic-vs-aleatoric"/>
+  <img src="./topic_vectors.png" height="400px" width="auto" alt="topic_vectors"/>
 </p>
 
 ## What are text embeddings?
@@ -42,7 +41,7 @@ Word and sentence embeddings is a technique used for representing words (and sen
 Given the representation as a vector of some data (may they be words, sentences, DNA) it is then necessary to define what their distance, and more in general, their placement in a multidimensional space, means. Their relative placement with respect to other words is then a measure of their semantic relation.
 
 <p align="center">
-  <img src="./embedding_viz.png" height="400px" width="auto" alt="epistemic-vs-aleatoric"/>
+  <img src="./embedding_viz.png" height="400px" width="auto" alt="embedding_viz"/>
 </p>
 
 Measuring then the distance between two words is then a way of measuring how their relate with each others; moreover, it is possible to apply operations between the produced vectors: in a perfect model the se, mantic operation queen-woman+man = king is valid for their vectors.
