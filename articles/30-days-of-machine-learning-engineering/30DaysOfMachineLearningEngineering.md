@@ -176,7 +176,7 @@ Today we are going through the fourth chapter of the “Machine Learning Enginee
 Most of the machine learning algorithms are **not able to deal with categorical features**, therefore we have several workarounds to our disposal in order to overcome this limitation. 
 
 - **One Hot Encoding** is extremely popular and it transforms a categorical feature into different binary ones. Hence, if the categorical feature has cardinality N, this will be translated into a N-dimensional binary vector, increasing a lot the final dimension.
-- **Bin counting,** or mean encoding,  ****overcomes the size limitation introduced by OHE. It converts every value with its occurrence mean, calculated as the instance frequency/total frequency.
+- **Bin counting,** or mean encoding,  overcomes the size limitation introduced by OHE. It converts every value with its occurrence mean, calculated as the instance frequency/total frequency.
 - **Odds ratio** or **log odds ratio** come from statistics and are used for binary classification problems. The odds ratio (OR) quantifies the strength if the association between the two events (A,B) and it is defined as the ratio of the odds of A in the presence of B and the odds of A in the absence of B.
 
 ## Day 12 - How to deal with time series
@@ -317,6 +317,109 @@ The most popular technique is the **bootstrapping statistical interval**. Bootst
 To use it for a statistical interval in an error metric, we create **B samples from the test set**. Then, we **inference** on them, evaluating all the single performance metrics (B). They will be **sort** in ascending order and we sum them all (S). 
 
 Finally, in order to get our final interval, we want to find the boundaries **[a,b]** such that the sum of the values within this range accounts for at least a given **percentage** of **S**. This percentage is also called **confidence level**.
+
+## Day 23 - Neuron coverage
+
+Today we are going through the seventh chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+I never heard about the evaluation of the **model adequacy**, until I encountered it on the book. 
+
+This is a concept that relies on software engineering best practices, in order to spot defects on the code. However, this was translated in Machine Learning, and one of the available techniques is the **neuron coverage**.
+
+This test is defined as the ratio of the neurons activated by the test instances. Ideally, we aim to be as close as possible to 100%.
+
+To build such a test, the author reports the following **algorithm**:
+
+1. randomly pick an unlabeled example i and label it,
+2. send the feature vector **x**i to the input of the model,
+3. observe which units in the model were activated by **x**i,
+4. if the prediction was correct, mark those units as covered,
+5. go back to step 1; continue iterating until the neuron coverage becomes close to 100%.
+
+## Day 24 - Robustness in Machine Learning
+
+Today we are going through the seventh chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+The term **robust** in Machine Learning is pretty abused, because it can be used in many scenarios. However, while dealing with model evaluations, what does it mean?
+
+This is strictly related to the **stability** of the model. Therefore it evaluates how much the results vary when we add some random noise to its input. 
+
+The easiest way is to compare the **differences** between the outputs obtained on the plain inputs versus the outputs obtained on the noisy inputs.
+
+In order to add noise to our data, we have to replace some feature values as long as the euclidean distance is lower than a fixed δ. Our goal, then, is to fix an ε threshold as upper bound of the euclidean distance on the model output.
+
+With the previously mentioned conditions, the model is said to be ε-robust to a δ-perturbation.
+
+## Day 25 - Static vs dynamic deployment
+
+Today we are going through the eighth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+The very first distinction that has to be pointed out while talking about model deployment is: **static vs dynamic**. 
+
+**Static deployment** simply prepares an installable of the whole code, and the model will be available at runtime for making predictions. Thanks to its nature the software will have direct access to the model, making the execution really fast, however it requires to define strict boundaries between the application code and the machine learning code. 
+
+**Dynamic deployment**, on the other hand, requires that the model is hosted on an external system. It may be the user device, a server or a browser. As a consequence the separation with the application code will be quite strong, but on the other hand it may be a bit slower.
+
+## Day 26 - Deployment strategies
+
+Today we are going through the eighth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+Deploying a model into production requires a lot of attention. Today I wanna explore **four strategies for deploying a model**, proposed by the author of book. 
+
+- **Single deployment** serialize the model into a file and put it into production, replacing the old one. Obviously, this is the easiest way, but the same time it is the most risky one.
+- **Silent deployment** deploy the new version of the model, keeping in the system both the new one and the old one. They will run in parallel but the user will not be exposed to the new one since the beginning. The new version will be used for a while just to evaluate the performances, and if they are satisfactory, the users will be switched to the most recent one.
+- **Canary deployment** deploy the new version of the model just of a fraction of the users.
+- **Multi-Armed Bandits** follows the idea of the silent deployment strategy. In fact, the new version will run for a while silently, in order to evaluate its performance. Once it reaches the convergence of the performances, all the users will be switched to the new one.
+
+## Day 27 - Deployment best practices
+
+Today we are going through the eighth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+On the latest days we faced some preliminary information for deploying machine learning models. Today, in order to close this chapter, I’ll report some of the best practices proposed on the book.
+
+- **Efficient code:** this is always crucial, in any software. We know that Python is not super efficient by itself, therefore it is important to use “more efficient” data structures and better ways to iterate across our data.
+- **Work on GPU, if possible**: this is true, especially in Deep Learning. If possible, it is always recommended to enable GPU-support for your code, in order to parallelize the calculations.
+- **Caching**: taking inspiration by the concept of caching in software engineering, this still applies in machine learning. It allows to store the result of a function call, in order to avoid the computation later on.
+- **Start with a simple model**: before delivering the full final model into production, it might be better to start with a simpler one, in order to easily test the overall pipeline.
+
+## Day 28 - Model serving
+
+Today we are going through the ninth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+This chapter is focused on the last three stages of the machine learning engineering pipeline. Today we start with **model serving**. This is the environment in which the model is applied to the input data and it has to follow **six properties**:
+
+1. **Security and correctness**: the users have to be authenticated and their requests have to be authorized, based on their privileges.
+2. **Ease of deployment** the model needs to be easily updated and in best possible scenario, it should be separated by the entire application, in order to not affect it for further updates.
+3. **Guarantees of model validity**: it is required to build ad-hoc validation for the model executions. 
+4. **Ease of recovery**: in case of errors, it has to be easily recovered, possibly rolling back to previous versions. 
+5. **Avoidance of training/serving skew** it is important that for training and serving we use the same code base. 
+6. **Avoidance of hidden feedback loops.**
+
+## Day 29 - What and how to monitor
+
+Today we are going through the ninth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+When a model is correctly deployed, we cannot forget about it. We have to “**monitor**” its behavior and something more..
+
+First, it is important to evaluate the **performances**, they have to be as close as possible to the desired ones. To do so, it is equally important to observe the new incoming data. Are they similar to our train data?
+
+Another factor to take into account is the **numerical stability** which refers to potential undesired data, like NaN or infinity values. 
+
+Further analysis might be performed on **usage fluctuation** across close days, actual **predicted values** (in statistical terms) or other ad-hoc measurements for the domain of applications.
+
+In order to do so, it is important to **log** all these information, in order to make real-time and a-posteriori analysis.
+
+# Day 30 - Model maintenance
+
+[https://www.canva.com/design/DAFPaKzCv-E/SJ_QBGqdBTQvhLkaPBreZA/edit?utm_content=DAFPaKzCv-E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton](https://www.canva.com/design/DAFPaKzCv-E/SJ_QBGqdBTQvhLkaPBreZA/edit?utm_content=DAFPaKzCv-E&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton)
+
+### Day 30 - Model maintenance
+
+Today we are going through the ninth chapter of the “Machine Learning Engineering” book by Andriy Burkov. 
+
+The last step of the Machine Learning pipeline is devoted to the model **maintenance**. In fact, once the model is deployed and via monitoring techniques you spot something not in line with the expectation, it has to be **updated**.
+
+The needs for updating a model are not a few. First, the business **requirements** may change over time. Moreover, since the business may require a model shortly, you could first deploy a “temporary” model and in the meantime you still have time for improving it (e.g. via hyperparameters tuning). Once you’re ready, you can update it with the new versione, hopefully better than the previous one. 
 
 <br />
 <br />
