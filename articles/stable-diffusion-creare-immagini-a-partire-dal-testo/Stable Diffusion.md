@@ -1,4 +1,4 @@
-
+---
 title: Stable Diffusion Creare Immagini a partire dal Testo
 author: Daniele Moltisanti
 date: 
@@ -8,6 +8,7 @@ target: Newbie
 language: Italian
 cover: cover.webp
 published:
+---
 
 # Stable Diffusion: Creare Immagini a partire dal Testo
 
