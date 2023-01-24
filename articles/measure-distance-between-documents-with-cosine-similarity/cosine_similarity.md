@@ -2,12 +2,12 @@
 title: Measure the distance between documents with cosine similarity
 author: Matteo Villosio
 cover: cover.jpg
-date: 
+date: 2023-01-24
 topics: [NLP, Machine Learning, embedding, cosine similarity]
-meta: How many times did you build up a great machine learning model that never seen the light? This is the right article for you!
+meta: Learn about the benefits of using Cosine Similarity as a distance metric in NLP and information retrieval. Unlike Euclidean Distance, Cosine Similarity is not influenced by the magnitude of vectors and is faster with sparse data points. Understand how it is computed as the dot product of two vectors divided by their magnitudes and the range of [-1,1] it produces. Discover its use in comparing documents and corpora of different lengths in NLP and information retrieval.
 target: Expert
 language: English
-published: 
+published: true
 ---
 
 # Cosine Similarity
