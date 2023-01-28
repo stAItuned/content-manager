@@ -15,7 +15,7 @@ published:
 
 L'agricoltura è il processo di produzione di cibo, fibra e altri beni coltivando piante e allevando animali. Con l'aiuto dell'intelligenza artificiale (IA), l'agricoltura sta diventando sempre più efficiente e sostenibile. La tecnologia IA può aiutare gli agricoltori a prendere decisioni migliori e migliorare i loro raccolti.
 
-## Droni and sensori per un’agricoltura di precisione
+## Droni e sensori per un’agricoltura di precisione
 
 Un modo in cui l'AI viene utilizzata in agricoltura è attraverso l'**agricoltura di precisione**. Questo metodo utilizza tecnologie, come **droni** e **sensori**, per raccogliere dati su suolo e clima. Gli algoritmi AI quindi analizzano questi dati per creare una mappa del campo. Questa mappa può essere utilizzata per identificare le aree che necessitano di più acqua, fertilizzante o controllo di parassiti. Ciò aiuta gli agricoltori a prendere decisioni più informate su come gestire le loro colture, il che può portare a migliori raccolti e meno sprechi.
 
