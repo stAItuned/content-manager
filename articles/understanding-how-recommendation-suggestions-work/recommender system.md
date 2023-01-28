@@ -28,7 +28,7 @@ One of the most common types of recommendation systems is called **collaborative
   <img src="./image2.png" height="400px" width="auto" alt="collaborative-filters"/>
 </p>
 
-# Content-based Filtering
+## Content-based Filtering
 
 Another type of recommendation system is called **content-based filtering**. This system looks at the attributes of an item and suggests similar items based on those attributes. For example, if you have watched action movies in the past, a content-based filtering system would suggest other action movies for you to watch.
 
