@@ -3,7 +3,7 @@ meta: A brief study plan for mastering deep Learning and machine Learning from s
 target: Newbie 
 topics: [Deep Learning, Machine Learning, Artificial Intelligence] 
 cover: cover.jpg 
-title:  "From zero to hero: a brief study plan for mastering Deep Learning and Machine Learning from scratch!"
+title:  "From zero to hero: a brief study plan for mastering ML and DL from scratch!"
 language: English
 author: Gabriele Inzerillo
 date: 
