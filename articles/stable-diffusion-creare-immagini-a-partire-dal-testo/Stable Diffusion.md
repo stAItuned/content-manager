@@ -30,7 +30,7 @@ Come puoi utilizzare la stable diffusion? Bene, un'applicazione è nell'industri
 
 Un'altra applicazione è nel campo dell'istruzione, fornendo immagini di figure storiche, luoghi o concetti scientifici per rendere l'apprendimento più coinvolgente e memorabile.
 
-## Conclusion
+## Conclusione
 
 La stable diffusion è una tecnica affascinante che ha il potenziale di rivoluzionare come creiamo immagini da descrizioni di testo. Con la sua capacità di generare immagini stabili e credibili, può essere utilizzato per una varietà di applicazioni come intrattenimento, creazione di contenuti digitali, istruzione.
 
