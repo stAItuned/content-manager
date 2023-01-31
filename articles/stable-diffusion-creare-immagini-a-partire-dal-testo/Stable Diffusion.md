@@ -1,7 +1,7 @@
 ---
 title: "Stable Diffusion: Creare Immagini a partire dal Testo"
 author: Daniele Moltisanti
-date: 2022-01-31
+date: 2023-01-31
 topics: [AI, Theory, Ricerca]
 meta: Scopri come la tecnologia della diffusione stabile può trasformare le descrizioni di testo in immagini realistiche. Conosci le sue applicazioni nell'intrattenimento, nella creazione di contenuti digitali e nell'istruzione. Impara come questa tecnica può migliorare la generazione di immagini per film, giochi, libri e motori di ricerca.
 target: Newbie
