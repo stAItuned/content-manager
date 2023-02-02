@@ -20,7 +20,7 @@ published: true
 Autoencoders are **neural networks** that are trained to reconstruct the input data. They consist of two parts: an encoder that compresses the input data into a low-dimensional representation, and a decoder that reconstructs the input data from the low-dimensional representation.
 
 <p align="center">
-    <img src="autoencoder.png" alt="autoencoder-architecture" height="500px" width="auto">
+    <img src="./autoencoder.png" alt="autoencoder-architecture" height="400px" width="auto">
 </p>
 
 In anomaly detection, the autoencoder is **trained on normal data** and then used to **detect anomalies** by comparing the reconstruction error of new data to a threshold. The reconstruction error is the difference between the input data and the data reconstructed by the autoencoder.
