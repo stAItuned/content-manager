@@ -6,8 +6,8 @@ title: Why Software Engineering is important in Data Science
 language: English 
 author: Gabriele Cola
 cover: cover.jpg
-date: 
-published: 
+date: 2023-02-13
+published: true
 ---
 
 
