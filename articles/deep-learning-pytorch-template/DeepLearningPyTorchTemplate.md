@@ -4,10 +4,10 @@ author: Francesco Di Salvo
 topics: [Deep Learning, PyTorch, Productivity]
 target: Expert
 language: English
-cover: productivity.jpg
+cover: productivity.webp
 meta: Boost your productivity with a personalized PyTorch deep learning pipeline template. Save time experimenting with different models, ensure reproducibility, and customize the pipeline to your specific needs.
-date: 
-published: 
+date: 2023-02-21
+published: true
 ---
 
 # Increase your productivity with your own PyTorch template
