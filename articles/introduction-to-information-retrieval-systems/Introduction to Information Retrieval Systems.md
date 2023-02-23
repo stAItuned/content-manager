@@ -12,6 +12,7 @@ topics:
 - Data Science
 - Python
 ---
+
 # Introduction to Information Retrieval Systems
 ### Essential data structures underlying IR systems
 How does a search engine work? How is it possible to search through millions of documents and find just what the user was looking for? Welcome to the field of Information Retrieval!
