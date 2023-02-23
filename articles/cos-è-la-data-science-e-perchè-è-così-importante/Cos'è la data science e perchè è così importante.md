@@ -1,18 +1,19 @@
 ---
 title: Data Science
 author: Roberta Ghidini
-date: 
+date: 2022-10-30
 topics: [Basic]
 meta: La Data Science è un approccio mutlidisciplinare composto da statistica, analisi dei dati, Intelligenza Artificiale e metodi scientifici per l’analisi dei dati 
 target: Newbie
 language: Italian
 cover: cover.jpeg
+published: true
 ---
 
 
 # Data Science
 
-La **Data Science** o *Scienza dei Dati* non è una vera e propria disciplina, ma un **approccio mutlidisciplinare** composto da insieme di ambiti come la **statistica**, l’**analisi dei dati**, l’**[Intelligenza Artificiale](...)** e **metodi scientifici** volti all’**analisi dei dati** e all’**estrapolazione di informazioni**. 
+La **Data Science** o *Scienza dei Dati* non è una vera e propria disciplina, ma un **approccio mutlidisciplinare** composto da insieme di ambiti come la **statistica**, l’**analisi dei dati**, l’**Intelligenza Artificiale** e **metodi scientifici** volti all’**analisi dei dati** e all’**estrapolazione di informazioni**. 
 
 **Quindi la Data Science è una sottocategoria dell’Intelligenza Artificiale?** Possiamo definirla così anche se non è proprio corretto in quanto non è pura Intelligenza Artificiale, ma appunto un’insieme di ambiti che dialogano tra loro. 
 
@@ -27,7 +28,11 @@ Il **processo di Data Science** è molto semplice e viene solitamente diviso per
 - Implementazione dei modelli e integrazione all’interno dei sistemi informatici esistenti
 - Monitoraggio che tutto funzioni correttamente e aggiornamento del modello qualora sia necessario.
 
-![Processo di Data Science](https://www.tibco.com/sites/tibco/files/media_entity/2019-03/data_science-diagram.svg)
+<p align="center">
+  <img src="https://www.tibco.com/sites/tibco/files/media_entity/2019-03/data_science-diagram.svg" alt="Processo di Data Science" />
+</p>
+
+
 
 
 ## Importanza della Data Science
@@ -36,8 +41,9 @@ Oggi tutte le aziende hanno in sé una grande ricchezza, l'archivio di moltissim
 
 Il problema delle aziende ora è che vorrebbero avere al loro interno esperti che analizzino i loro **Big Data** ma purtroppo al momento la **domanda** non soddisfa l’**offerta**, per questo motivo spesso ci si affida a **società di consulenza** o si tenta di **istruire** i lavoratori con qualche nozione di **Data Science**. 
 
-![Aziende e Data Science](https://blog.osservatori.net/hs-fs/hubfs/big-data/big-data-italia-maturit%C3%A0-imprese-italiane.png?width=789&name=big-data-italia-maturit%C3%A0-imprese-italiane.png)
-
+<p align="center">
+  <img src="https://blog.osservatori.net/hs-fs/hubfs/big-data/big-data-italia-maturit%C3%A0-imprese-italiane.png" alt="Data science" />
+</p>
 
 *Grazie a queste nozioni teoriche è piu semplice capire cosa sia l’intelligenza artificiale e come operi nel mondo reale.* 
 

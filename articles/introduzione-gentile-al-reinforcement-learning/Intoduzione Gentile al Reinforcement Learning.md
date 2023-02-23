@@ -1,12 +1,13 @@
 ---
 meta: introduzione alle basi del Reinforcement Learning
-date:
+date: 2022-11-07
 target: Newbie
 topics: [Reinforcement Learning, AI, Decision Making Theory]
 cover: cover.png
 title:  Introduzione Gentile al Reinforcement Learning
 language: Italian
 author: Monteiro Del Prete
+published: true
 ---
 
 # Introduzione Gentile al Reinforcement Learning

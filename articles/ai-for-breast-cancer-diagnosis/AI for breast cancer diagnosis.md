@@ -1,12 +1,13 @@
 ---
 title: AI for breast cancer diagnosis
 author: Francesco Di Salvo
-date: 
+date: 2023-01-17
 topics: [AI, Deep Learning, Healthcare]
 meta: Analysis of AI applications for fighting breast cancer.
 target: Newbie
 language: English
 cover: cover.webp
+published: true
 ---
 
 

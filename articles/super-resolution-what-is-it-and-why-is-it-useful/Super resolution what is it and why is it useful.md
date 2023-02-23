@@ -1,12 +1,13 @@
 ---
 meta: Of the various computer vision techniques, super-resolution tasks are among the least known but at the same time they could become more changing in the future.
-date: 
+date: 2022-11-09
 target: Newbie 
 topics: [Deep Learning, Computer Vision, Earth Observation] 
 cover: cover.png 
 title:  "Super Resolution: what is it and why is it useful?"
 language: English
 author: Gabriele Inzerillo
+published: true
 ---
 
 # Super-Resolution: what is it and why is it useful?
@@ -64,7 +65,7 @@ Nothing complicated so far, now let's go a little deeper and talk about resoluti
 
 The **spatial resolution** defines the dimension (often measured in meters) of a pixel of the image recorded by the sensor, an image whose spatial resolution is equal to 60 meters represents pixels whose sides measure 60 meters. Keep in mind that this is an approximation, because in satellite imagery a pixel is never a perfect square. It is clear how, the lower the spatial resolution, the greater the details visible in the remote sensed images, the better the analysis that can be done on those images.
 
-And here the super-solution becomes *groundbreaking*: being able to improve (i.e., decrease) the spatial resolution of a satellite image is crucial for a number of reasons including being able to make object classification and detection tasks easier to solve, or again, to perform analyses on Earth's surface at a greater level of detail. High spatial resolution images, however, are produced by remote sensing satellites less frequently than low spatial resolution ones, which is why having Super-Resolution models that allow one to decrease resolution from one or more low resolution images turns out to be a critically important task; this is amply evidenced by the very numerous challenges on the subject organized by space entities such as ESA and NASA (an example is the [ESA's Kelvins Challenge](https://kelvins.esa.int/proba-v-super-resolution/)).
+And here the super-resolution becomes *groundbreaking*: being able to improve (i.e., decrease) the spatial resolution of a satellite image is crucial for a number of reasons including being able to make object classification and detection tasks easier to solve, or again, to perform analyses on Earth's surface at a greater level of detail. High spatial resolution images, however, are produced by remote sensing satellites less frequently than low spatial resolution ones, which is why having Super-Resolution models that allow one to decrease resolution from one or more low resolution images turns out to be a critically important task; this is amply evidenced by the very numerous challenges on the subject organized by space entities such as ESA and NASA (an example is the [ESA's Kelvins Challenge](https://kelvins.esa.int/proba-v-super-resolution/)).
 
 ## Super-Resolution applied to Remote Sensing
 

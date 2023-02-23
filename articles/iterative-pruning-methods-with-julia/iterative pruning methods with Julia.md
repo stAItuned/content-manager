@@ -1,16 +1,13 @@
 ---
 author: Marcello Politi
-cover: https://unsplash.com?utm_source=medium&utm_medium=referral
-date: null
+cover: cover.jpeg
+date: 2022-11-15
 language: English
 meta: A brief survey about compression techniques based on pruning
-target: Newbie
+target: Expert
 title: Iterative Pruning Methods in Julia
-topics:
-- Machine Learning
-- Deep Learning
-- Data Science
-- Julia
+topics: [Machine Learning, Deep Learning, Data Science, Julia]
+published: true
 ---
 
 ### [Thoughts and Theory](https://towardsdatascience.com/tagged/thoughts-and-theory)
@@ -33,7 +30,7 @@ The problem with this method is that by **removing too many edges one can lose w
 
 - **Structure**: structured pruning involves the elimination of entire neurons in the network and allows the use of smaller matrices to speed up the computation. Unstructured pruning on the other hand is more flexible because it allows the elimination of single connections, but can not effectively speed up the computation of a neural network.
 
-![(_Image by author_)](https://miro.medium.com/1*DOAff7VansDw0toJQCNzag.jpeg)
+![(_Image by author_)](./img1.jpeg)
 
 - **Saliency**: can be seen as the importance associated with each edge, determining whether or not it should be eliminated, depending on the policy adopted
 
