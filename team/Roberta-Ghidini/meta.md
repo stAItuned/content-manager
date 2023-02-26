@@ -8,7 +8,7 @@ description: In three words I am 𝐜𝐫𝐞𝐚𝐭𝐢𝐯𝐢𝐭𝐲, 𝐚�
 ---
 
 I can’t tell you who I am, because I need to understand that too, but you can get an idea about me reading what I like to do.
-I love waking up enthusiastic about what I’m going to do next,I love having ideas and spreading them, in different fields and I’m a very creative person. 
+I love waking up enthusiastic about what I’m going to do next, I love having ideas and spreading them, in different fields and I’m a very creative person. 
 I don’t know what I will do in my life but in the meantime: 
 
 <br />
