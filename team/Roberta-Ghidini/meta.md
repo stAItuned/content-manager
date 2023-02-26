@@ -26,6 +26,8 @@ I don’t know what I will do in my life but in the meantime:
 - &nbsp; MSc in Building Architecture @**Politecnico Di Milano**
 - &nbsp; BSc in Architectural Design @**Politecnico Di Milano**
 
+<br />
+
 **About me**
 - &nbsp; ⛰️ Hiking Lover
 - &nbsp; 🌻 Sustainability enthusiast
