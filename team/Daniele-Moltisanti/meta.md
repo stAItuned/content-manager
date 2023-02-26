@@ -20,12 +20,14 @@ I am passionate about taking advantage of data to improve the everyday tasks of 
 - &nbsp; Data Scientist @**Accenture**			[05/2020 - 01/2021]
 
 <br />
+
 **Education**
 - &nbsp; Computer Science & Engineering @**Politecnico Di Milano**
 - &nbsp; Erasmus @**Universidad Politecnica de Valencia**
 - &nbsp; Computer Engineering  @**Politecnico Di Milano**
 
 <br />
+
 **About me**
 - 🗣️ Social Life
 - 🏀 Sport as a wellness activity
