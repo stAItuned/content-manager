@@ -46,3 +46,10 @@ Finally, ML blogs serve as a great starting point for those who are interested i
 ## Conclusion
 
 These blogs that divulge technical concepts are becoming increasingly important in delivering the scientific message to business areas. By breaking down complex concepts, highlighting real-world applications, using simple language, and building a community, these blogs are helping to make the adoption of machine learning techniques easier and raising awareness about the potential benefits. They are contributing to a culture of learning and innovation that is necessary for the growth of the field.
+
+<br>
+
+***
+While trying to be accurate, this article is not intended as professional advice and should not be relied upon as such. It represents my personal opinions and it is not connected with any views of my current or previous employers. The article is provided solely for educational and informational purposes and is not making any endorsement, representation, or warranty about the accuracy or completeness of the information presented.
+And, full disclosure, yes: text is (partially) sometimes improved by AI, but always under human supervision and hard work ;) Ideas are still human, so far...
+***
