@@ -1,5 +1,5 @@
 ---
-title: Understanding How Recommendation Suggestions Work
+title: Understanding How Recommendation Systems Work
 author: Daniele Moltisanti
 date: 2023-01-27
 topics: [AI, Recommendation, Theory]
@@ -10,7 +10,7 @@ cover: cover.webp
 published: true
 ---
 
-# Understanding How Recommendation Suggestions Work
+# Understanding How Recommendation System Work
 
 Have you ever noticed that when you shop online, the website **suggests products** you might like? Or when you watch videos on YouTube, the platform **suggests similar content** you might enjoy? These suggestions are made by a type of artificial intelligence called **recommendation systems**.
 
