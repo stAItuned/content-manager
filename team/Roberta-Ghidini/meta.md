@@ -4,7 +4,7 @@ team: [Marketing, Writers]
 title: Founder & Digital Marketing Specialist
 linkedin: https://www.linkedin.com/in/robertaghidini/
 email: robighidini@gmail.com
-description: 
+description: " "
 ---
 
 I can’t tell you who I am, because I need to understand that too, but you can get an idea about me reading what I like to do.
