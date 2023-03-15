@@ -6,8 +6,8 @@ cover: cover.jpg
 title:  "From zero to hero: a brief study plan for mastering ML and DL from scratch!"
 language: English
 author: Gabriele Inzerillo
-date: 
-published: 
+date: 2023-03-08
+published: true
 ---
 
 # From zero to hero: a brief study plan for mastering Deep Learning and Machine Learning from scratch!
