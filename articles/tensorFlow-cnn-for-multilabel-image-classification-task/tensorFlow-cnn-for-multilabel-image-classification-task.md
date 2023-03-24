@@ -1,19 +1,16 @@
 ---
-author: Marcello Politi
-cover: https://unsplash.com/@pietrozj?utm_source=medium&utm_medium=referral
-date: null
-language: English
 meta: TensorFlow CNN for Multilabel Image Classification Task
-target: Medium
-title: TensorFlow CNN for Multilabel Image Classification Task
-topics:
-- Machine Learning
-- Deep Learning
-- Data Science
-- Python
+date: 2023-03-23
+target: Newbie 
+topics: [Machine Learning, Deep Learning, Data Science, Python] 
+cover: cover.jpg 
+title: "TensorFlow CNN for Multilabel Image Classification Task"
+language: English
+author: Marcello Politi
+published: true
 ---
 
-### [Cover](https://unsplash.com/@pietrozj?utm_source=medium&utm_medium=referral)
+
 # TensorFlow CNN for Intel Image Classification Task
 
 ### Set up a simple CNN with TensorFlow and use data augmentation
@@ -79,6 +76,9 @@ The predict function will return the probability distribution of the various cla
 Marcello Politi
 
 ---
+
+## Cover 
+* [@pietrozj](https://unsplash.com/@pietrozj?utm_source=medium&utm_medium=referral)
 
 ## Bibliography
 
