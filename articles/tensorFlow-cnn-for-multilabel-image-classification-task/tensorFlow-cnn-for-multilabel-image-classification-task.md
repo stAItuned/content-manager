@@ -1,7 +1,7 @@
 ---
 meta: TensorFlow CNN for Multilabel Image Classification Task
 date: 2023-03-23
-target: Newbie 
+target: Expert 
 topics: [Machine Learning, Deep Learning, Data Science, Python] 
 cover: cover.jpg 
 title: "TensorFlow CNN for Multilabel Image Classification Task"
