@@ -17,7 +17,7 @@ published: true
 Time series forecasting is a **critical aspect of decision-making** in various industries, enabling organizations to anticipate future trends and make informed choices. In recent years, a groundbreaking innovation called the Temporal Fusion Transformer (TFT) has emerged as a game-changer in time series analysis. This article explores the power and potential of TFT, delving into its underlying mechanisms, applications, and the impact it has on accurate time series predictions.
 
 <p align="center">
-    <img src="./1.jpeg" alt="" width="300px" />
+    <img src="./1.jpeg" alt="" width="500px" />
 </p>
 
 ## Understanding the Basics of Temporal Fusion Transformer
@@ -31,7 +31,7 @@ The temporal fusion mechanism of TFT is crucial for accurate predictions. Time s
 TFT offers several advantages over traditional methods. It overcomes the limitations of RNNs, which struggle with **capturing long-term dependencies**, by **leveraging self-attention mechanisms**. This allows TFT to attend to different time steps and capture relationships across the entire history. Additionally, TFT incorporates techniques like autoregressive modeling, attention mechanisms, and residual connections to **handle irregularly sampled data**, **missing values**, and **varying input lengths** commonly found in real-world time series datasets.
 
 <p align="center">
-    <img src="./3.png" alt="" width="300px" />
+    <img src="./3.png" alt="" width="500px" />
 </p>
 
 ## Leveraging Temporal Fusion Transformer for Accurate Time Series Predictions
@@ -43,7 +43,7 @@ TFT's ability to capture both short-term and long-term dependencies, as mentione
 TFT should be used in real-world scenarios across various applications. In energy forecasting, TFT could predicts electricity demand, aiding in efficient resource allocation and grid management. In healthcare, TFT could forecast patient readmission rates, enabling proactive interventions and resource planning. These examples demonstrate the versatility of TFT in addressing complex time series forecasting challenges in different industries.
 
 <p align="center">
-    <img src="./2.png" alt="" width="300px" />
+    <img src="./2.png" alt="" width="500px" />
 </p>
 
 ## Unleashing the Potential of Temporal Fusion Transformer: Applications and Use Cases
