@@ -145,14 +145,14 @@ In conclusion, prompt engineering stands as a crucial aspect of AI development, 
 
 **References**: 
 
-[1] [https://www.linkedin.com/pulse/190-chatgpt-prompts-data-scientists-should-use-deepak-s](https://www.linkedin.com/pulse/190-chatgpt-prompts-data-scientists-should-use-deepak-s)
+[1] https://www.linkedin.com/pulse/190-chatgpt-prompts-data-scientists-should-use-deepak-s
 
-[2] [https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
+[2] https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f
 
-[3] [https://www.datasciencecentral.com/the-emergence-of-prompt-engineers-the-next-in-demand-role-in-ai/](https://www.datasciencecentral.com/the-emergence-of-prompt-engineers-the-next-in-demand-role-in-ai/)
+[3] https://www.datasciencecentral.com/the-emergence-of-prompt-engineers-the-next-in-demand-role-in-ai/
 
-[4] [https://www.topbots.com/prompt-engineering-chatgpt-llm-applications/](https://www.topbots.com/prompt-engineering-chatgpt-llm-applications/)
+[4] https://www.topbots.com/prompt-engineering-chatgpt-llm-applications/
 
-[5] [https://www.linkedin.com/pulse/future-prompt-unraveling-potential-engineering-ashish-garg](https://www.linkedin.com/pulse/future-prompt-unraveling-potential-engineering-ashish-garg)
+[5] https://www.linkedin.com/pulse/future-prompt-unraveling-potential-engineering-ashish-garg
 
-[6] [https://hackersonlineclub.com/prompt-engineering-unleashing-power-ai/](https://hackersonlineclub.com/prompt-engineering-unleashing-power-ai/)
+[6] https://hackersonlineclub.com/prompt-engineering-unleashing-power-ai/
