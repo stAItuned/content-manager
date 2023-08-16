@@ -1,6 +1,6 @@
 
 ---
-title: The Power of Prompt Engineering: Unlocking AI Potential
+title: "The Power of Prompt Engineering: Unlocking AI Potential"
 author: Daniele Moltisanti
 topics: [Generative AI]
 target: Midway
