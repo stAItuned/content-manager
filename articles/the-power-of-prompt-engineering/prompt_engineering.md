@@ -1,3 +1,4 @@
+
 ---
 title: The Power of Prompt Engineering: Unlocking AI Potential
 author: Daniele Moltisanti
@@ -9,6 +10,7 @@ meta: Unlock the potential of AI with effective prompt engineering. Learn how to
 date: 2023-08-16
 published: true
 ---
+
 
 # The Power of Prompt Engineering: Unlocking AI Potential
 
