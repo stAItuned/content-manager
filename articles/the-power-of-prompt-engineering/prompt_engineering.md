@@ -28,7 +28,7 @@ To master prompt engineering, it is essential to understand the AI model you are
 Leveraging research and experimentation is also essential to effective prompt engineering. Staying updated with the latest research and advancements in prompt engineering and experimenting with different prompt structures, wording, and techniques can help you find what works best for your specific use case.
 
 <p align="center">
-    <img src="./1.png" width="700px" />
+    <img src="./1.png" width="500px" />
 </p>
 
 ## The Benefits of Prompt Engineering
@@ -43,7 +43,7 @@ Prompt engineering offers several benefits in unlocking the potential of AI mode
 While prompt engineering has gained significant attention and recognition, it is important to acknowledge potential challenges and limitations. Future generations of AI systems may become more intuitive and adept at understanding natural language, reducing the need for meticulously engineered prompts. However, prompt engineering still plays a crucial role in problem formulation and ensuring that AI models are directed towards the right objectives. Without a well-formulated problem, even the most sophisticated prompts will fall short. Therefore, prompt engineering remains a valuable skill in leveraging the power of AI.
 
 <p align="center">
-    <img src="./2.png" width="700px" />
+    <img src="./2.png" width="300px" />
 </p>
 
 ## Techniques and Strategies for Effective Prompt Engineering
@@ -60,7 +60,7 @@ To achieve **effective** prompt engineering and **maximize** the potential of AI
 By employing these techniques and strategies, you can enhance the effectiveness of prompt engineering and unlock the full potential of AI models.
 
 <p align="center">
-    <img src="./3.png" width="800px" />
+    <img src="./3.png" width="300px" />
 </p>
 
 ## Case Studies and Examples
@@ -72,7 +72,7 @@ To better understand the power of prompt engineering, let's explore some case st
 In healthcare, prompt engineering has been used to improve patient outcomes and enhance the quality of care. For example, researchers at the University of California, San Francisco, used prompt engineering to develop an AI model that could predict the onset of sepsis in patients. By analyzing patient data and crafting effective prompts, the AI model was able to accurately predict sepsis onset up to four hours in advance, allowing for early intervention and treatment.
 
 <p align="center">
-    <img src="./4.png" width="700px" />
+    <img src="./4.png" width="300px" />
 </p>
 
 ### Finance
@@ -80,7 +80,7 @@ In healthcare, prompt engineering has been used to improve patient outcomes and 
 In finance, prompt engineering has been used to improve decision-making and risk management. For example, a financial services company used prompt engineering to develop an AI model that could predict stock prices. By analyzing market data and crafting effective prompts, the AI model was able to generate accurate predictions of stock prices, enabling the company to make informed investment decisions.
 
 <p align="center">
-    <img src="./5.png" width="700px" />
+    <img src="./5.png" width="300px" />
 </p>
 
 
@@ -89,7 +89,7 @@ In finance, prompt engineering has been used to improve decision-making and risk
 In customer service, prompt engineering has been used to enhance the customer experience and improve satisfaction. For example, a telecommunications company used prompt engineering to develop an AI-powered chatbot that could assist customers with their queries. By crafting effective prompts, the chatbot was able to provide personalized and relevant responses, improving customer satisfaction and reducing the workload on customer service representatives.
 
 <p align="center">
-    <img src="./6.png" width="700px" />
+    <img src="./6.png" width="300px" />
 </p>
 
 
@@ -100,7 +100,7 @@ In education, prompt engineering has been used to enhance learning outcomes and 
 These case studies demonstrate the power and versatility of prompt engineering in unlocking the potential of AI models. By crafting effective prompts, we can enhance problem-solving, improve decision-making, tailor AI interactions, and predict future trends. As AI continues to evolve and become more integrated into our daily lives, prompt engineering will continue to play a pivotal role in shaping our interactions with technology and unlocking the full potential of AI.
 
 <p align="center">
-    <img src="./7.png" width="700px" />
+    <img src="./7.png" width="300px" />
 </p>
 
 
@@ -117,7 +117,7 @@ As the field of prompt engineering continues to expand and evolve, the role of p
 To stay at the forefront of prompt engineering, continuous exploration and refinement of essential techniques and concepts are necessary. As new challenges arise, prompt engineers must adapt and refine their skills to optimize prompts and underlying data structures. This innovative discipline will continue to evolve and shape the future of AI development.
 
 <p align="center">
-    <img src="./8.png" width="800px" />
+    <img src="./8.png" width="300px" />
 </p>
 
 
@@ -142,14 +142,14 @@ In conclusion, prompt engineering stands as a crucial aspect of AI development, 
 
 **References**: 
 
-[1] https://www.linkedin.com/pulse/190-chatgpt-prompts-data-scientists-should-use-deepak-s
+[1] [https://www.linkedin.com/pulse/190-chatgpt-prompts-data-scientists-should-use-deepak-s](https://www.linkedin.com/pulse/190-chatgpt-prompts-data-scientists-should-use-deepak-s)
 
-[2] https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f
+[2] [https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f](https://towardsdatascience.com/what-i-learned-pushing-prompt-engineering-to-the-limit-c40f0740641f)
 
-[3] https://www.datasciencecentral.com/the-emergence-of-prompt-engineers-the-next-in-demand-role-in-ai/
+[3] [https://www.datasciencecentral.com/the-emergence-of-prompt-engineers-the-next-in-demand-role-in-ai/](https://www.datasciencecentral.com/the-emergence-of-prompt-engineers-the-next-in-demand-role-in-ai/)
 
-[4] https://www.topbots.com/prompt-engineering-chatgpt-llm-applications/
+[4] [https://www.topbots.com/prompt-engineering-chatgpt-llm-applications/](https://www.topbots.com/prompt-engineering-chatgpt-llm-applications/)
 
-[5] https://www.linkedin.com/pulse/future-prompt-unraveling-potential-engineering-ashish-garg
+[5] [https://www.linkedin.com/pulse/future-prompt-unraveling-potential-engineering-ashish-garg](https://www.linkedin.com/pulse/future-prompt-unraveling-potential-engineering-ashish-garg)
 
-[6] https://hackersonlineclub.com/prompt-engineering-unleashing-power-ai/
+[6] [https://hackersonlineclub.com/prompt-engineering-unleashing-power-ai/](https://hackersonlineclub.com/prompt-engineering-unleashing-power-ai/)
