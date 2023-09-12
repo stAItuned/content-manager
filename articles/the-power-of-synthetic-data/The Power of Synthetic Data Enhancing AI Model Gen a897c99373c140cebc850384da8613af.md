@@ -512,7 +512,17 @@ It is important to note that there are limitations and potential biases associat
 
 Once the synthetic data are generated, how to understand if they are good or not? What about their quality?
 
-There are some checks that is possible to take into account for evaluate it. Here are six metrics:
+First of all check the representation of the the synthetic data generated vs original data. Using a dimensionality reduction method, such as PCA or UMAP, is it possibile to reduce the dataset features into 2 dimensions to better have a look in a 2D plot. If the two representation are overlapping, it means that synthetic data are well representing the original data.
+
+Why PCA and UMAP?
+
+PCA is an example of linear dimensionality reduction technique, while UMAP is an example of non-linear one.
+
+<p align="center">
+    <img src="./5.1.png" width="800px" />
+</p>
+
+Then, there are some other way to evaluate the the quality of synthetic data. Here are six metrics:
 
 1. **Fidelity**: measures how closely the synthetic data matches the real data. It can be evaluated using metrics such as the exact match score, which looks for copies of the real data among the synthetic records.
 2. **Utility**: measures how well the synthetic data can be used for the intended purpose. It can be evaluated using metrics such as resemblance and utility metrics, which evaluate the statistical similarities and usefulness of the synthetic data.
