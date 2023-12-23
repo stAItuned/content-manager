@@ -17,16 +17,17 @@ published: true
 - [Introduction](#introduction)
 - [Understanding AI Explainability](#understanding-ai-explainability)
 - [Trust and Transparency: Key Elements in AI](#trust-and-transparency-key-elements-in-ai)
-- [Methods for AI Explainability](#Methods for AI Explainability)
-  - [Popular Techniques for Explainable AI](#Popular Techniques for Explainable AI)
-  - [Visualizing and Interpreting the Results](#Visualizing and Interpreting the Results)
-- [Navigating the Challenges of Explainable Deep Learning](#Navigating the Challenges of Explainable Deep Learning)
-  - [The Intricacy of Deep Learning Models](#The Intricacy of Deep Learning Models)
-  - [Why Deep Learning Is Hard to Explain](#Why Deep Learning Is Hard to Explain)
-  - [Practical Code Example: Using SHAP in a DL Context](#Practical Code Example Using SHAP in a DL Context)
-- [The Importance of Rules and Standards in Making AI Understandable](#The Importance of Rules and Standards in Making AI Understandable)
-- [Real-World Success Stories of Clear AI](#Real-World Success Stories of Clear AI)
-- [The Future of Clear and Understandable AI](#The Future of Clear and Understandable AI)
+- [Methods for AI Explainability](#methods-for-ai-explainability)
+  - [Popular Techniques for Explainable AI](#popular-techniques-for-explainable-ai)
+  - [Visualizing and Interpreting the Results](#visualizing-and-interpreting-the-results)
+- [Navigating the Challenges of Explainable Deep Learning](#navigating-the-challenges-of-explainable-deep-learning)
+  - [The Intricacy of Deep Learning Models](#the-intricacy-of-deep-learning-models)
+  - [Why Deep Learning Is Hard to Explain](#why-deep-learning-is-hard-to-explain)
+  - [Practical Code Example: Using SHAP in a DL Context](#practical-code-example-using-shap-in-a-dl-context)
+- [The Importance of Rules and Standards in Making AI Understandable](#the-importance-of-rules-and-standards-in-making-ai-understandable)
+- [Real-World Success Stories of Clear AI](#real-world-success-stories-of-clear-ai)
+- [The Future of Clear and Understandable AI](#the-future-of-clear-and-understandable-ai)
+
 
 
 ## Introduction
