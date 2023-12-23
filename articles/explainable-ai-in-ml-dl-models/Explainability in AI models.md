@@ -12,6 +12,23 @@ published: true
 
 # Explainability in AI: Enhancing Trust and Transparency in ML/DL Models
 
+## Table of Contents
+
+- [Introduction](#introduction)
+- [Understanding AI Explainability](#understanding-ai-explainability)
+- [Trust and Transparency: Key Elements in AI](#trust-and-transparency-key-elements-in-ai)
+- [Methods for AI Explainability](#Methods for AI Explainability)
+  - [Popular Techniques for Explainable AI](#Popular Techniques for Explainable AI)
+  - [Visualizing and Interpreting the Results](#Visualizing and Interpreting the Results)
+- [Navigating the Challenges of Explainable Deep Learning](#Navigating the Challenges of Explainable Deep Learning)
+  - [The Intricacy of Deep Learning Models](#The Intricacy of Deep Learning Models)
+  - [Why Deep Learning Is Hard to Explain](#Why Deep Learning Is Hard to Explain)
+  - [Practical Code Example: Using SHAP in a DL Context](#Practical Code Example Using SHAP in a DL Context)
+- [The Importance of Rules and Standards in Making AI Understandable](#The Importance of Rules and Standards in Making AI Understandable)
+- [Real-World Success Stories of Clear AI](#Real-World Success Stories of Clear AI)
+- [The Future of Clear and Understandable AI](#The Future of Clear and Understandable AI)
+
+
 ## Introduction
 
 **Understanding AI**: Today, Artificial Intelligence (AI), especially in areas like Machine Learning (ML) and Deep Learning (DL), is becoming a key part of technology development. These advanced technologies are everywhere, from healthcare and finance to self-driving cars and customer service. It’s crucial that we trust these technologies and understand how they work.
@@ -263,7 +280,7 @@ In summary, methods like LIME, SHAP, and Counterfactual Explanations are essenti
 <p align="center">
     <img src="./Untitled 3.png" width="700px" />
 </p>
-## 
+
 
 ## Navigating the Challenges of Explainable Deep Learning
 
