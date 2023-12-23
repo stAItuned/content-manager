@@ -1,10 +1,11 @@
 ---
-name: Irene Fiorito Accardi
-team: [Marketing]
-title: Social Media Manager and Video Editor
-linkedin: www.linkedin.com/in/irene-fiorito-accardi/
+description: ' '
 email: fioritoaccardii@gmail.com
-description: " "
+linkedin: https://www.linkedin.com/in/irene-fiorito-accardi/
+name: Irene Fiorito Accardi
+team:
+- Marketing
+title: Social Media Manager and Video Editor
 ---
 
 I am a computer programmer specialized in creating websites with Wordpress and in Digital Marketing and Project Manager. I am passionate about video editing and social media content creation and management and have made it my profession.

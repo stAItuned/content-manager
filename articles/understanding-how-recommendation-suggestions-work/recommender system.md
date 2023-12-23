@@ -3,7 +3,7 @@ title: Understanding How Recommendation Systems Work
 author: Daniele Moltisanti
 date: 2023-01-27
 topics: [AI, Recommendation, Theory]
-meta: Explore the Magic of Online Recommendations: Unveil how AI-driven systems, from collaborative to content-based filtering, personalize user experiences.
+meta: "Explore the Magic of Online Recommendations: Unveil how AI-driven systems, from collaborative to content-based filtering, personalize user experiences."
 target: Newbie
 language: English
 cover: cover.webp

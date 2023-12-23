@@ -3,7 +3,7 @@ title: AI in Agriculture Making Farming More Efficient and Sustainable
 author: Daniele Moltisanti
 date: 
 topics: [AI, Application, Agriculture]
-meta: Enhancing Farming with AI: Discover how artificial intelligence revolutionizes agriculture, boosting efficiency and sustainability in crop and animal production
+meta: "Enhancing Farming with AI: Discover how artificial intelligence revolutionizes agriculture, boosting efficiency and sustainability in crop and animal production"
 target: Newbie
 language: English
 cover: cover.webp

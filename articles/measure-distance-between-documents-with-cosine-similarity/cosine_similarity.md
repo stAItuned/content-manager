@@ -4,7 +4,7 @@ author: Matteo Villosio
 cover: cover.jpg
 date: 2023-01-24
 topics: [NLP, Machine Learning, embedding, cosine similarity]
-meta: Discover Cosine Similarity in NLP: Outperforms Euclidean, ideal for sparse data. Learn about its computation, benefits, and use in document comparison
+meta: "Discover Cosine Similarity in NLP: Outperforms Euclidean, ideal for sparse data. Learn about its computation, benefits, and use in document comparison"
 target: Expert
 language: English
 published: true

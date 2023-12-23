@@ -5,7 +5,7 @@ topics: [Deep Learning, PyTorch, Productivity]
 target: Expert
 language: English
 cover: productivity.webp
-meta: Enhance productivity with a custom PyTorch deep learning pipeline. Streamline model experimentation, secure reproducibility, and tailor to your needs.
+meta: "Enhance productivity with a custom PyTorch deep learning pipeline. Streamline model experimentation, secure reproducibility, and tailor to your needs."
 date: 2023-02-21
 published: true
 ---
