@@ -3,7 +3,7 @@ title: Understanding How Recommendation Systems Work
 author: Daniele Moltisanti
 date: 2023-01-27
 topics: [AI, Recommendation, Theory]
-meta: Learn about the magic behind online suggestions and how recommendation systems work. Discover the two main types of recommendation systems, collaborative and content-based filtering, and the power of hybrid systems. Understand how these AI tools analyze user data to make personalized suggestions for products and content.
+meta: Explore the Magic of Online Recommendations: Unveil how AI-driven systems, from collaborative to content-based filtering, personalize user experiences.
 target: Newbie
 language: English
 cover: cover.webp

@@ -4,7 +4,7 @@ author: Matteo Villosio
 cover: cover.jpg
 date: 2023-01-24
 topics: [NLP, Machine Learning, embedding, cosine similarity]
-meta: Learn about the benefits of using Cosine Similarity as a distance metric in NLP and information retrieval. Unlike Euclidean Distance, Cosine Similarity is not influenced by the magnitude of vectors and is faster with sparse data points. Understand how it is computed as the dot product of two vectors divided by their magnitudes and the range of [-1,1] it produces. Discover its use in comparing documents and corpora of different lengths in NLP and information retrieval.
+meta: Discover Cosine Similarity in NLP: Outperforms Euclidean, ideal for sparse data. Learn about its computation, benefits, and use in document comparison
 target: Expert
 language: English
 published: true
