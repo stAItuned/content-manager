@@ -5,7 +5,7 @@ topics: [Application]
 target: Midway
 language: English
 cover: cover.webp
-meta: “Discover key insights on Machine Learning vs Deep Learning: definitions, applications, strengths, and how to choose between them for AI projects.”
+meta: "Discover key insights on Machine Learning vs Deep Learning: definitions, applications, strengths, and how to choose between them for AI projects."
 date: 2023-12-10
 published: true
 ---
