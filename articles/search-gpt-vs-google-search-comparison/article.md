@@ -6,7 +6,7 @@ target: Newbie
 language: English
 cover: cover.webp
 meta: "Explore the differences between Search GPT and Google Search. Compare their pros and cons, and discover the unique potentialities of each for smarter information retrieval"
-date: 2024-10-11
+date: 2024-11-04
 published: true
 ---
 
