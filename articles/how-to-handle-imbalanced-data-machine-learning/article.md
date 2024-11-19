@@ -6,19 +6,13 @@ target: Expert
 language: English
 cover: cover.webp
 meta: "Learn how to handle imbalanced data in machine learning with a step-by-step guide. Discover optimal sampling techniques, pilot models, and unbiased likelihood correction for better model performance"
-date: 2024-11-19
+date: 2024-10-30
 published: true
 ---
 
 
 
 # How to Optimally Sample Imbalanced Data: A Practical Guide
-
-## Visual Overview
-
-<p align="center">
-  <img src="./imbalanced data.webp" alt="Imbalanced data" height="500px"/>
-</p>
 
 
 ## Introduction
