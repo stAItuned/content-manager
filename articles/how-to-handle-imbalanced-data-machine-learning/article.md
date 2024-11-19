@@ -6,7 +6,7 @@ target: Expert
 language: English
 cover: cover.webp
 meta: "Learn how to handle imbalanced data in machine learning with a step-by-step guide. Discover optimal sampling techniques, pilot models, and unbiased likelihood correction for better model performance"
-date: 2024-10-11
+date: 2024-11-19
 published: true
 ---
 
