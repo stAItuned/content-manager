@@ -17,7 +17,7 @@ published: true
 ## Visual Overview
 
 <p align="center">
-  <img src="./imbalanced data.webp" alt=Imbalanced data" height="500px"/>
+  <img src="./imbalanced data.webp" alt="Imbalanced data" height="500px"/>
 </p>
 
 
