@@ -1,5 +1,5 @@
 ---
-title: "How to Optimally Sample Imbalanced Data: A Practical Guide"
+title: "How to Optimally Sample Imbalanced Data Practical Guide"
 author: Daniele Moltisanti
 topics: [Training AI]
 target: Expert
@@ -14,6 +14,11 @@ published: true
 
 # How to Optimally Sample Imbalanced Data: A Practical Guide
 
+## Visual Overview
+
+<p align="center">
+  <img src="./imbalanced data.webp" alt="Imbalanced data" height="500px"/>
+</p>
 
 ## Introduction
 
@@ -107,4 +112,4 @@ Adopting this approach can help unlock better predictions in applications where 
 
 ## References
 
-[Linkedin Post](https://www.linkedin.com/feed/update/urn:li:activity:7264488481073049600?utm_source=share&utm_medium=member_desktop)
+- [Linkedin Post](https://www.linkedin.com/feed/update/urn:li:activity:7264488481073049600?utm_source=share&utm_medium=member_desktop)
