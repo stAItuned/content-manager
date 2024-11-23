@@ -56,9 +56,9 @@ The assigned scores provide a quantitative measure of how relevant each sample i
 
 ### Overview
 In this step, you selectively sample data based on the scores computed in Step 2. Follow these steps:
-1. For each sample, draw a **uniform random number** (&lt;u&gt;).
-2. Define a sampling rate (&lt;r&gt;), which controls the proportion of data to retain.
-3. Retain a sample if (&lt;u&gt; &lt; p × r), where (&lt;p&gt;) is the sample’s score.
+1. For each sample, draw a **uniform random number** (u).
+2. Define a sampling rate (r), which controls the proportion of data to retain.
+3. Retain a sample if (u < p × r), where (p) is the sample’s score.
 
 This method ensures that samples with higher scores (closer to the minority class) are more likely to be included in the training set.
 
@@ -112,4 +112,4 @@ Adopting this approach can help unlock better predictions in applications where 
 
 ## References
 
-- [Linkedin Post](https://www.linkedin.com/feed/update/urn:li:activity:7264488481073049600?utm_source=share&utm_medium=member_desktop)
+- [TheAIEdge](https://www.linkedin.com/feed/update/urn:li:activity:7264488481073049600?utm_source=share&utm_medium=member_desktop)
