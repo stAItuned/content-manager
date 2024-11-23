@@ -6,7 +6,7 @@ target: Newbie
 language: English
 cover: cover.webp
 meta: "Learn what an LLM (Large Language Model) is in simple terms. Discover how these AI tools work, their real-life examples, and why they’re transforming technology"
-date: 2024-12-05
+date: 2024-09-05
 published: true
 ---
 
