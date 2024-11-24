@@ -4,7 +4,7 @@ author: Daniele Moltisanti
 topics: [AI]
 target: Newbie
 language: English
-cover: cover.webp
+cover: cover_.webp
 meta: "Discover how Google's NotebookLM transforms information comprehension with AI-powered tools like personalized collaboration, audio overviews, and interactive Q&A. Learn its features, benefits, and potential applications"
 date: 2024-12-15
 published: true
