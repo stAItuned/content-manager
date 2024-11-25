@@ -22,7 +22,7 @@ Artificial Intelligence (AI) has revolutionized how we interact with technology,
 
 ## What is Perplexity AI?
 
-**Perplexity AI** is an AI-powered search engine that combines the capabilities of AI chatbots with real-time web search. Unlike traditional search engines that provide a list of links, Perplexity AI delivers concise, sourced answers to user queries, enhancing the efficiency of information retrieval. :contentReference[oaicite:0]{index=0}
+**Perplexity AI** is an AI-powered search engine that combines the capabilities of AI chatbots with real-time web search. Unlike traditional search engines that provide a list of links, Perplexity AI delivers concise, sourced answers to user queries, enhancing the efficiency of information retrieval.
 
 ### Key Features of Perplexity AI
 
@@ -34,7 +34,7 @@ Artificial Intelligence (AI) has revolutionized how we interact with technology,
 
 ## What is ChatGPT?
 
-**ChatGPT**, developed by OpenAI, is a conversational AI model designed to generate human-like text based on the input it receives. It's capable of engaging in detailed dialogues, drafting essays, writing code, and more, making it a versatile tool for various applications. :contentReference[oaicite:1]{index=1}
+**ChatGPT**, developed by OpenAI, is a conversational AI model designed to generate human-like text based on the input it receives. It's capable of engaging in detailed dialogues, drafting essays, writing code, and more, making it a versatile tool for various applications.
 
 ### Key Features of ChatGPT
 
