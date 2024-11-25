@@ -24,7 +24,7 @@ Data is everywhere, and making sense of it has become one of the most valuable s
 
 ---
 
-## What Does a Data Scientist Do? (Metaphors and Practical Examples)
+## What Does a Data Scientist Do?
 
 Think of a data scientist as a **detective for data**. Their job is to uncover patterns, identify trends, and solve problems hidden within piles of information. Here are some metaphors and examples to explain their role:
 
