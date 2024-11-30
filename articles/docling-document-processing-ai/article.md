@@ -22,7 +22,7 @@ In the era of generative AI, efficiently converting diverse document formats int
 
 ## What is Docling?
 
-**Docling** is an open-source toolkit that parses various document formats—such as PDF, DOCX, PPTX, XLSX, images, HTML, AsciiDoc, and Markdown—and exports them into formats like Markdown and JSON. This conversion facilitates easier ingestion by large language models (LLMs) and other AI systems. 
+[Docling](https://github.com/DS4SD/docling) is an open-source toolkit that parses various document formats—such as PDF, DOCX, PPTX, XLSX, images, HTML, AsciiDoc, and Markdown—and exports them into formats like Markdown and JSON. This conversion facilitates easier ingestion by large language models (LLMs) and other AI systems. 
 
 ---
 
