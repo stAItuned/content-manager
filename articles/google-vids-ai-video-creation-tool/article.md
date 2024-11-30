@@ -6,7 +6,7 @@ target: Newbie
 language: English
 cover: cover.webp
 meta: "Discover Google Vids, the AI-powered video creation tool by Google Workspace, designed to simplify and enhance your video production process"
-date: 2024-12-10
+date: 2024-11-10
 published: true
 ---
 

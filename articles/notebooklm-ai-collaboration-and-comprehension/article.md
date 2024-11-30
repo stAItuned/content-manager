@@ -6,7 +6,7 @@ target: Newbie
 language: English
 cover: cover_.webp
 meta: "Discover how Google's NotebookLM transforms information comprehension with AI-powered tools like personalized collaboration, audio overviews, and interactive Q&A. Learn its features, benefits, and potential applications"
-date: 2024-12-15
+date: 2024-11-15
 published: true
 ---
 
