@@ -5,7 +5,7 @@ topics: [AI]
 target: Midway
 language: English
 cover: cover.webp
-meta: "Discover Sora, OpenAI's revolutionary text-to-video tool that transforms words into stunning videos. Learn how it works, its benefits, and how to get started today! Let me know if you'd like any tweaks for better alignment with your goals!"
+meta: "Discover Sora, OpenAI's revolutionary text-to-video tool that transforms words into stunning videos. Learn how it works, its benefits, and how to get started today!"
 date: 2024-12-20
 published: true
 ---
