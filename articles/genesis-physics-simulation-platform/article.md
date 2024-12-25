@@ -13,6 +13,13 @@ published: true
 
 ## Genesis: Redefining Physics Simulations and AI Development
 
+
+<video width="560" height="315" controls>
+        <source src="https://genesis-embodied-ai.github.io/videos/physical.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+</video>
+
+
 ### Introduction
 In the quest to push the boundaries of robotics, AI, and physical simulations, Genesis emerges as a groundbreaking open-source platform. Developed collaboratively by researchers from institutions like Carnegie Mellon University, Stanford, and NVIDIA, Genesis offers unparalleled speed, generative capabilities, and versatility in simulating physical environments. This article explores the unique features of Genesis, its core functionalities, and its transformative potential in robotics and AI research.
 
