@@ -6,7 +6,7 @@ target: Expert
 language: English
 cover: cover.webp
 meta: "Explore Gartner's 2024 Hype Cycle for Generative AI, highlighting emerging trends, key technologies, and predictions for the future of GenAI. Learn how businesses can leverage these insights to drive innovation and growth"
-date: 2024-10-10
+date: 2024-12-15
 published: true
 ---
 
