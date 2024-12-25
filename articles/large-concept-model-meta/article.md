@@ -13,6 +13,12 @@ published: true
 
 ## Large Concept Models: Meta’s Next Frontier in AI
 
+
+<p >
+    <img src="./lcm.png" alt="large-concept-model" height="500px" width="auto">
+</p>
+
+
 ### Introduction
 The advent of Large Concept Models (LCMs) from Meta marks a transformative step in the evolution of artificial intelligence ([Meta Research](https://arxiv.org/abs/2412.08821)). Diverging from traditional token-based Large Language Models (LLMs), LCMs operate on a higher level of abstraction, processing semantic representations known as "concepts." These models are both language- and modality-agnostic, enabling advanced reasoning and coherence in outputs. This article delves into the mechanics of LCMs, their foundational concepts, and their potential to redefine AI capabilities.
 
@@ -34,6 +40,10 @@ A pivotal innovation behind LCMs is the use of the SONAR embedding space. SONAR 
 - **Autoregressive Sentence Prediction**: Instead of predicting the next token, LCMs predict the next sentence embedding.
 - **Conceptual Diffusion Models**: Advanced variants of LCMs use diffusion-based generation to interpolate and generate embeddings in the SONAR space.
 - **Quantized Space Operations**: Some LCMs operate within quantized SONAR spaces, enabling efficient and precise semantic representation generation.
+
+<p >
+    <img src="./lcm-arch.png" alt="large-concept-model-architecture" height="500px" width="auto">
+</p>
 
 ---
 
