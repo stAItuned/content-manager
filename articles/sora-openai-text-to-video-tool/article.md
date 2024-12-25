@@ -15,12 +15,12 @@ published: true
 ## Unlocking Creativity with Sora: OpenAI’s Text-to-Video
 
 <div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-    <video width="auto" height="315" controls>
+    <video width="auto" height="200" controls>
         <source src="./sora_1.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <video width="auto" height="315" controls>
-        <source src="sora_2.mp4" type="video/mp4">
+    <video width="auto" height="200" controls>
+        <source src="./sora_2.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
 </div>
