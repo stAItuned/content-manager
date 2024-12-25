@@ -17,9 +17,7 @@ published: true
 
 ModernBERT emerges as a state-of-the-art evolution of the original BERT model, blending modern architectural innovations and advanced training methodologies. Designed collaboratively by Answer.AI, LightOn, and other contributors, this encoder-only Transformer model addresses the limitations of its predecessor while significantly enhancing performance across natural language processing (NLP) and code understanding tasks. This article delves into the technical advancements of ModernBERT and its applications in contemporary NLP challenges.
 
-<p >
-    <img src="https://huggingface.co/datasets/huggingface/documentation-images/resolve/main/blog/modernbert/modernbert_pareto_curve.png" alt="modernbert-performance" height="400px" width="auto">
-</p>
+
 
 ---
 
