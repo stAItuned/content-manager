@@ -14,7 +14,7 @@ published: true
 ## Genesis: Redefining Physics Simulations and AI Development
 
 
-<video width="560" height="315" controls>
+<video width="auto" height="315" controls>
         <source src="https://genesis-embodied-ai.github.io/videos/physical.mp4" type="video/mp4">
         Your browser does not support the video tag.
 </video>
