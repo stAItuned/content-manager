@@ -1,5 +1,5 @@
 ---
-title: "Imarena.AI: A Benchmarking Platform for the Future of AI"
+title: "Genesis: Redefining Physics Simulations and AI Development"
 author: Daniele Moltisanti
 topics: [AI]
 target: Expert
@@ -32,6 +32,7 @@ Genesis is hailed as "the world's fastest physics engine," capable of achieving 
 - **Robotic Arm Simulation**: Genesis achieves 43 million frames per second (FPS), approximately 430,000 times faster than real-time performance. This efficiency drastically reduces the time required to train AI models and test physical systems ([DataCamp](https://www.datacamp.com/blog/genesis-physics-engine?utm_source=chatgpt.com)).
 
 #### Generative 4D World Creation
+
 Genesis enables the creation of dynamic, high-fidelity 4D environments. These generative capabilities allow:
 - **Training Diverse AI Models**: Simulated environments provide extensive, scalable datasets for robotics and embodied AI.
 - **Character Motion Generation**: Developers can simulate realistic character movements for gaming, virtual reality, or training purposes ([Analytics India Mag](https://analyticsindiamag.com/ai-news-updates/meet-genesis-an-open-source-universal-physics-engine-that-generates-4d-worlds/?utm_source=chatgpt.com)).
