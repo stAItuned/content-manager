@@ -18,7 +18,7 @@ published: true
     <video width="auto" height="200" controls>
         <source src="./sora_1.mp4" type="video/mp4">
         Your browser does not support the video tag.
-    </video>
+    </video> 
     <video width="auto" height="200" controls>
         <source src="./sora_2.mp4" type="video/mp4">
         Your browser does not support the video tag.
