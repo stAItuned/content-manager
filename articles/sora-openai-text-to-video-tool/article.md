@@ -14,10 +14,17 @@ published: true
 
 ## Unlocking Creativity with Sora: OpenAI’s Text-to-Video
 
-<video width="auto" height="315" controls>
-        <source src="https://videos.openai.com/vg-assets/assets%2Ftask_01jfxs2vbneara6cj7b2ctqfq2%2Ftask_01jfxs2vbneara6cj7b2ctqfq2_genid_1d83f03d-d6fd-41d4-8b81-76be833ebfed_24_12_25_02_07_075823%2Fvideos%2F00000_617843%2Fmd.mp4?st=2024-12-25T14%3A34%3A23Z&se=2024-12-31T15%3A34%3A23Z&sks=b&skt=2024-12-25T14%3A34%3A23Z&ske=2024-12-31T15%3A34%3A23Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=5IhStcVrXq0OzKKPYpFmgc9pQavtlMMxPd1FM1vBPas%3D&az=oaivgprodscus" type="video/mp4">
+<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
+    <video width="auto" height="315" controls>
+        <source src="./sora_1.mp4" type="video/mp4">
         Your browser does not support the video tag.
-</video>
+    </video>
+    <video width="auto" height="315" controls>
+        <source src="sora_2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</div>
+
 
 
 ### Introduction
