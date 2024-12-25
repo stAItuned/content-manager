@@ -18,6 +18,11 @@ published: true
 
 Retrieval-Augmented Generation (RAG) combines large language models (LLMs) with external knowledge databases to improve performance in natural language processing tasks. However, this integration often results in increased computational and memory demands. The paper "[RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation](https://arxiv.org/pdf/2404.12457)" introduces **RAGCache**, a multilevel dynamic caching system designed to address these challenges.
 
+
+<p >
+    <img src="./ragcache.png" alt="ragcache" height="400px" width="auto">
+</p>
+
 ---
 
 ## What is RAGCache?
@@ -40,6 +45,8 @@ By maintaining the relationships between variables, conditional data permutation
 
 
 - **Dynamic Overlapping**: Overlaps retrieval and inference steps to minimize end-to-end latency, enhancing overall system responsiveness.
+
+
 
 ---
 
