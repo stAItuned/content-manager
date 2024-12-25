@@ -28,7 +28,7 @@ published: true
 
 ### Introduction
 
-Imagine this: you’re a content creator with a vision so vivid it feels real. You see the perfect promotional video in your mind—dynamic, compelling, visually stunning. But then reality sets in: you don’t have the budget, the technical skills, or the time to bring that vision to life. Frustrated, you settle for a static image or a less-than-perfect video. What if it didn’t have to be this way? Enter Sora, OpenAI’s groundbreaking text-to-video tool, a solution designed to transform imagination into reality—all with the power of words.
+Imagine you’re a content creator with a vision so vivid it feels real. You see the perfect promotional video in your mind—dynamic, compelling, visually stunning. But then reality sets in: you don’t have the budget, the technical skills, or the time to bring that vision to life. Frustrated, you settle for a static image or a less-than-perfect video. What if it didn’t have to be this way? Enter Sora, OpenAI’s groundbreaking text-to-video tool, a solution designed to transform imagination into reality—all with the power of words.
 
 In this article, we’ll explore how Sora is revolutionizing video creation, compare it to popular tools like Runway and Google Veo, and show how you can unlock your creative potential with minimal effort and maximum impact.
 
@@ -96,7 +96,7 @@ The ripple effects are profound. Sora doesn’t just simplify video creation; it
 
 Getting started with Sora is straightforward and user-friendly. Here’s a detailed guide:
 
-1. **Sign Up**: Visit [OpenAI’s platform](https://sora.com) and create an account. This will give you access to Sora’s features and tools.
+1. **Sign Up**: Visit [Sora Platform](https://sora.com) and create an account. This will give you access to Sora’s features and tools.
 2. **Experiment with Text Prompts**: Start by writing simple prompts to test Sora’s capabilities. For example, “A bustling cityscape at night with vibrant neon lights and upbeat music.”
 3. **Explore Styles and Themes**: Familiarize yourself with Sora’s range of styles—from minimalist designs to cinematic animations—to find the perfect match for your project.
 4. **Adjust Settings**: Customize aspects like video duration, color schemes, or text overlays to align with your creative vision.
