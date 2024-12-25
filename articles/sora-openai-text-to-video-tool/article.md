@@ -16,13 +16,10 @@ published: true
 
 
 <video width="auto" height="315" controls>
-    <source src="https://videos.openai.com/vg-assets/assets%2Ftask_01jfxs2vbneara6cj7b2ctqfq2%2Ftask_01jfxs2vbneara6cj7b2ctqfq2_genid_1d83f03d-d6fd-41d4-8b81-76be833ebfed_24_12_25_02_07_075823%2Fvideos%2F00000_617843%2Fmd.mp4?st=2024-12-25T14%3A34%3A23Z&se=2024-12-31T15%3A34%3A23Z&sks=b&skt=2024-12-25T14%3A34%3A23Z&ske=2024-12-31T15%3A34%3A23Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=5IhStcVrXq0OzKKPYpFmgc9pQavtlMMxPd1FM1vBPas%3D&az=oaivgprodscus" type="video/mp4">
-    Your browser does not support the video tag.
+        <source src="https://genesis-embodied-ai.github.io/videos/physical.mp4" type="video/mp4">
+        Your browser does not support the video tag.
 </video>
-<video width="auto" height="315" controls>
-    <source src="https://videos.openai.com/vg-assets/assets%2Ftask_01jfyb0th1fzt81gk37mkvcxxp%2Ftask_01jfyb0th1fzt81gk37mkvcxxp_genid_37afb4c9-80f5-4aef-bcda-1d3b2c761103_24_12_25_07_20_020862%2Fvideos%2F00000_881348%2Fmd.mp4?st=2024-12-25T13%3A26%3A39Z&se=2024-12-31T14%3A26%3A39Z&sks=b&skt=2024-12-25T13%3A26%3A39Z&ske=2024-12-31T14%3A26%3A39Z&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skoid=aa5ddad1-c91a-4f0a-9aca-e20682cc8969&skv=2019-02-02&sv=2018-11-09&sr=b&sp=r&spr=https%2Chttp&sig=Fbhd%2BgjX896jENhTp65Yd6wociOnCxzwmojZr3sLrj0%3D&az=oaivgprodscus" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
+
 
 
 
