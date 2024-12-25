@@ -41,6 +41,7 @@ The o3 model represents a quantum leap in AI capabilities. By leveraging archite
 
 ### Benchmark Performance: ARC-AGI
 
+
 #### Understanding ARC-AGI
 The Abstraction and Reasoning Corpus (ARC) is a benchmark designed to test an AI’s ability to generalize and reason abstractly. Unlike traditional benchmarks, ARC emphasizes creativity and problem-solving without relying on large datasets for pattern recognition ([Scale AI Blog](https://scale.com/blog/first-impression-openai-o1?utm_source=chatgpt.com)).
 
@@ -49,6 +50,10 @@ The o1 model achieved notable progress on ARC-AGI, scoring around 67%. While thi
 
 #### o3’s Breakthrough
 The o3 model shattered expectations with a record-breaking score of 87.5% on ARC-AGI, surpassing human performance. This milestone demonstrates o3’s unparalleled ability to reason abstractly, making it a frontrunner in the quest for AGI ([Beebom](https://beebom.com/openai-unveils-o3-model-cracks-arc-agi-benchmark/?utm_source=chatgpt.com)).
+
+<p >
+    <img src="./o3-performance.png" alt="o3-performance" height="400px" width="auto">
+</p>
 
 ---
 
