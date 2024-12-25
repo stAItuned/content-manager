@@ -11,7 +11,7 @@ published: true
 ---
 
 
-## ModernBERT: Redefining Encoder-Only Transformer Models
+# ModernBERT: Redefining Encoder-Only Transformer Models
 
 ### Introduction
 

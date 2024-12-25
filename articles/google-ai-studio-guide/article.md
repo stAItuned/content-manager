@@ -12,7 +12,7 @@ published: true
 
 
 
-## Google AI Studio: Empowering Developers with Next-Generation AI Tools
+# Google AI Studio: Empowering Developers with Next-Generation AI Tools
 
 <p >
     <img src="./home.png" alt="large-concept-model" height="300px" width="auto">
