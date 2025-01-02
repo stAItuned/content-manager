@@ -105,7 +105,7 @@ DeepSeek V3 delivers state-of-the-art performance across various benchmarks:
 
 
 <p>
-    <img src="https://github.com/deepseek-ai/DeepSeek-V3/blob/main/figures/benchmark.png?raw=true" alt="deepseek performance" height="400px" width="auto">
+    <img src="https://github.com/deepseek-ai/DeepSeek-V3/blob/main/figures/benchmark.png" alt="deepseek performance" height="400px" width="auto">
 </p>
 
 
