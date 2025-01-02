@@ -83,7 +83,7 @@ DeepSeek offers several unique features that differentiate it from other models:
 
 ### Performance Benchmarks
 
-<p >
+<p>
     <img src="https://analyticsindiamag.com/wp-content/uploads/2024/12/20241226_1851508502502670977954131.jpg.webp" alt="deepseek performance" height="300px" width="auto">
 </p>
 
@@ -104,7 +104,7 @@ DeepSeek V3 delivers state-of-the-art performance across various benchmarks:
 | Reasoning Tasks | 91%                   | 90%                     |
 
 
-<p >
+<p>
     <img src="https://github.com/deepseek-ai/DeepSeek-V3/blob/main/figures/benchmark.png?raw=true" alt="deepseek performance" height="400px" width="auto">
 </p>
 
@@ -134,7 +134,7 @@ DeepSeek's API pricing is structured to be cost-effective, with special discount
 
 These rates are significantly lower than those of proprietary models, making DeepSeek an attractive option for cost-conscious users.
 
-<p >
+<p>
     <img src="https://cdn.prod.website-files.com/6205ff0d7246a78e40389f61/676f8c02fe9f7a589f7dc5da_AD_4nXe2cIBwLMawt8bFABz4JKTS24etL9zJVoamvkeRdZc7LWoiq6GhSh6JRPc-nDBOLamb5KwUJD0CSpEfb1lW2Zob9zhATZvmnoeMlukXqaeTwTYg1LpDq5CoVhb78Ws8c1NucobM.png" alt="deepseek price" height="300px" width="auto">
 </p>
 
