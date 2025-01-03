@@ -21,7 +21,7 @@ published: true
 
 
 ### Introduction
-[Visit Imarena.AI](https://imarena.ai) to explore the platform and start comparing large language models.
+Visit [Imarena.AI](https://lmarena.ai/) to explore the platform and start comparing large language models.
 As artificial intelligence continues to advance, the need for effective evaluation methods grows ever more critical. Imarena.AI, also known as Chatbot Arena, addresses this need by offering a platform where large language models (LLMs) can be compared and benchmarked in real-time. By providing a space for anonymous, randomized interactions, Imarena.AI fosters transparency and community participation in assessing AI capabilities. This article explores the unique features of Imarena.AI, its role in advancing LLM research, and its significance in the AI ecosystem.
 
 ---
