@@ -20,6 +20,22 @@ DeepSeek is a cutting-edge open-source large language model (LLM) designed to re
 
 ---
 
+### Financial Impact of DeepSeek
+
+The release of DeepSeek-R1 in January 2025 had a profound effect on global financial markets, particularly among major technology firms. DeepSeek’s cost-effective and high-performance AI models challenged the dominance of established tech giants in the AI industry, triggering significant financial repercussions.
+
+#### Market Disruptions
+
+- **Nvidia**, a leading AI hardware supplier, experienced a historic market value loss of approximately **$589 billion**, marking one of the largest declines in U.S. stock market history.
+- **Microsoft, Alphabet (Google’s parent company), and Broadcom** also faced substantial stock declines, contributing to a global sell-off.
+- Overall, these losses erased nearly **$1 trillion** in market capitalization from AI and computer hardware companies.
+
+Industry leaders responded swiftly to this disruption. **Sam Altman, CEO of OpenAI**, acknowledged DeepSeek’s performance as "impressive" and emphasized the increasing demand for computational resources. **U.S. President Donald Trump** also highlighted the need for maintaining competitiveness in the American tech industry amidst these shifts.
+
+These market movements underscore the disruptive potential of DeepSeek and its ability to reshape the AI landscape. 
+
+
+
 ### What is DeepSeek and Why is it Useful?
 
 DeepSeek is an advanced LLM tailored to handle a wide range of natural language tasks, including reasoning, coding, and content generation. Unlike many proprietary models, DeepSeek is open-source, making it accessible for developers and enterprises worldwide. Its utility lies in:
@@ -53,6 +69,22 @@ Key advancements in V3 include:
 - **Mixture-of-Experts Architecture**: Activates only relevant parameters for each token, reducing computational overhead.
 - **Scalability**: Enables seamless handling of complex, large-scale tasks.
 
+
+#### DeepSeek-R1: Pioneering Advanced Reasoning
+
+Released in January 2025, DeepSeek-R1 is designed to excel in complex reasoning tasks, including mathematics and coding. Notably, it achieves performance comparable to OpenAI's o1 model across various benchmarks.
+
+**Key Features:**
+
+- **Reinforcement Learning (RL) Optimization:** DeepSeek-R1 was trained using large-scale reinforcement learning without relying on supervised fine-tuning. This approach incentivized the model to develop advanced reasoning behaviors, such as self-verification and reflection.
+
+- **Open-Source Accessibility:** Aligning with DeepSeek's commitment to open-source development, R1 is available under the MIT license, allowing developers to freely access and utilize the model's weights and outputs.
+
+- **Distilled Variants:** To support a wide range of applications, DeepSeek has released distilled versions of R1, including models based on Llama and Qwen architectures. These distilled models offer efficient performance suitable for various deployment scenarios.
+
+
+
+
 ---
 
 ### What Makes DeepSeek Stand Out?
@@ -75,8 +107,10 @@ DeepSeek offers several unique features that differentiate it from other models:
 
    - Tailored for tasks such as coding, reasoning, and text analysis, DeepSeek excels in specialized applications.
 
-5. **Token Efficiency**
+5. **Advanced Reasoning Capabilities** (DeepSeek-R1)
+   - Introduces reinforcement learning-based reasoning, enabling complex problem-solving and self-reflection capabilities.
 
+6. **Token Efficiency**
    - Achieves a token generation speed of 90 tokens per second, ideal for real-time applications.
 
 ---
@@ -87,25 +121,26 @@ DeepSeek offers several unique features that differentiate it from other models:
     <img src="https://analyticsindiamag.com/wp-content/uploads/2024/12/20241226_1851508502502670977954131.jpg.webp" alt="deepseek performance" height="300px" width="auto">
 </p>
 
+DeepSeek V3 and R1 deliver state-of-the-art performance across various benchmarks:
 
-DeepSeek V3 delivers state-of-the-art performance across various benchmarks:
+| **Benchmark**         | **DeepSeek-R1** | **OpenAI-o1-1217** | **DeepSeek-R1-32B** | **OpenAI-o1-mini** | **DeepSeek-V3** |
+|----------------------- |----------------|-------------------|---------------------|--------------------|-----------------|
+| **AIME 2024** (Pass@1)| 79.8%          | 72.6%             | 79.2%               | 63.6%              | 39.2%          |
+| **Codeforces**        | 96.3%          | 93.4%             | 90.6%               | 58.7%              | 39.2%          |
+| **GPQA Diamond**      | 71.5%          | 75.7%             | 62.1%               | 59.1%              | 60.0%          |
+| **MATH-500** (Pass@1) | 97.3%          | 94.3%             | 90.9%               | 90.2%              | 90.0%          |
+| **MMLU** (Pass@1)     | 90.8%          | 91.8%             | 87.4%               | 85.2%              | 88.5%          |
+| **SWE-bench Verified**| 49.2%          | 48.9%             | 41.6%               | 36.8%              | 42.0%          |
 
-- **MATH-500**: Outperforms previous versions with an 82.8% score, excelling in mathematical reasoning.
+- **MATH-500**: Outperforms previous, excelling in mathematical reasoning.
 - **Reasoning Tasks**: Matches or exceeds the performance of proprietary models in logical reasoning challenges.
 - **Code-Related Tasks**:
   - **CodeSearchNet**: Demonstrates high accuracy in code snippet retrieval and understanding.
   - **StackOverflow-QA**: Scores consistently higher in answering technical programming questions.
 - **Speed**: Generates tokens at 90 tokens per second, ensuring efficient real-time interactions.
 
-| **Benchmark**   | **DeepSeek V3 Score** | **Comparison (GPT-4o)** |
-| --------------- | --------------------- | ----------------------- |
-| MATH-500        | 82.8%                 | 81.5%                   |
-| CodeSearchNet   | 88%                   | 86%                     |
-| Reasoning Tasks | 91%                   | 90%                     |
-
-
 <p>
-    <img src="https://github.com/deepseek-ai/DeepSeek-V3/blob/main/figures/benchmark.png" alt="deepseek performance" height="400px" width="auto">
+    <img src="https://i.bstr.es/drivingeco/2025/01/Deepseek-r1-880x643.png" alt="deepseek performance" height="400px" width="auto">
 </p>
 
 
@@ -121,22 +156,17 @@ DeepSeek offers a flexible pricing model to accommodate various user needs, from
 
 #### API Pricing
 
-DeepSeek's API pricing is structured to be cost-effective, with special discounted rates available until February 8, 2025:
+DeepSeek's API pricing is structured to be cost-effective, with rates varying based on the model and token usage:
 
-- **Input Tokens**:
-
-  - **Cache Hits**: \$0.014 per million tokens. This reduced rate is achieved through DeepSeek's Context Caching on Disk technology, which caches frequently used inputs to minimize recomputation and costs 
-  - **Cache Misses**: \$0.27 per million tokens 
-
-- **Output Tokens**:
-
-  - \$1.10 per million tokens 
+| **Model**              | **Input Tokens (Cache Hit)** | **Input Tokens (Cache Miss)** | **Output Tokens**       |
+|------------------------|-----------------------------|------------------------------|-------------------------|
+| **deepseek-chat**      | \$0.014 per million tokens   | \$0.14 per million tokens     | \$0.28 per million tokens |
+| **deepseek-reasoner**  | \$0.14 per million tokens    | \$0.55 per million tokens     | \$2.19 per million tokens |
 
 These rates are significantly lower than those of proprietary models, making DeepSeek an attractive option for cost-conscious users.
 
-<p>
-    <img src="https://cdn.prod.website-files.com/6205ff0d7246a78e40389f61/676f8c02fe9f7a589f7dc5da_AD_4nXe2cIBwLMawt8bFABz4JKTS24etL9zJVoamvkeRdZc7LWoiq6GhSh6JRPc-nDBOLamb5KwUJD0CSpEfb1lW2Zob9zhATZvmnoeMlukXqaeTwTYg1LpDq5CoVhb78Ws8c1NucobM.png" alt="deepseek price" height="300px" width="auto">
-</p>
+For enterprise solutions, custom pricing and dedicated support are available to accommodate large-scale integrations.
+
 
 
 #### Enterprise Plans
