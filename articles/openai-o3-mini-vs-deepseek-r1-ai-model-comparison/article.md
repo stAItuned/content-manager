@@ -66,9 +66,9 @@ The launch of o3-mini isn't just about competing with DeepSeek—it also marks a
 | **Math & Science Accuracy** | High | Lower | Moderate |
 | **Safety Measures** | Stronger protocols | Higher vulnerability | Secure but less optimized |
 
-
-![PhD-level Science Questions (GPQA Diamond)](https://images.ctfassets.net/kftzwdyauwt9/1v4bYAQrno7i1skzuhczrA/a533162d891cca5df2909893052d9c54/GPQA_dark.png?w=3840&q=80&fm=webp)
-
+<p>
+    <img src="./performance.png" alt="Performance" height="400px" width="auto">
+</p>
 
 🔗 **Source:** [OpenAI Blog](https://openai.com/index/openai-o3-mini/?utm_source=chatgpt.com)  
 
