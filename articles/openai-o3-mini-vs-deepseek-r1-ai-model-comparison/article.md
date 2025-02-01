@@ -69,7 +69,7 @@ The launch of o3-mini isn't just about competing with DeepSeek—it also marks a
 
 <p>
     PhD-level Science Questions (GPQA Diamond)
-    <img src="https://images.ctfassets.net/kftzwdyauwt9/1v4bYAQrno7i1skzuhczrA/a533162d891cca5df2909893052d9c54/GPQA_dark.png?w=3840&q=80&fm=webp" alt="OpenAI o3 performance" height="400px" width="auto">
+    <img src="https://images.ctfassets.net/kftzwdyauwt9/1v4bYAQrno7i1skzuhczrA/a533162d891cca5df2909893052d9c54/GPQA_dark.png?w=3840&q=80&fm=webp" alt="OpenAI o3 performance" height="400px" width="auto" />
 </p>
 
 🔗 **Source:** [OpenAI Blog](https://openai.com/index/openai-o3-mini/?utm_source=chatgpt.com)  
