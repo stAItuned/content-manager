@@ -2,11 +2,11 @@
 title: "DeepSeek Model: A New Frontier in Open-Source AI"
 author: Daniele Moltisanti
 topics: [AI]
-target: Expert
+target: Midway
 language: English
 cover: cover.webp
 meta: "Discover DeepSeek V3, an open-source AI model excelling in coding, reasoning, and NLP tasks. Learn about its advanced architecture, performance benchmarks, and real-world applications."
-date: 2025-01-02
+date: 2025-01-30
 published: true
 ---
 
