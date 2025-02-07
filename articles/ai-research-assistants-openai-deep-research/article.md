@@ -14,10 +14,6 @@ published: true
 
 # AI Research Assistants Go Next-Level: How OpenAI’s Deep Research Works
 
-<video width="auto" height="400" controls>
-    <source src="https://openai.com/index/introducing-deep-research/?video=1052827364" type="video/mp4">
-</video>
-Taken from https://openai.com/index/introducing-deep-research/
 
 ## Table of Contents
 
