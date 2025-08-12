@@ -1,0 +1,16 @@
+name: Trigger site deploy on content push
+on:
+  push:
+    branches: [main]
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Notify website repo
+        uses: peter-evans/repository-dispatch@v3
+        with:
+          token: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}   # PAT con permesso "repo" sul repo website
+          repository: stAItuned/website
+          event-type: content-updated
+          client-payload: '{"contentSha":"${{ github.sha }}"}'
