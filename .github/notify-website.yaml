@@ -1,0 +1,33 @@
+name: Notify Website of Content Changes
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - 'articles/**'
+      - 'team/**'
+
+jobs:
+  notify-website:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Notify website repository
+        uses: peter-evans/repository-dispatch@v2
+        with:
+          token: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+          repository: stAItuned/website
+          event-type: content-updated
+          client-payload: |
+            {
+              "ref": "${{ github.ref }}",
+              "sha": "${{ github.sha }}",
+              "repository": "${{ github.repository }}",
+              "pusher": "${{ github.actor }}"
+            }
+      
+      - name: Log notification
+        run: |
+          echo "✅ Notified website repository of content changes"
+          echo "Commit: ${{ github.sha }}"
+          echo "Pusher: ${{ github.actor }}"
