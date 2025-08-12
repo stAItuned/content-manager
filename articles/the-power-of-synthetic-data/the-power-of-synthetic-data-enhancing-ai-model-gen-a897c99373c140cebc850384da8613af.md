@@ -1,4 +1,3 @@
-
 ---
 title: "The Power of Synthetic Data: Enhancing AI Model"
 author: Daniele Moltisanti

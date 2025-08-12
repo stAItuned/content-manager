@@ -1,4 +1,3 @@
-
 ---
 title: "The Power of Prompt Engineering: Unlocking AI Potential"
 author: Daniele Moltisanti

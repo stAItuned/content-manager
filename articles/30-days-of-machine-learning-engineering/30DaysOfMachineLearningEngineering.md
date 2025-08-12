@@ -8,7 +8,6 @@ target: Expert
 language: English
 cover: ./cover.jpeg
 published: true
-layout: guide
 ---
 
 
