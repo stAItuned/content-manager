@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Google Vids: Revolutionizing Video Creation with AI-Powered Tools
 
 ## Introduction
 

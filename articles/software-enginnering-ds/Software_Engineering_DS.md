@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Software Engineering in Data Science
 
 **Software engineering** is an important aspect of the **data science** field that helps to ensure the development of high-quality, scalable, and maintainable systems. In this article, we will explore why software engineering is important for data scientists to know and understand:
 

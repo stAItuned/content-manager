@@ -12,7 +12,6 @@ cover: Intelligenza_Artificiale.jpg
 
 
 
-# **Cos’è l’Intelligenza Artificiale?**
 
 ## **Facciamo chiarezza, diamo una definizione di Intelligenza Artificiale**
 

@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Meta Learning for Model Optimization: A Comprehensive Guide
 
 ## Visual Overview
 

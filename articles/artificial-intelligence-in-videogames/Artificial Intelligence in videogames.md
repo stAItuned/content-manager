@@ -9,7 +9,6 @@ language: English
 author: Francesco Di Gangi
 published: true
 ---
-# Artificial Intelligence in videogames
 
 ## What is Aritificial Intelligence in videogames?
 Usually the common thinking of "Artificial Intelligence" makes us very distant from the concept of videogames: indeed there are multiple meaninag of Artificial Intelligence, yet it is possible (and very common, actually) to talk about Artificial Intelligence in videogames. 

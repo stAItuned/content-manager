@@ -10,7 +10,6 @@ cover: cover.jpg
 published: true
 ---
 
-# Five reasons why my Machine Learning models failed
 
 A few weeks ago I came across an extremely interesting paper called "**How to avoid machine learning pitfalls: a guide for academic researchers**" [1], which highlights some of the most common mistakes in Machine Learning development. 
 

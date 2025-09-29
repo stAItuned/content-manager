@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# KnockKnock: Automate Your Machine Learning Notifications with Ease
 
 ## Introduction
 

@@ -12,7 +12,6 @@ published: true
 
 
 
-# Perplexity AI vs ChatGPT: Understanding Their Differences and Use Cases
 
 ## Introduction
 

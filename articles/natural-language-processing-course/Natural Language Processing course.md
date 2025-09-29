@@ -9,7 +9,6 @@ language: English
 cover: bg.png
 ---
 
-# Natural Language Processing
 
 **Natural Language Processing** (NLP) is the branch of Artificial Intelligence focused on the interaction between machines and natural text. To be more precise, the overall goal is to let computers analyze and **understand** informations from text or audio. 
 

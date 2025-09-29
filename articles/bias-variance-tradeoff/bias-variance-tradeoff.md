@@ -10,7 +10,6 @@ cover: cover.jpg
 published: true
 ---
 
-# The bias-variance tradeoff: an illustrated guide
 This article clarifies the idea behind the very well-known **bias-variance tradeoff**. Even though you have probably heard it many times and in different contexts, it may cause still some confusion.
 
 This fundamental tradeoff helps you understand the balance between **simplicity and complexity **in your models and as a consequence, it guides you toward building better, more accurate models.

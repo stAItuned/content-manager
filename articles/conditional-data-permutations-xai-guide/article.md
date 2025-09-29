@@ -12,7 +12,6 @@ published: true
 
 
 
-# Why Conditional Data Permutations Are Essential for Accurate XAI Analysis
 
 ## Introduction
 

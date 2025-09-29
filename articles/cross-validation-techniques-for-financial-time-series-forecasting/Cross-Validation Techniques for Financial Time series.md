@@ -10,7 +10,6 @@ cover: cover.webp
 published: 
 ---
 
-# Cross-Validation Techniques for Financial Time Series Forecasting
 
 **Financial time series forecasting** is an important task in the financial industry, as it allows organizations to make **better investment decisions** and **manage risk** more effectively. One of the key challenges in time series forecasting is ensuring the accuracy and robustness of the predictions. Cross-validation is a widely used technique that can help to address this challenge. Here I will explain the importance of **cross-validation** in financial time series forecasting and different techniques that can be used.
 

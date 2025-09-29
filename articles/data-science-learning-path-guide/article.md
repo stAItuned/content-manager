@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Your Data Science Learning Path: A Guide to Becoming a Data Scientist
 
 ## Introduction
 

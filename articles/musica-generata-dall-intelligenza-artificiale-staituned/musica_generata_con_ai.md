@@ -12,7 +12,6 @@ published: true
 
 
 
-# Nuovi modi di fare musica con l’Intelligenza Artificiale
 
 Lo sapevi che più del **10%** della **musica** prodotta a livello globale è stata realizzata mediante **[Intelligenza Artificiale](https://www.notion.so/Cos-l-Intelligenza-Artificiale-stAI-tuned-b80b54571aae4eb98d71b5a9ebadf0b5)**? E secondo te come potrebbe esserci utile questa nuova tecnologia?
 

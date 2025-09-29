@@ -12,7 +12,6 @@ published: true
 
 
 
-# Unlocking Creativity with Sora: OpenAI’s Text-to-Video
 
 
 <video width="auto" height="200" controls>

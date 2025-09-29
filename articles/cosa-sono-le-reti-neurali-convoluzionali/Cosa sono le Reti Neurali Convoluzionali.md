@@ -9,7 +9,6 @@ language: Italian
 cover: cover.jpeg
 ---
 
-# Cosa sono le Reti Neurali Convoluzionali? - stAI tuned
 
 # **Reti neurali Convoluzionali e le loro applicazioni**
 

@@ -12,7 +12,6 @@ published: true
 
 
 
-# What is Behind ChatGPT? Exploring the Technology Behind Generative AI Tools
 
 ## Introduction
 

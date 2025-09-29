@@ -10,7 +10,6 @@ language: English
 published: true
 ---
 
-# Cosine Similarity
 
 ## Introduction
 

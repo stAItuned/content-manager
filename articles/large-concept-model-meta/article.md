@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Large Concept Models: Meta’s Next Frontier in AI
 
 
 <p >

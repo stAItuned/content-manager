@@ -12,7 +12,6 @@ layout: guide
 ---
 
 
-# Thirty Days of Machine Learning Engineering
 
 ## Day 00 - What is this challenge about?
 

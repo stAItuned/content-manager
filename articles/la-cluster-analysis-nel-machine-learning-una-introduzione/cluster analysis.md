@@ -13,7 +13,6 @@ topics:
 - Clustering
 ---
 
-# Cluster Analysis
 
 L’obiettivo della **cluster analysis**, o *clustering*, è quello di trovare oggetti che hanno così tante similitudini da poter stare nello stesso gruppo, anche detto, per l’appunto, **cluster.** 
 

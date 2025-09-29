@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# TensorFlow CNN for Intel Image Classification Task
 
 ### Set up a simple CNN with TensorFlow and use data augmentation
 

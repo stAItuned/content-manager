@@ -10,7 +10,6 @@ date: 2023-03-08
 published: true
 ---
 
-# From zero to hero: a brief study plan for mastering Deep Learning and Machine Learning from scratch!
 
 Deep learning and machine learning are powerful tools that are changing the way we interact with technology; today almost every tech product has, at least, a minimal part behind it that comprises artificial intelligence. Just to provide some examples of deep learning and machine learning techniques, they are used in a wide range of applications, from self-driving cars and speech recognition to natural language processing and computer vision. However, to be able to work with these technologies, it is important to have a solid understanding of the underlying concepts, techniques, and mathematics. In this article, I will (try to) provide a comprehensive study plan for mastering deep learning and machine learning from scratch.
 

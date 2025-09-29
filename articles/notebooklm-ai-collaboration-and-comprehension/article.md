@@ -12,7 +12,6 @@ published: true
 
 
 
-# Unlocking the Potential of NotebookLM: Transforming Information Comprehension
 
 ## Introduction
 

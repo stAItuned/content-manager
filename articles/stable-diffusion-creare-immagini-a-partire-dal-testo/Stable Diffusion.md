@@ -10,7 +10,6 @@ cover: cover.webp
 published: true
 ---
 
-# Stable Diffusion: Creare Immagini a partire dal Testo
 
 Ti è mai capitato di voler creare un'immagine di qualcosa che hai letto in un libro o visto in un film? Bene, c'è una tecnica chiamata **stable diffusion** che può fare proprio questo! È un modo per i computer di trasformare le descrizioni di testo di un'immagine in un'immagine reale.
 

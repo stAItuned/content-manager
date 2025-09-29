@@ -11,24 +11,6 @@ published: true
 ---
 
 
-
-# AI Research Assistants Go Next-Level: How OpenAI’s Deep Research Works
-
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [What is Deep Research?](#what-is-deep-research)
-- [Performance and Benchmarking](#performance-and-benchmarking)
-- [Underlying Technology & Architecture](#underlying-technology--architecture)
-- [How Deep Research Works (Workflow)](#how-deep-research-works-workflow)
-- [Applications and Use Cases](#applications-and-use-cases)
-- [User Reactions: Excitement & Concerns](#user-reactions-excitement--concerns)
-- [Future Directions](#future-directions)
-- [Conclusion](#conclusion)
-- [References & Further Reading](#references--further-reading)
-
-
 ## Introduction
 
 ### The Research Bottleneck: A Story We All Know

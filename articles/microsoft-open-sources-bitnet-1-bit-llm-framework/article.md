@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Microsoft Open-Sources BitNet: A 1-Bit LLM Framework Revolutionizing AI Efficiency
 
 ## Introduction
 

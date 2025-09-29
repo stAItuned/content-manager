@@ -11,7 +11,6 @@ cover: Reti_neurali.jpg
 
 
 
-# Reti generative avversarie (GAN)
 
 Una delle principali applicazioni del **Deep Learning** che sta prendendo piede negli ultimi anni è quella delle **Reti Generative Avversarie (GAN)**, reti neurali artificiali impiegate per generare dei nuovi contenuti a partire da quelli esistenti, operazione di imitazione che solitamente è affidata ad una persona.
 

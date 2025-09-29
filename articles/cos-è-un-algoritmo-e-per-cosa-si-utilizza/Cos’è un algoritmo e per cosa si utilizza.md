@@ -11,7 +11,6 @@ cover: cover.png
 ---
 
 
-# **Cos’è un algoritmo?**
 
 Dal dizionario [Treccani](https://www.treccani.it/) troviamo l’origine del termine **algoritmo**:
 

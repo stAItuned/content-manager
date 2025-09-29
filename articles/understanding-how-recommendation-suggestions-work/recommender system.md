@@ -10,7 +10,6 @@ cover: cover.webp
 published: true
 ---
 
-# Understanding How Recommendation Systems Work
 
 Have you ever noticed that when you shop online, the website **suggests products** you might like? Or when you watch videos on YouTube, the platform **suggests similar content** you might enjoy? These suggestions are made by a type of artificial intelligence called **recommendation systems**.
 

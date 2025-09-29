@@ -12,7 +12,6 @@ published: true
 
 
 
-# Docling: Streamlining Document Processing for Generative AI Applications
 
 ## Introduction
 

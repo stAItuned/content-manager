@@ -9,7 +9,6 @@ language: English
 author: Francesco Di Gangi
 published: true
 ---
-# **Case Study: Death Strading**
 
 ## **Death Stranding**
 Death Stranding is a 2019 action-open world videogame developed by Kojima Productions. A director's cut version was released for the PlayStation 5 in September 2021, a Windows version will be released in March 2022 and few days ago **Death Stranding 2** has been announced. 

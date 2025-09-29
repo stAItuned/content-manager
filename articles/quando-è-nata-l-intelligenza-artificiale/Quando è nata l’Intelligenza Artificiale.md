@@ -10,7 +10,6 @@ language: Italian
 cover: Storia_dellIntelligenza_Artificiale.jpg
 ---
 
-# Storia dell’Intelligenza Artificiale
 
 Il **1956** è l’anno ufficiale in cui nasce l’**[Intelligenza Artificiale](./../cos'è-l-intelligenza-artificiale/Cos'è%20l'Intelligenza%20Artificiale.md),** ma dobbiamo tenere in considerazione quale sia stato il percorso che ci ha portato a quella data, quali sono state le scoperte pregresse che hanno consentito agli scienziati di quel periodo di poter dare inizio ad una nuova Era.
 

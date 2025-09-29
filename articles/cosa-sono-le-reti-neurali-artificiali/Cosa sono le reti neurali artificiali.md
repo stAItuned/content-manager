@@ -9,7 +9,6 @@ language: Italian
 cover: solution-now-reti-neurali.jpg
 ---
 
-# Reti neurali artificiali
 
 Le **reti neurali artificiali** sono modelli di calcolo che utilizzano neuroni artificiali, prendendo spunto dal comportamento e dalla composizione del cervello umano, quindi puntando a riprodurre le reti neurali biologiche.
 

@@ -12,7 +12,6 @@ published: True
 
 
 
-# Big Data
 
 Negli ultimi tempi si sente spesso parlare di **Big Data**, ma sappiamo veramente cosa sono?
 

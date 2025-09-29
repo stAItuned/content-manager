@@ -12,7 +12,6 @@ cover: Computer.jpg
 
 
 
-# Computer: lo strumento che ha trasformato la nostra vita
 
 Come mai il **computer** è diventato uno strumento così fondamentale per la nostra società?
 

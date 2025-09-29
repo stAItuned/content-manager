@@ -12,7 +12,6 @@ published: true
 
 
 
-# RAGCache: Enhancing Efficiency in Retrieval-Augmented Generation
 
 ## Introduction
 

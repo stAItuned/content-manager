@@ -10,7 +10,6 @@ date: 2023-02-21
 published: true
 ---
 
-# Increase your productivity with your own PyTorch template
 
 Over the last years I've built several deep learning projects in PyTorch, either for work or for academic projects. What I realized was that **I was actually writing and writing the same things**, except for the dataset class, model architecture, custom losses and a few minor things.
 

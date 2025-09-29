@@ -9,7 +9,6 @@ language: English
 cover: ML-bg.png
 ---
 
-# Machine Learning
 
 ## What is Machine Learning?
 

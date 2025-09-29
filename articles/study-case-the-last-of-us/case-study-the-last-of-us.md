@@ -9,7 +9,6 @@ language: English
 author: Francesco Di Gangi
 published: true
 ---
-# Case Study: The Last of Us
 
 ## The Last of Us
 The Last of Us is a 2013 action-adventure-survivor videogame developed by Naughty Dog. There are two chapter of the game:

@@ -9,7 +9,6 @@ language: Italian
 cover: cover.png
 ---
 
-# Reti neurali ricorrenti e le loro applicazioni
 
 Le **reti neurali ricorrenti** (o *RNN* dall’inglese *Recurrent Neural Networks*) sono una tipologia di reti neurali collegate in un **ciclo** che permette loro di essere interconnesse anche con i livelli differenti dal proprio.
 

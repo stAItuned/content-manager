@@ -10,7 +10,6 @@ date: 2023-03-15
 published: true
 ---
 
-# Contextualized Embeddings with ELMo
 
 **ELMo** states for Embeddings from Language Models. So first, what is a language model? A **language model** (LM) is a probabilistic statistical model that estimates the probability of linguistic units (words, sequences). Very briefly, in Natural Language Processing we use it for **predicting the next word.** 
 

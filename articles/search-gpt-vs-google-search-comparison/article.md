@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Search GPT vs. Google Search: A Comprehensive Comparison
 
 ## Introduction
 

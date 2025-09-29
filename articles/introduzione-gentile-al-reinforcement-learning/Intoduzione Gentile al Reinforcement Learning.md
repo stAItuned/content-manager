@@ -10,7 +10,6 @@ author: Monteiro Del Prete
 published: true
 ---
 
-# Introduzione Gentile al Reinforcement Learning
 
 Il Machine Learning (ML) è un campo dell'Intelligenza Artificiale (IA) il cui scopo è sviluppare macchine in grado di imparare e di adattarsi senza istruzioni esplicite. Nel contesto dell'apprendimento automatico esistono tre paradigmi principali:
 

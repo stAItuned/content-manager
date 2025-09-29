@@ -10,7 +10,6 @@ author: Gabriele Cola
 published: true
 ---
 
-# Simulation in Bayesian Inference
 
 Most of the times **Simulation = Monte Carlo**, in particular these methods are a broad class of computational algorithms that rely on repeated random sampling to obtain numerical results. They are often used when it is difficult (or impossibile) to calculate a quantity of interest analytically. 
 

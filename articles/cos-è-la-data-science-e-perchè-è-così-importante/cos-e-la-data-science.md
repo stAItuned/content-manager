@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Data Science
 
 La **Data Science** o *Scienza dei Dati* non è una vera e propria disciplina, ma un **approccio mutlidisciplinare** composto da insieme di ambiti come la **statistica**, l’**analisi dei dati**, l’**Intelligenza Artificiale** e **metodi scientifici** volti all’**analisi dei dati** e all’**estrapolazione di informazioni**. 
 

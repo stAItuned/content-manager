@@ -14,7 +14,6 @@ published: true
 
 
 
-# Nanobots in Healthcare: Revolutionizing Medicine at the Nanoscale
 
 ## Introduction
 

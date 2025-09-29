@@ -12,7 +12,6 @@ published: true
 
 ### [Thoughts and Theory](https://towardsdatascience.com/tagged/thoughts-and-theory)
 
-# Iterative Pruning Methods for Artificial Neural Networks in Julia
 
 ### A brief survey about compression techniques based on pruning
 

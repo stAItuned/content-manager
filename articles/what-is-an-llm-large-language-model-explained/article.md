@@ -13,7 +13,6 @@ published: true
 
 
 
-# What is an LLM (Large Language Model)? A Simple Explanation
 
 
 ## Introduction

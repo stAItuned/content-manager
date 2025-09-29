@@ -12,7 +12,6 @@ published: true
 
 
 
-# How to Optimally Sample Imbalanced Data: A Practical Guide
 
 ## Visual Overview
 

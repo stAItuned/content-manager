@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# AI for breast cancer diagnosis
 
 In 2021, breast cancer accounted for **12% of all kind of cancers worldwide**. The early diagnostic was proven to be effective, reducing its mortality rate over the years [1]. Therefore, there is an increasing interest in finding new methodologies for improving the current state of the art. The **effectiveness** of **Artificial Intelligence** (AI) algorithms for cancer detection and diagnosis has already been proven in a number of studies. This blog article attempts to demonstrate several practical uses that might aid in the battle against cancer. Before diving into the details, I would like to introduce the main differences between **benign and malignant tumors**. 
 

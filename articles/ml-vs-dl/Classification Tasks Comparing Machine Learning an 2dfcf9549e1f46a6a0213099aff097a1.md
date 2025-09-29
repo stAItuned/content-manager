@@ -10,7 +10,6 @@ date: 2023-12-10
 published: true
 ---
 
-# Machine Learning vs Deep Learning in Classification
 
 ## Table of contents
 

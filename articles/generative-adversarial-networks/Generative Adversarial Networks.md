@@ -10,7 +10,6 @@ cover: cover.jpg
 published: True
 ---
 
-# Generative Adversarial Networks (GAN)
 
 One of the main goals of deep learning is to discover and test new models able to handle probability distributions about different kinds of data, which are the focus of different disciplines like computer vision, sounds processing and natural language processing.
 

@@ -10,7 +10,6 @@ author: Gabriele Inzerillo
 published: true
 ---
 
-# Super-Resolution: what is it and why is it useful?
 
 Have you ever heard about *Computer Vision*? Well, if you are reading this article I suppose you aren't new to some topics related to the Artificial Intelligence domain, but a little reminder never hurts:
 

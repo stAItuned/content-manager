@@ -10,7 +10,6 @@ cover: 03_Network_Img.png
 published: true
 ---
 
-# Computing Assortativity Coefficients on a social network dataset
 
 In this article we will use some Facebook data to explore the concept of network assortativity (also called as homophily), which we define as the tendency of nodes to connect to their similar.
 Networks or Graphs are data representation consisting in nodes (vertices) and edges (links): in this article we will consider only undirected and unweighted edges. We will first of all present the dataset we intend to use, going through the data loading and wrangling steps and presenting the network.

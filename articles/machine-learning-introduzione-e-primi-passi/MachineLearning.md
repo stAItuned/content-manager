@@ -9,7 +9,6 @@ language: Italian
 author: Francesco Di Gangi
 published: true
 ---
-# Machine Learning - introduzione e primi passi
 
 Il Machine Learning definisce modelli capaci di catturare le proprietà dei dati e di effettuare decisioni sulle proprietà nella quali si è interessati. Essi, tuttavia, non dovrebbero seguire specifiche istruzioni date dal programmatore, ma devono essere capaci di apprendere dai dati forniti. Questa fase è anche detta **learning stage.**
 

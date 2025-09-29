@@ -11,7 +11,6 @@ published: true
 ---
 
 
-# Understanding Generative Adversarial Networks (GANs): A Student’s Guide
 
 ## Introduction
 
